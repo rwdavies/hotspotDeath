@@ -67,10 +67,6 @@ To get a sense of how many SNPs this removed for given parameter settings, I che
 
 ![plot of chunk filterPlot](figure/filterPlot.png) 
 
-```
-## [1] "look at filtering - done,Wed Oct 29 16:16:54 2014"
-```
-
 ###Testing - general
 
 3 tests are run based on motifs which are lost at every SNP down a lineage. Note that where there are multiple SNPs within a motif size (ie two SNPs 5 bases away), I considered all motifs lost over that range. If there were any missing bases within that range, the motifs were not counted towards the testing. Further, if the repeat background changed during that range, the motifs were not counted towards the testing.
@@ -199,7 +195,7 @@ FAM
 
 |    |ID_B1 |Lx8   |nonRepeat |RSINE1 |
 |:---|:-----|:-----|:---------|:------|
-|lin |1 (1) |3 (1) |20 (6)    |4 (1)  |
+|lin |1 (1) |3 (1) |24 (4)    |4 (1)  |
 AMS
 No significant results
 
@@ -243,12 +239,40 @@ No significant results
 ```
 ## Error: object 'qqData' not found
 ```
-
 ---
 
-## All signifiant motifs
 
-![plot of chunk motifClusters](figure/motifClusters1.png) ![plot of chunk motifClusters](figure/motifClusters2.png) ![plot of chunk motifClusters](figure/motifClusters3.png) ![plot of chunk motifClusters](figure/motifClusters4.png) ![plot of chunk motifClusters](figure/motifClusters5.png) ![plot of chunk motifClusters](figure/motifClusters6.png) ![plot of chunk motifClusters](figure/motifClusters7.png) ![plot of chunk motifClusters](figure/motifClusters8.png) ![plot of chunk motifClusters](figure/motifClusters9.png) ![plot of chunk motifClusters](figure/motifClusters10.png) ![plot of chunk motifClusters](figure/motifClusters11.png) ![plot of chunk motifClusters](figure/motifClusters12.png) ![plot of chunk motifClusters](figure/motifClusters13.png) ![plot of chunk motifClusters](figure/motifClusters14.png) ![plot of chunk motifClusters](figure/motifClusters15.png) ![plot of chunk motifClusters](figure/motifClusters16.png) ![plot of chunk motifClusters](figure/motifClusters17.png) ![plot of chunk motifClusters](figure/motifClusters18.png) ![plot of chunk motifClusters](figure/motifClusters19.png) ![plot of chunk motifClusters](figure/motifClusters20.png) ![plot of chunk motifClusters](figure/motifClusters21.png) ![plot of chunk motifClusters](figure/motifClusters22.png) 
+## QQ plots - seperate
+
+
+```
+## Error: object 'qqData' not found
+```
+---
+
+## Compare p-values between methods
+
+
+```
+## Error: object 'qqData' not found
+```
+---
+
+
+## Compare p-values between lineages within a method
+
+
+```
+## Error: object 'qqData' not found
+```
+---
+
+
+
+
+## All significant motifs
+
+![plot of chunk motifClusters](figure/motifClusters1.png) ![plot of chunk motifClusters](figure/motifClusters2.png) ![plot of chunk motifClusters](figure/motifClusters3.png) ![plot of chunk motifClusters](figure/motifClusters4.png) ![plot of chunk motifClusters](figure/motifClusters5.png) ![plot of chunk motifClusters](figure/motifClusters6.png) ![plot of chunk motifClusters](figure/motifClusters7.png) ![plot of chunk motifClusters](figure/motifClusters8.png) ![plot of chunk motifClusters](figure/motifClusters9.png) ![plot of chunk motifClusters](figure/motifClusters10.png) ![plot of chunk motifClusters](figure/motifClusters11.png) ![plot of chunk motifClusters](figure/motifClusters12.png) ![plot of chunk motifClusters](figure/motifClusters13.png) ![plot of chunk motifClusters](figure/motifClusters14.png) ![plot of chunk motifClusters](figure/motifClusters15.png) ![plot of chunk motifClusters](figure/motifClusters16.png) ![plot of chunk motifClusters](figure/motifClusters17.png) ![plot of chunk motifClusters](figure/motifClusters18.png) ![plot of chunk motifClusters](figure/motifClusters19.png) ![plot of chunk motifClusters](figure/motifClusters20.png) ![plot of chunk motifClusters](figure/motifClusters21.png) ![plot of chunk motifClusters](figure/motifClusters22.png) ![plot of chunk motifClusters](figure/motifClusters23.png) ![plot of chunk motifClusters](figure/motifClusters24.png) ![plot of chunk motifClusters](figure/motifClusters25.png) 
 
 
 ---
