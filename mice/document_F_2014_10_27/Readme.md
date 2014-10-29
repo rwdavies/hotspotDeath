@@ -296,7 +296,7 @@ These plots also feature a PWM for the forward and reverse forms of the motif, a
 
 ## All signifiant motifs
 
-![plot of chunk motifClusters](figure/motifClusters1.png) ![plot of chunk motifClusters](figure/motifClusters2.png) ![plot of chunk motifClusters](figure/motifClusters3.png) 
+![plot of chunk motifClusters](figure/motifClusters1.png) ![plot of chunk motifClusters](figure/motifClusters2.png) ![plot of chunk motifClusters](figure/motifClusters3.png) ![plot of chunk motifClusters](figure/motifClusters4.png) ![plot of chunk motifClusters](figure/motifClusters5.png) ![plot of chunk motifClusters](figure/motifClusters6.png) ![plot of chunk motifClusters](figure/motifClusters7.png) ![plot of chunk motifClusters](figure/motifClusters8.png) ![plot of chunk motifClusters](figure/motifClusters9.png) ![plot of chunk motifClusters](figure/motifClusters10.png) ![plot of chunk motifClusters](figure/motifClusters11.png) ![plot of chunk motifClusters](figure/motifClusters12.png) ![plot of chunk motifClusters](figure/motifClusters13.png) ![plot of chunk motifClusters](figure/motifClusters14.png) ![plot of chunk motifClusters](figure/motifClusters15.png) ![plot of chunk motifClusters](figure/motifClusters16.png) ![plot of chunk motifClusters](figure/motifClusters17.png) ![plot of chunk motifClusters](figure/motifClusters18.png) ![plot of chunk motifClusters](figure/motifClusters19.png) ![plot of chunk motifClusters](figure/motifClusters20.png) ![plot of chunk motifClusters](figure/motifClusters21.png) ![plot of chunk motifClusters](figure/motifClusters22.png) 
 
 
 ---
