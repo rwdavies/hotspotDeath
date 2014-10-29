@@ -28,28 +28,29 @@ Date refers to first version with changes. If there is a plus after, then all su
 
 ##Important Parameters
 
-|Parameter             |Value                   |Description                                                              |
-|:---------------------|:-----------------------|:------------------------------------------------------------------------|
-|mouseFilter           |NA                      |what folder used for mice                                                |
-|mrle                  |10                      |maximum run length less than or equal to                                 |
-|ndge                  |0                       |nuclotide diversity greater than or equal to                             |
-|Klist                 |10                      |range of K to use                                                        |
-|gcW1                  |100                     |range to test for GC increase                                            |
-|gcW2                  |1000                    |,range to plot GC increases                                              |
-|gcW3                  |10                      |,smoothing window for AT to GC plots                                     |
-|ctge                  |10                      |for a p-value to be generated, each cell must have at least this number  |
-|rgte                  |50                      |for a row to count, there must be this many entries                      |
-|testingNames          |lin,shared,at           |(short) names of the tests we will perform                               |
-|plottingNames         |Lineage,Shared,AT to GC |plotting names of the tests we will perform                              |
-|nTests                |3                       |Number of tests to be performed                                          |
-|pThresh               |0.000152439024390244    |Initial threshold for p-value clstering                                  |
-|mouseMatrixDefinition |narrow                  |How we define mice lineages                                              |
-|nR1                   |12                      |If there are nR1 SNPs in nD1 bp, remove all SNPs                         |
-|nD1                   |50                      |See above                                                                |
-|nR2                   |7                       |For a lineage, if there are ge this many SNPs in nD2 bp, remove all SNPs |
-|nD2                   |50                      |See above                                                                |
-|removeNum             |0                       |How many samples are allowed to be uncallable                            |
-|contingencyComparison |Same CpG, GC Content    |To what do we compare motifs                                             |
+|Parameter             |Value                      |Description                                                              |
+|:---------------------|:--------------------------|:------------------------------------------------------------------------|
+|mouseFilter           |ArrayNotFilteredAnnot295.0 |What folder used for mice                                                |
+|mrle                  |10                         |Maximum run length less than or equal to                                 |
+|ndge                  |0                          |Nuclotide diversity greater than or equal to                             |
+|pwmMinimum            |0.1                        |When a PWM has 0 entry, what to reset the 0 values to                    |
+|Klist                 |10                         |Range of K to use                                                        |
+|gcW1                  |100                        |Range to test for GC increase                                            |
+|gcW2                  |1000                       |Range to plot GC increases                                               |
+|gcW3                  |10                         |Smoothing window for AT to GC plots                                      |
+|ctge                  |10                         |For a p-value to be generated, each cell must have at least this number  |
+|rgte                  |50                         |For a row to count, there must be this many entries                      |
+|testingNames          |lin,shared,at              |(Short) names of the tests we will perform                               |
+|plottingNames         |Lineage,Shared,AT to GC    |Plotting names of the tests we will perform                              |
+|nTests                |3                          |Number of tests to be performed                                          |
+|pThresh               |0.000152439024390244       |Initial threshold for p-value clstering                                  |
+|mouseMatrixDefinition |narrow                     |How we define mice lineages                                              |
+|nR1                   |12                         |If there are nR1 SNPs in nD1 bp, remove all SNPs                         |
+|nD1                   |50                         |See above                                                                |
+|nR2                   |7                          |For a lineage, if there are ge this many SNPs in nD2 bp, remove all SNPs |
+|nD2                   |50                         |See above                                                                |
+|removeNum             |0                          |How many samples are allowed to be uncallable                            |
+|contingencyComparison |Same CpG, GC Content       |To what do we compare motifs                                             |
 
 ---
 
@@ -63,11 +64,17 @@ Subsequently, SNPs are removed if they are too close together. This is the last 
 
 To get a sense of how many SNPs this removed for given parameter settings, I checked how many SNPs were filtered for a range of parameter settings for the smallest chromosome. I also compared this against expectations. To get an expectation, I simulated a pseudo-chromosome of results. I calculated the expected branch lengths of each lineage given the emprical data to this point, ie lineage 1 has 1 percent divergence against MRCA of the set of all lineages, lineage 2 has 0.5 percent divergence against MRCA, etc. Then, I decided whether each base was mutated according to the total branch length of the tree, and then, given a mutation, what branch it occured on with probabilities equal to each lineages share of the total tree length. 
 
-<!---
-Figure ADD FIGURE REFERENCE? shows the results. 
-TODO Add back in figure here
-![alt text](/path/to/img.jpg "Title")
--->
+
+
+```
+## Warning: cannot open compressed file
+## 'input_A_2014_10_27/forFilteringPlot.RData', probable reason 'No such file
+## or directory'
+```
+
+```
+## Error: cannot open the connection
+```
 
 ###Testing - general
 
@@ -183,24 +190,21 @@ Note that the following numbers are only for motifs that have been clustered
 
 
 ```
-## Warning: cannot open compressed file
-## '/Net/dense/data/wildmice/motifLoss/cluster_E_2014_10_27/lin.K10.motifSuperResults.RData',
-## probable reason 'No such file or directory'
-```
-
-```
-## Error: cannot open the connection
+## Error: $ operator is invalid for atomic vectors
 ```
 
 Number of motifs (clusters) per test and lineage
 
 ```
-## Error: data is too long
+## Error: the table must have a header (column names)
 ```
 
 FAM
-No significant results
 
+
+|    |ID_B1 |Lx8   |nonRepeat |RSINE1 |
+|:---|:-----|:-----|:---------|:------|
+|lin |1 (1) |3 (1) |20 (6)    |4 (1)  |
 AMS
 No significant results
 
