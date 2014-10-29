@@ -122,9 +122,9 @@ Given a set of motifs which pass Bonferonni correction for a given lineage for a
 
 Consider as eligible all motifs on the repeat background for that test which are the ``most significant'' (ie lowest p-value) for that motif and beat a threshold which increases in difficulty as the iterative process goes on (defined below). Add to the cluster all motifs within a certain distance (defined below), keeping track of alignment. Continue recursively for each added motif until exhausted. Build a position weight matrix by collapsing all clustered motifs, counting each base, adding 0.5 to all pwm cell entries, and dividing by the column totals to have each entry scaled between 0 and 1. 
 
-Let K be the motif length we are interested in. We define as acceptably close for clustering all motifs which align perfectly and are off by 1 base (sum of K*4), or that are off by 1 base in the alignment left or right (2 for left vs right) with any new base in the gap (4 bases) with any one of the remaining K-1 bases allowed to change as well (4). In total there are (K-1)*4*4*2+K*4 = ```r(K-1)*4*4*2+K*4``` possible acceptably close motifs.
+Let K be the motif length we are interested in. We define as acceptably close for clustering all motifs which align perfectly and are off by 1 base (sum of K*4), or that are off by 1 base in the alignment left or right (2 for left vs right) with any new base in the gap (4 bases) with any one of the remaining K-1 bases allowed to change as well (4). In total there are (K-1)*4*4*2+K*4 = 328 possible acceptably close motifs.
 
-For the first iteration, take a p-value threshold of the number of motifs to be searched, or (K-1)*4*4*2+K*4 = 328$. For each subsequent iteration, take a p-value threshold where the deminator is the number of tests already performed plus the number to be searched on this iteration. For example, if on the first iteration 3 close motifs were found to meet the iteration 1 p-value threshold, then on the second iteration the p-value threhsold would be 0.05 divided by the number of motifs searched on the first iteration, 328, plus the 3 * 328 to be searched on the second iteration.
+For the first iteration, take a p-value threshold of the number of motifs to be searched, or (K-1)*4*4*2+K*4 = 328. For each subsequent iteration, take a p-value threshold where the deminator is the number of tests already performed plus the number to be searched on this iteration. For example, if on the first iteration 3 close motifs were found to meet the iteration 1 p-value threshold, then on the second iteration the p-value threhsold would be 0.05 divided by the number of motifs searched on the first iteration, 328, plus the 3 * 328 to be searched on the second iteration.
 
 For plotting, we summed the collapsed motif clusters counts by base and added 0.5 to each count. Then, for a motif cluster of length $m$, letting $j \in \{1,2,3,4\}$ be the four nucleotides and $i \in \{1,2,...,m\}$ be the position within the motif cluster, we set $H_i = \sum_{j=1}^4 f_{i,j} \log(f_{i,j})$, and define the height of each base as $h_{i,j}=H_{i} f_{i,j}$. Bases are then ordered from smallest to largest entropy and plotted. We used elements of the seqLogo R package to draw the PWM.
 
@@ -144,22 +144,35 @@ These plots also feature a PWM for the forward and reverse forms of the motif, a
 ## Some summary numbers
 
 Aligned Genome (Gbp)
-     Total Pass QC Fail QC Pass QC Non Repeat
-[1,] 2.472   1.645  0.8274              1.114
+
+
+|  Total| Pass QC| Fail QC| Pass QC Non Repeat|
+|------:|-------:|-------:|------------------:|
+| 2.4723|  1.6449|  0.8274|             1.1138|
 Number of Derived Mutations down a specific lineage
-       FAM        AMS    Spretus         AM     WSBEiJ    CASTEiJ 
-17,935,113  8,439,998 11,800,414  4,728,452  6,066,739  6,178,547 
-    PWKPhJ 
- 6,347,677 
+
+
+|FAM        |AMS        |Spretus    |AM         |WSBEiJ     |CASTEiJ    |PWKPhJ     |
+|:----------|:----------|:----------|:----------|:----------|:----------|:----------|
+|17,935,113 | 8,439,998 |11,800,414 | 4,728,452 | 6,066,739 | 6,178,547 | 6,347,677 |
 Branch length as percent of alignable genome
-      FAM   AMS Spretus    AM WSBEiJ CASTEiJ PWKPhJ
-[1,] 1.09 0.513   0.717 0.287  0.369   0.376  0.386
+
+
+|   FAM|   AMS| Spretus|    AM| WSBEiJ| CASTEiJ| PWKPhJ|
+|-----:|-----:|-------:|-----:|------:|-------:|------:|
+| 1.090| 0.513|   0.717| 0.287|  0.369|   0.376|  0.386|
 Branch length compared to ancestral of all lineages in SNPs
-     PWKPhJ     CASTEiJ    WSBEiJ     Spretus    FAM       
-[1,] 19,516,127 19,346,997 19,235,189 20,240,412 17,935,113
+
+
+|PWKPhJ     |CASTEiJ    |WSBEiJ     |Spretus    |FAM        |
+|:----------|:----------|:----------|:----------|:----------|
+|19,516,127 |19,346,997 |19,235,189 |20,240,412 |17,935,113 |
 Branch length compared to ancestral as percent of alignable genome
-     PWKPhJ CASTEiJ WSBEiJ Spretus  FAM
-[1,]  1.186   1.176  1.169    1.23 1.09
+
+
+| PWKPhJ| CASTEiJ| WSBEiJ| Spretus|   FAM|
+|------:|-------:|------:|-------:|-----:|
+|  1.186|   1.176|  1.169|   1.230| 1.090|
 
 
 ---
