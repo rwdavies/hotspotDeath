@@ -107,11 +107,85 @@ We are currently not using the third value (the number of callable bases), only 
 |Motif                |n1             |n2                 |
 |Same CpG, GC Content |n3             |n4                 |
             
+###Motif Filtering
+
+Motifs were kept if the longest run of a specific nucleotide was less than or equal to mrle = 10. Motifs were also kept if the nucleotide diversity (ie number of A,C,G,T) bases was greater than or equal to ndge =0
+
+For each test seperately, motifs were removed as well as individual results masked if the counts were too low. Motif level results were not calculated if the counts among all lineages for a motif was less than rgte = 50. Lineage specific results were also masked (ie not calculated) in each test seperately if the motif lineage value was less than cgte = 10 (ie the n1 entry in the contingency tables).
+
+###Clustering
+
+Given a set of motifs which pass Bonferonni correction for a given lineage for a given test for a given repeat background which are most significant in this lineage versus all other lineages, start with the motif with the most significant p-value. Consider as eligible all motifs on the repeat background for that test which are the ``most significant'' (ie lowest p-value) for that motif and beat a threshold which increases in difficulty as the iterative process goes on (defined below). Add to the cluster all motifs within a certain distance (defined below), keeping track of alignment. Continue recursively for each added motif until exhausted. Build a position weight matrix by collapsing all clustered motifs, counting each base, adding 0.5 to all pwm cell entries, and dividing by the column totals to have each entry scaled between 0 and 1. 
+
+Let K be the motif length we are interested in. We define as acceptably close for clustering all motifs which align perfectly and are off by 1 base (sum of K*4), or that are off by 1 base in the alignment left or right (2 for left vs right) with any new base in the gap (4 bases) with any one of the remaining K-1 bases allowed to change as well (4). In total there are (K-1)*4*4*2+K*4 = `r(K-1)*4*4*2+K*4` possible acceptably close motifs.
+
+For the first iteration, take a p-value threshold of the number of motifs to be searched, or (K-1)*4*4*2+K*4 = 328$. For each subsequent iteration, take a p-value threshold where the deminator is the number of tests already performed plus the number to be searched on this iteration. For example, if on the first iteration 3 close motifs were found to meet the iteration 1 p-value threshold, then on the second iteration the p-value threhsold would be 0.05 divided by the number of motifs searched on the first iteration, 328, plus the 3 * 328 to be searched on the second iteration.
 
 
+For plotting, we summed the collapsed motif clusters counts by base and added 0.5 to each count. Then, for a motif cluster of length $m$, letting $j \in \{1,2,3,4\}$ be the four nucleotides and $i \in \{1,2,...,m\}$ be the position within the motif cluster, we set $H_i = \sum_{j=1}^4 f_{i,j} \log(f_{i,j})$, and define the height of each base as $h_{i,j}=H_{i} f_{i,j}$. Bases are then ordered from smallest to largest entropy and plotted. We used elements of the seqLogo R package to draw the PWM.
 
-      
+The math for drawing the PWM is taken from [here](http://en.wikipedia.org/wiki/Sequence_logo).
 
+
+###AT to GC plots
+To better visualize the localization of AT to GC changes surrounding a motif cluster, we plotted whether bases changed from AT to GC or vice versa, with respect to their distance from the motif. We first scanned through the chromosomes to find instances where motifs in the motif cluster were lost. To ensure we weren't oversampling SNP changes due to similar motifs, we limited ourselves to counting only a single motif loss instance among a run of motif losses each one within the length of the motif cluster in distance from each other. 
+
+Next, taking care to get both the correct strand as well as the position of the motif within the cluster of motifs correct, we catalogued both the position and base composition of any changes within a neighbourhood of 1000 bases. By summing across all loss instances of motifs in the cluster, and normalizing to the local sequence context, we could plot any type of ancestral to derived base change. Smoothing was done over 21 bases, ie taking the value at the flanking bases and over the prior and aft 10 bases. 
+
+These plots also feature a PWM for the forward and reverse forms of the motif, as well as a series of line plots which show the number of motifs and their p-values for the motifs in the cluster. The middle line is for the test under consideration, while p-values for the other two tests are highlighted above and below, with grey lines linking the same motif (motifs with undefiend p-values on the other two tests are omitted from the plots for those tests and are not linked). These are stratefied into those which are Bonferonni significant on their test to the right of the red line, those which are between the initial clustering p-value threshold and the Bonferonni thresold in the middle, and those which do not meet the initial clustering p-value threhsold on the left. Numbers of motifs falling into each category are given as well.
+
+---
+
+
+## Some summary numbers
+
+
+```
+## Aligned Genome (Gbp)
+```
+
+```
+##      Total Pass QC Fail QC Pass QC Non Repeat
+## [1,] 2.472   1.645  0.8274              1.114
+```
+
+```
+## Number of Derived Mutations down a specific lineage
+```
+
+```
+##        FAM        AMS    Spretus         AM     WSBEiJ    CASTEiJ 
+## 17,935,113  8,439,998 11,800,414  4,728,452  6,066,739  6,178,547 
+##     PWKPhJ 
+##  6,347,677
+```
+
+```
+## Branch length as percent of alignable genome
+```
+
+```
+##       FAM   AMS Spretus    AM WSBEiJ CASTEiJ PWKPhJ
+## [1,] 1.09 0.513   0.717 0.287  0.369   0.376  0.386
+```
+
+```
+## Branch length compared to ancestral of all lineages in SNPs
+```
+
+```
+##      PWKPhJ     CASTEiJ    WSBEiJ     Spretus    FAM       
+## [1,] 19,516,127 19,346,997 19,235,189 20,240,412 17,935,113
+```
+
+```
+## Branch length compared to ancestral as percent of alignable genome
+```
+
+```
+##      PWKPhJ CASTEiJ WSBEiJ Spretus  FAM
+## [1,]  1.186   1.176  1.169    1.23 1.09
+```
 
 
 
