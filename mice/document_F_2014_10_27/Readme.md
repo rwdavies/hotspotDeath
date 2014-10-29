@@ -275,7 +275,33 @@ These plots also feature a PWM for the forward and reverse forms of the motif, a
 ## shared 1 (1)
 ```
 
+---
 
+## Features of significant motifs
+
+
+```
+## Features of top associated motifs
+```
+
+```
+## Test: lin
+```
+
+```
+## Error: object 'qqData' not found
+```
+
+---
+
+## All signifiant motifs
+
+![plot of chunk motifClusters](figure/motifClusters1.png) ![plot of chunk motifClusters](figure/motifClusters2.png) ![plot of chunk motifClusters](figure/motifClusters3.png) 
+
+
+---
+
+## Scratch
 
 
 
