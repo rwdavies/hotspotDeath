@@ -7,6 +7,9 @@
 
 ##Changelog
 Date refers to first version with changes. If there is a plus after, then all subsequent versions have the change
+* **2014_10_27** Redo significant value selection - do not require to the best on a lineage, but if OR>1, require that does not exist OR<1 with more significant p-value, for both clustering and motif selection
+* **2014_10_27** Added variable pwmMinimum to control PWM plotting
+* **2014_10_27** Use OR for better PWM plotting
 * **2014_10_24** Added filtering folder for mice (ArrayNotFiltered95.0 used in all prior runs)
 * **2014_10_01** Changed clustering method - increase difficulty such that current threshold for iteration is Bonferonni for this round and all other previous rounds. Also, only allow a motif to be included in one cluster per repeat background
 * **2014_10_01** Fixed major repeat name problem - assigning motifs to repeats was fine, but got name wrong between assigning and reporting. Also affected generation of QQ plots in this summary document
@@ -109,18 +112,19 @@ We are currently not using the third value (the number of callable bases), only 
             
 ###Motif Filtering
 
-Motifs were kept if the longest run of a specific nucleotide was less than or equal to mrle = 10. Motifs were also kept if the nucleotide diversity (ie number of A,C,G,T) bases was greater than or equal to ndge =0
-
-For each test seperately, motifs were removed as well as individual results masked if the counts were too low. Motif level results were not calculated if the counts among all lineages for a motif was less than rgte = 50. Lineage specific results were also masked (ie not calculated) in each test seperately if the motif lineage value was less than cgte = 10 (ie the n1 entry in the contingency tables).
+Motifs were kept if the longest run of a specific nucleotide was less than or equal to mrle = 10. Motifs were also kept if the nucleotide diversity (ie number of A,C,G,T) bases was greater than or equal to ndge =0. For each test seperately, motifs were removed as well as individual results masked if the counts were too low. Motif level results were not calculated if the counts among all lineages for a motif was less than rgte = 50. Lineage specific results were also masked (ie not calculated) in each test seperately if the motif lineage value was less than cgte = 10 (ie the n1 entry in the contingency tables).
 
 ###Clustering
 
-Given a set of motifs which pass Bonferonni correction for a given lineage for a given test for a given repeat background which are most significant in this lineage versus all other lineages, start with the motif with the most significant p-value. Consider as eligible all motifs on the repeat background for that test which are the ``most significant'' (ie lowest p-value) for that motif and beat a threshold which increases in difficulty as the iterative process goes on (defined below). Add to the cluster all motifs within a certain distance (defined below), keeping track of alignment. Continue recursively for each added motif until exhausted. Build a position weight matrix by collapsing all clustered motifs, counting each base, adding 0.5 to all pwm cell entries, and dividing by the column totals to have each entry scaled between 0 and 1. 
+To be eligible for clustering, a motif had to be Bonferonni significant on its lineage, have an OR>1, and not have a lineage with an OR<1 which had a more significant p-value. For clustering, a motif would have to meet a p-value threshold (explained below), as well as meet the criteria that there not be a lineage with OR<1 with a more significant p-value.
 
-Let K be the motif length we are interested in. We define as acceptably close for clustering all motifs which align perfectly and are off by 1 base (sum of K*4), or that are off by 1 base in the alignment left or right (2 for left vs right) with any new base in the gap (4 bases) with any one of the remaining K-1 bases allowed to change as well (4). In total there are (K-1)*4*4*2+K*4 = `r(K-1)*4*4*2+K*4` possible acceptably close motifs.
+Given a set of motifs which pass Bonferonni correction for a given lineage for a given test for a given repeat background which are most significant in this lineage versus all other lineages, start with the motif with the most significant p-value. 
+
+Consider as eligible all motifs on the repeat background for that test which are the ``most significant'' (ie lowest p-value) for that motif and beat a threshold which increases in difficulty as the iterative process goes on (defined below). Add to the cluster all motifs within a certain distance (defined below), keeping track of alignment. Continue recursively for each added motif until exhausted. Build a position weight matrix by collapsing all clustered motifs, counting each base, adding 0.5 to all pwm cell entries, and dividing by the column totals to have each entry scaled between 0 and 1. 
+
+Let K be the motif length we are interested in. We define as acceptably close for clustering all motifs which align perfectly and are off by 1 base (sum of K*4), or that are off by 1 base in the alignment left or right (2 for left vs right) with any new base in the gap (4 bases) with any one of the remaining K-1 bases allowed to change as well (4). In total there are (K-1)*4*4*2+K*4 = ```r(K-1)*4*4*2+K*4``` possible acceptably close motifs.
 
 For the first iteration, take a p-value threshold of the number of motifs to be searched, or (K-1)*4*4*2+K*4 = 328$. For each subsequent iteration, take a p-value threshold where the deminator is the number of tests already performed plus the number to be searched on this iteration. For example, if on the first iteration 3 close motifs were found to meet the iteration 1 p-value threshold, then on the second iteration the p-value threhsold would be 0.05 divided by the number of motifs searched on the first iteration, 328, plus the 3 * 328 to be searched on the second iteration.
-
 
 For plotting, we summed the collapsed motif clusters counts by base and added 0.5 to each count. Then, for a motif cluster of length $m$, letting $j \in \{1,2,3,4\}$ be the four nucleotides and $i \in \{1,2,...,m\}$ be the position within the motif cluster, we set $H_i = \sum_{j=1}^4 f_{i,j} \log(f_{i,j})$, and define the height of each base as $h_{i,j}=H_{i} f_{i,j}$. Bases are then ordered from smallest to largest entropy and plotted. We used elements of the seqLogo R package to draw the PWM.
 
@@ -139,137 +143,77 @@ These plots also feature a PWM for the forward and reverse forms of the motif, a
 
 ## Some summary numbers
 
-
-```
-## Aligned Genome (Gbp)
-```
-
-```
-##      Total Pass QC Fail QC Pass QC Non Repeat
-## [1,] 2.472   1.645  0.8274              1.114
-```
-
-```
-## Number of Derived Mutations down a specific lineage
-```
-
-```
-##        FAM        AMS    Spretus         AM     WSBEiJ    CASTEiJ 
-## 17,935,113  8,439,998 11,800,414  4,728,452  6,066,739  6,178,547 
-##     PWKPhJ 
-##  6,347,677
-```
-
-```
-## Branch length as percent of alignable genome
-```
-
-```
-##       FAM   AMS Spretus    AM WSBEiJ CASTEiJ PWKPhJ
-## [1,] 1.09 0.513   0.717 0.287  0.369   0.376  0.386
-```
-
-```
-## Branch length compared to ancestral of all lineages in SNPs
-```
-
-```
-##      PWKPhJ     CASTEiJ    WSBEiJ     Spretus    FAM       
-## [1,] 19,516,127 19,346,997 19,235,189 20,240,412 17,935,113
-```
-
-```
-## Branch length compared to ancestral as percent of alignable genome
-```
-
-```
-##      PWKPhJ CASTEiJ WSBEiJ Spretus  FAM
-## [1,]  1.186   1.176  1.169    1.23 1.09
-```
+Aligned Genome (Gbp)
+     Total Pass QC Fail QC Pass QC Non Repeat
+[1,] 2.472   1.645  0.8274              1.114
+Number of Derived Mutations down a specific lineage
+       FAM        AMS    Spretus         AM     WSBEiJ    CASTEiJ 
+17,935,113  8,439,998 11,800,414  4,728,452  6,066,739  6,178,547 
+    PWKPhJ 
+ 6,347,677 
+Branch length as percent of alignable genome
+      FAM   AMS Spretus    AM WSBEiJ CASTEiJ PWKPhJ
+[1,] 1.09 0.513   0.717 0.287  0.369   0.376  0.386
+Branch length compared to ancestral of all lineages in SNPs
+     PWKPhJ     CASTEiJ    WSBEiJ     Spretus    FAM       
+[1,] 19,516,127 19,346,997 19,235,189 20,240,412 17,935,113
+Branch length compared to ancestral as percent of alignable genome
+     PWKPhJ CASTEiJ WSBEiJ Spretus  FAM
+[1,]  1.186   1.176  1.169    1.23 1.09
 
 
 ---
 
-## Number of Significant motifs per lineage per test
+## Number of significant motifs per lineage per test
+
+Note that the following numbers are only for motifs that have been clustered
 
 
-|       |FAM       |AMS      |Spretus  |AM       |PWKPhJ |CASTEiJ |CASTEiJ.PWKPhJ |WSBEiJ |WSBEiJ.CASTEiJ |
-|:------|:---------|:--------|:--------|:--------|:------|:-------|:--------------|:------|:--------------|
-|at     |174 (15)  |12 (7)   |531 (13) |124 (13) |2 (2)  |3 (3)   |0 (0)          |19 (6) |0 (0)          |
-|lin    |38 (8)    |91 (16)  |406 (19) |413 (9)  |1 (1)  |6 (3)   |0 (0)          |10 (2) |1 (1)          |
-|shared |1656 (56) |424 (53) |965 (42) |550 (17) |3 (3)  |10 (3)  |1 (1)          |26 (5) |1 (1)          |
-[Number of motifs (clusters) per test and lineage]
+```
+## Warning: cannot open compressed file
+## '/Net/dense/data/wildmice/motifLoss/cluster_E_2014_10_27/lin.K10.motifSuperResults.RData',
+## probable reason 'No such file or directory'
+```
+
+```
+## Error: cannot open the connection
+```
+
+Number of motifs (clusters) per test and lineage
+
+```
+## Error: data is too long
+```
+
 FAM
+No significant results
 
-
-|       |nonRepeat |(CA)n  |(TG)n  |B1_Mus1 |B1_Mus2 |RSINE1 |B2_Mm2 |B3     |B1_Mm  |ID_B1 |Others  |
-|:------|:---------|:------|:------|:-------|:-------|:------|:------|:------|:------|:-----|:-------|
-|at     |167 (11)  |0 (0)  |0 (0)  |0 (0)   |0 (0)   |0 (0)  |0 (0)  |0 (0)  |0 (0)  |0 (0) |7 (4)   |
-|lin    |29 (5)    |0 (0)  |0 (0)  |0 (0)   |0 (0)   |5 (1)  |0 (0)  |0 (0)  |0 (0)  |1 (1) |3 (1)   |
-|shared |1268 (4)  |88 (2) |80 (1) |44 (7)  |31 (2)  |19 (4) |21 (7) |16 (2) |15 (4) |8 (2) |66 (21) |
 AMS
+No significant results
 
-
-|       |nonRepeat |RSINE1 |B1_Mus1 |B1_Mus2 |B1_Mm  |B3    |MTC   |B2_Mm2 |B4A   |ORR1C2 |Others  |
-|:------|:---------|:------|:-------|:-------|:------|:-----|:-----|:------|:-----|:------|:-------|
-|at     |6 (4)     |1 (1)  |0 (0)   |0 (0)   |0 (0)  |0 (0) |0 (0) |0 (0)  |4 (1) |0 (0)  |1 (1)   |
-|lin    |56 (8)    |18 (1) |1 (1)   |0 (0)   |0 (0)  |5 (1) |4 (1) |0 (0)  |1 (1) |3 (1)  |3 (2)   |
-|shared |243 (9)   |41 (2) |30 (1)  |24 (6)  |21 (6) |8 (2) |9 (3) |12 (7) |7 (3) |5 (1)  |24 (13) |
 Spretus
+No significant results
 
-
-|       |nonRepeat |B3A    |Lx3C   |B4A    |B3     |RMER17C |(TG)n  |AT_rich |RSINE1 |URR1A |Others  |
-|:------|:---------|:------|:------|:------|:------|:-------|:------|:-------|:------|:-----|:-------|
-|at     |479 (5)   |23 (1) |0 (0)  |13 (1) |3 (1)  |0 (0)   |0 (0)  |0 (0)   |2 (1)  |0 (0) |11 (4)  |
-|lin    |360 (8)   |12 (1) |11 (1) |3 (2)  |0 (0)  |8 (1)   |2 (1)  |0 (0)   |4 (1)  |2 (1) |4 (3)   |
-|shared |821 (6)   |32 (2) |12 (1) |5 (3)  |15 (1) |9 (1)   |13 (6) |13 (1)  |6 (1)  |8 (1) |31 (19) |
 AM
+No significant results
 
-
-|       |nonRepeat |ID_B1  |RSINE1 |B3    |B4A   |AT_rich |B1_Mus2 |(TCTA)n |B1_Mm |B3A   |ID4   |
-|:------|:---------|:------|:------|:-----|:-----|:-------|:-------|:-------|:-----|:-----|:-----|
-|at     |115 (8)   |0 (0)  |0 (0)  |7 (3) |0 (0) |0 (0)   |0 (0)   |0 (0)   |0 (0) |1 (1) |1 (1) |
-|lin    |393 (4)   |7 (2)  |7 (1)  |5 (1) |1 (1) |0 (0)   |0 (0)   |0 (0)   |0 (0) |0 (0) |0 (0) |
-|shared |500 (5)   |17 (2) |15 (2) |8 (2) |3 (2) |2 (1)   |2 (1)   |2 (1)   |1 (1) |0 (0) |0 (0) |
 PWKPhJ
+No significant results
 
-
-|       |nonRepeat |ID_B1 |
-|:------|:---------|:-----|
-|at     |1 (1)     |1 (1) |
-|lin    |1 (1)     |0 (0) |
-|shared |3 (3)     |0 (0) |
 CASTEiJ
+No significant results
 
-
-|       |nonRepeat |MTD   |(TCTA)n |
-|:------|:---------|:-----|:-------|
-|at     |3 (3)     |0 (0) |0 (0)   |
-|lin    |5 (2)     |1 (1) |0 (0)   |
-|shared |8 (1)     |1 (1) |1 (1)   |
 CASTEiJ.PWKPhJ
+No significant results
 
-
-|       |nonRepeat |
-|:------|:---------|
-|shared |1 (1)     |
 WSBEiJ
+No significant results
 
-
-|       |nonRepeat |(TG)n |
-|:------|:---------|:-----|
-|at     |19 (6)    |0 (0) |
-|lin    |10 (2)    |0 (0) |
-|shared |25 (4)    |1 (1) |
 WSBEiJ.PWKPhJ
-[1] "No significant results"
+No significant results
+
 WSBEiJ.CASTEiJ
-
-
-|       |RSINE1 |
-|:------|:------|
-|lin    |1 (1)  |
-|shared |1 (1)  |
+No significant results
 
 ---
 
