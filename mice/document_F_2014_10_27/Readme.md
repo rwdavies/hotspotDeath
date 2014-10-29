@@ -1,7 +1,7 @@
 #Hotspot death
-##Species: \Sexpr{species}
-Run version: \Sexpr{outputDate}
-----------------------
+##Species: mice
+##Run version: 2014_10_27
+---
 
 
 
