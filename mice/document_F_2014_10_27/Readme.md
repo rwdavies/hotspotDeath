@@ -1,11 +1,21 @@
-An attempt to make an Rmd file
-===================================
+#Hotspot death
+##Species: \Sexpr{species}
+Run version: \Sexpr{outputDate}
+----------------------
+
+
+
+##Changelog
+Date refers to first version with changes. If there is a plus after, then all subsequent versions have the change
+* **2014_10_24** Added filtering folder for mice (ArrayNotFiltered95.0 used in all prior runs)
+* **Another item** Some text
+
 
 
 ```r
 # add lots of figures - like 10, big ones
-for(i in 1:10)
+for(i in 1:1)
 plot(runif(1e4),runif(1e4),main=i)
 ```
 
-![plot of chunk test](figure/test1.png) ![plot of chunk test](figure/test2.png) ![plot of chunk test](figure/test3.png) ![plot of chunk test](figure/test4.png) ![plot of chunk test](figure/test5.png) ![plot of chunk test](figure/test6.png) ![plot of chunk test](figure/test7.png) ![plot of chunk test](figure/test8.png) ![plot of chunk test](figure/test9.png) ![plot of chunk test](figure/test10.png) 
+![plot of chunk test](figure/test.png) 
