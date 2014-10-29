@@ -67,13 +67,7 @@ To get a sense of how many SNPs this removed for given parameter settings, I che
 
 
 ```
-## Warning: cannot open compressed file
-## 'input_A_2014_10_27/forFilteringPlot.RData', probable reason 'No such file
-## or directory'
-```
-
-```
-## Error: cannot open the connection
+## Error: unused argument (inputA = inputA)
 ```
 
 ###Testing - general
