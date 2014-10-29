@@ -46,37 +46,7 @@ Date refers to first version with changes. If there is a plus after, then all su
 |nR2                   |7                       |For a lineage, if there are ge this many SNPs in nD2 bp, remove all SNPs |
 |nD2                   |50                      |See above                                                                |
 |removeNum             |0                       |How many samples are allowed to be uncallable                            |
-|contingencyComparison |0                       |To what do we compare motifs                                             |
-
-##Important Parameters2
-
-```
-## 
-## 
-## |Parameter             |Value                   |Description                                                              |
-## |:---------------------|:-----------------------|:------------------------------------------------------------------------|
-## |mouseFilter           |NA                      |what folder used for mice                                                |
-## |mrle                  |10                      |maximum run length less than or equal to                                 |
-## |ndge                  |0                       |nuclotide diversity greater than or equal to                             |
-## |Klist                 |10                      |range of K to use                                                        |
-## |gcW1                  |100                     |range to test for GC increase                                            |
-## |gcW2                  |1000                    |,range to plot GC increases                                              |
-## |gcW3                  |10                      |,smoothing window for AT to GC plots                                     |
-## |ctge                  |10                      |for a p-value to be generated, each cell must have at least this number  |
-## |rgte                  |50                      |for a row to count, there must be this many entries                      |
-## |testingNames          |lin,shared,at           |(short) names of the tests we will perform                               |
-## |plottingNames         |Lineage,Shared,AT to GC |plotting names of the tests we will perform                              |
-## |nTests                |3                       |Number of tests to be performed                                          |
-## |pThresh               |0.000152439024390244    |Initial threshold for p-value clstering                                  |
-## |mouseMatrixDefinition |narrow                  |How we define mice lineages                                              |
-## |nR1                   |12                      |If there are nR1 SNPs in nD1 bp, remove all SNPs                         |
-## |nD1                   |50                      |See above                                                                |
-## |nR2                   |7                       |For a lineage, if there are ge this many SNPs in nD2 bp, remove all SNPs |
-## |nD2                   |50                      |See above                                                                |
-## |removeNum             |0                       |How many samples are allowed to be uncallable                            |
-## |contingencyComparison |0                       |To what do we compare motifs                                             |
-```
-
+|contingencyComparison |Same CpG, GC Content    |To what do we compare motifs                                             |
 
 ---
 
@@ -104,25 +74,21 @@ TODO Add back in figure here
 
 Here I look at the number of motifs lost down a lineage versus all other lineages. The 2 * 2 test is therefore
 
-|  | Lineage | All other lineages|
-|:-|:--------|:------------------|
-|Motif|n1|n2|
-|0| n3 | n4|
 
-test
-
-| wer | wer2 | wer3 |
-| 1 | 2 | 3 |
-| 4 | 5 | 6 |
+|                     |Lineage |All other lineages |
+|:--------------------|:-------|:------------------|
+|Motif                |n1      |n2                 |
+|Same CpG, GC Content |n3      |n4                 |
 
 ###Test 2 - Shared - Motif loss within a lineage versus ancestral counts
 
 Here, I look at the number of motifs lost down a lineage versus the number present in its ancestor in the species tree. Then, we test the number of motifs lost vs the number which are not lost. The 2 * 2 test is therefore
 
-|  | Lost down this lineage  | Not lost down this lineage|
-|:-|:--------|:------------------|
-|Motif|n1|n2|
-|0| n3 | n4|
+
+|                     |Lost down this lineage |Not lost down this lineage |
+|:--------------------|:----------------------|:--------------------------|
+|Motif                |n1                     |n2                         |
+|Same CpG, GC Content |n3                     |n4                         |
 
 ###Test 3 - AT to GC - Motif loss AT to GC counts versus local AT bases
   
@@ -135,11 +101,16 @@ bases. Then around every motif that is lost, we count three numbers
 
 We are currently not using the third value (the number of callable bases), only the total number of AT bases. The 2 * 2 test per motif is
 
-|  | AT to GC bases  | Number of AT bases |
-|:-|:--------|:------------------|
-|Motif|n1|n2|
-|`r contingencyComparison| n3 | n4|
-                  
+
+|                     |AT to GC bases |Number of AT bases |
+|:--------------------|:--------------|:------------------|
+|Motif                |n1             |n2                 |
+|Same CpG, GC Content |n3             |n4                 |
+            
+
+
+
+      
 
 
 
