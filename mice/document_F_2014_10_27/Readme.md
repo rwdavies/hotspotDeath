@@ -65,9 +65,10 @@ Subsequently, SNPs are removed if they are too close together. This is the last 
 To get a sense of how many SNPs this removed for given parameter settings, I checked how many SNPs were filtered for a range of parameter settings for the smallest chromosome. I also compared this against expectations. To get an expectation, I simulated a pseudo-chromosome of results. I calculated the expected branch lengths of each lineage given the emprical data to this point, ie lineage 1 has 1 percent divergence against MRCA of the set of all lineages, lineage 2 has 0.5 percent divergence against MRCA, etc. Then, I decided whether each base was mutated according to the total branch length of the tree, and then, given a mutation, what branch it occured on with probabilities equal to each lineages share of the total tree length. 
 
 
+![plot of chunk filterPlot](figure/filterPlot.png) 
 
 ```
-## Error: unused argument (inputA = inputA)
+## [1] "look at filtering - done,Wed Oct 29 16:16:54 2014"
 ```
 
 ###Testing - general
