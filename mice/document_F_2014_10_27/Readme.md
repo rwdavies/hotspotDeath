@@ -186,10 +186,10 @@ Note that the following numbers are only for motifs that have been clustered
 
 Number of motifs (clusters) per test and lineage
 
-```
-## Error: the table must have a header (column names)
-```
 
+|FAM    |AMS     |Spretus  |AM      |PWKPhJ |CASTEiJ |WSBEiJ |
+|:------|:-------|:--------|:-------|:------|:-------|:------|
+|32 (7) |82 (13) |373 (18) |386 (9) |2 (2)  |6 (3)   |9 (2)  |
 FAM
 
 
@@ -197,26 +197,44 @@ FAM
 |:---|:-----|:-----|:---------|:------|
 |lin |1 (1) |3 (1) |24 (4)    |4 (1)  |
 AMS
-No significant results
 
+
+|    |B1_Mus1 |B3    |B4    |nonRepeat |ORR1C2 |RLTR23 |RSINE1 |
+|:---|:-------|:-----|:-----|:---------|:------|:------|:------|
+|lin |1 (1)   |5 (1) |1 (1) |53 (7)    |3 (1)  |2 (1)  |17 (1) |
 Spretus
-No significant results
 
+
+|    |B3A    |B4A   |(CA)n |Lx2B  |Lx3C   |Lx9   |nonRepeat |RMER17C |RSINE1 |(TG)n |URR1A |
+|:---|:------|:-----|:-----|:-----|:------|:-----|:---------|:-------|:------|:-----|:-----|
+|lin |10 (1) |2 (2) |2 (1) |1 (1) |11 (1) |1 (1) |332 (7)   |7 (1)   |4 (1)  |2 (1) |1 (1) |
 AM
-No significant results
 
+
+|    |B3    |B4A   |ID_B1 |nonRepeat |RSINE1 |
+|:---|:-----|:-----|:-----|:---------|:------|
+|lin |5 (1) |1 (1) |7 (2) |366 (4)   |7 (1)  |
 PWKPhJ
-No significant results
 
+
+|    |nonRepeat |
+|:---|:---------|
+|lin |2 (2)     |
 CASTEiJ
-No significant results
 
+
+|    |MTD   |nonRepeat |
+|:---|:-----|:---------|
+|lin |1 (1) |5 (2)     |
 CASTEiJ.PWKPhJ
 No significant results
 
 WSBEiJ
-No significant results
 
+
+|    |nonRepeat |
+|:---|:---------|
+|lin |9 (2)     |
 WSBEiJ.PWKPhJ
 No significant results
 
@@ -233,11 +251,69 @@ No significant results
 ```
 
 ```
-## Test: lin
-```
-
-```
-## Error: object 'qqData' not found
+## Test: lin 
+## AT content 
+##                  
+##                     0   1   2    3    4    5    6    7   8   9  10
+##   not significant 0.0 0.6 3.2 10.0 20.1 25.6 21.6 12.4 4.9 1.3 0.3
+##   significant     0.3 1.2 1.2  3.3 11.8 27.9 27.8 13.4 3.5 6.1 3.4
+## Number of CpGs 
+##                  
+##                      0    1   2 3 4
+##   not significant 69.3 28.6 2.1 0 0
+##   significant     99.8  0.2 0.0 0 0
+## Maximum run length 
+##                  
+##                     1    2    3   4   5   6   7   8   9  10
+##   not significant 7.2 54.7 28.3 7.6 1.8 0.3 0.1 0.0 0.0 0.0
+##   significant     8.1 59.8 15.3 1.7 1.5 2.1 5.9 4.2 1.1 0.2
+## Nucleotide diversity 
+##                  
+##                     1   2    3    4
+##   not significant 0.0 1.9 23.4 74.7
+##   significant     0.2 9.2 33.4 57.1
+## Test: shared 
+## AT content 
+##                  
+##                     0   1   2    3    4    5    6    7    8    9  10
+##   not significant 0.0 0.6 3.2 10.1 20.2 25.6 21.6 12.4  4.8  1.2 0.3
+##   significant     0.2 1.2 2.0  3.8  7.6 16.3 19.3 19.6 16.7 10.1 3.3
+## Number of CpGs 
+##                  
+##                      0    1   2 3 4
+##   not significant 69.1 28.8 2.1 0 0
+##   significant     97.5  2.2 0.3 0 0
+## Maximum run length 
+##                  
+##                      1    2    3    4   5   6   7   8   9 10
+##   not significant  7.2 54.8 28.4  7.6 1.7 0.3 0.0 0.0 0.0  0
+##   significant     10.5 37.0 25.1 13.8 5.0 3.8 3.6 0.9 0.2  0
+## Nucleotide diversity 
+##                  
+##                   1    2    3    4
+##   not significant 0  1.8 23.2 75.0
+##   significant     0 12.2 45.7 42.1
+## Test: at 
+## AT content 
+##                  
+##                   0   1   2   3    4    5    6    7   8   9  10
+##   not significant 0 0.3 2.5 9.2 19.4 25.8 22.8 13.3 5.1 1.3 0.3
+##   significant     0 0.0 0.4 2.8  8.7 26.4 30.7 21.7 5.9 1.9 1.6
+## Number of CpGs 
+##                  
+##                      0    1   2 3
+##   not significant 67.9 32.0 0.1 0
+##   significant     99.5  0.5 0.0 0
+## Maximum run length 
+##                  
+##                     1    2    3   4   5   6   7   8   9  10
+##   not significant 7.2 55.2 28.2 7.4 1.6 0.3 0.1 0.0 0.0 0.0
+##   significant     4.7 59.4 26.8 2.5 1.3 1.5 1.7 1.3 0.5 0.1
+## Nucleotide diversity 
+##                  
+##                     1   2    3    4
+##   not significant 0.0 1.3 22.3 76.5
+##   significant     0.1 6.0 36.7 57.2
 ```
 ---
 
@@ -254,8 +330,14 @@ No significant results
 
 
 ```
-## Error: object 'qqData' not found
+## Warning: numerical expression has 3 elements: only the first used
 ```
+
+```
+## Error: NA/NaN argument
+```
+
+![plot of chunk pvaluesBetweenMethods](figure/pvaluesBetweenMethods.png) 
 ---
 
 
@@ -272,7 +354,7 @@ No significant results
 
 ## All significant motifs
 
-![plot of chunk motifClusters](figure/motifClusters1.png) ![plot of chunk motifClusters](figure/motifClusters2.png) ![plot of chunk motifClusters](figure/motifClusters3.png) ![plot of chunk motifClusters](figure/motifClusters4.png) ![plot of chunk motifClusters](figure/motifClusters5.png) ![plot of chunk motifClusters](figure/motifClusters6.png) ![plot of chunk motifClusters](figure/motifClusters7.png) ![plot of chunk motifClusters](figure/motifClusters8.png) ![plot of chunk motifClusters](figure/motifClusters9.png) ![plot of chunk motifClusters](figure/motifClusters10.png) ![plot of chunk motifClusters](figure/motifClusters11.png) ![plot of chunk motifClusters](figure/motifClusters12.png) ![plot of chunk motifClusters](figure/motifClusters13.png) ![plot of chunk motifClusters](figure/motifClusters14.png) ![plot of chunk motifClusters](figure/motifClusters15.png) ![plot of chunk motifClusters](figure/motifClusters16.png) ![plot of chunk motifClusters](figure/motifClusters17.png) ![plot of chunk motifClusters](figure/motifClusters18.png) ![plot of chunk motifClusters](figure/motifClusters19.png) ![plot of chunk motifClusters](figure/motifClusters20.png) ![plot of chunk motifClusters](figure/motifClusters21.png) ![plot of chunk motifClusters](figure/motifClusters22.png) ![plot of chunk motifClusters](figure/motifClusters23.png) ![plot of chunk motifClusters](figure/motifClusters24.png) ![plot of chunk motifClusters](figure/motifClusters25.png) 
+![plot of chunk motifClusters](figure/motifClusters1.png) ![plot of chunk motifClusters](figure/motifClusters2.png) ![plot of chunk motifClusters](figure/motifClusters3.png) ![plot of chunk motifClusters](figure/motifClusters4.png) ![plot of chunk motifClusters](figure/motifClusters5.png) ![plot of chunk motifClusters](figure/motifClusters6.png) ![plot of chunk motifClusters](figure/motifClusters7.png) ![plot of chunk motifClusters](figure/motifClusters8.png) ![plot of chunk motifClusters](figure/motifClusters9.png) ![plot of chunk motifClusters](figure/motifClusters10.png) ![plot of chunk motifClusters](figure/motifClusters11.png) ![plot of chunk motifClusters](figure/motifClusters12.png) ![plot of chunk motifClusters](figure/motifClusters13.png) ![plot of chunk motifClusters](figure/motifClusters14.png) ![plot of chunk motifClusters](figure/motifClusters15.png) ![plot of chunk motifClusters](figure/motifClusters16.png) ![plot of chunk motifClusters](figure/motifClusters17.png) ![plot of chunk motifClusters](figure/motifClusters18.png) ![plot of chunk motifClusters](figure/motifClusters19.png) ![plot of chunk motifClusters](figure/motifClusters20.png) ![plot of chunk motifClusters](figure/motifClusters21.png) ![plot of chunk motifClusters](figure/motifClusters22.png) ![plot of chunk motifClusters](figure/motifClusters23.png) ![plot of chunk motifClusters](figure/motifClusters24.png) ![plot of chunk motifClusters](figure/motifClusters25.png) ![plot of chunk motifClusters](figure/motifClusters26.png) ![plot of chunk motifClusters](figure/motifClusters27.png) ![plot of chunk motifClusters](figure/motifClusters28.png) ![plot of chunk motifClusters](figure/motifClusters29.png) ![plot of chunk motifClusters](figure/motifClusters30.png) ![plot of chunk motifClusters](figure/motifClusters31.png) ![plot of chunk motifClusters](figure/motifClusters32.png) ![plot of chunk motifClusters](figure/motifClusters33.png) ![plot of chunk motifClusters](figure/motifClusters34.png) ![plot of chunk motifClusters](figure/motifClusters35.png) ![plot of chunk motifClusters](figure/motifClusters36.png) ![plot of chunk motifClusters](figure/motifClusters37.png) ![plot of chunk motifClusters](figure/motifClusters38.png) ![plot of chunk motifClusters](figure/motifClusters39.png) ![plot of chunk motifClusters](figure/motifClusters40.png) ![plot of chunk motifClusters](figure/motifClusters41.png) ![plot of chunk motifClusters](figure/motifClusters42.png) ![plot of chunk motifClusters](figure/motifClusters43.png) ![plot of chunk motifClusters](figure/motifClusters44.png) ![plot of chunk motifClusters](figure/motifClusters45.png) ![plot of chunk motifClusters](figure/motifClusters46.png) ![plot of chunk motifClusters](figure/motifClusters47.png) ![plot of chunk motifClusters](figure/motifClusters48.png) ![plot of chunk motifClusters](figure/motifClusters49.png) ![plot of chunk motifClusters](figure/motifClusters50.png) ![plot of chunk motifClusters](figure/motifClusters51.png) ![plot of chunk motifClusters](figure/motifClusters52.png) ![plot of chunk motifClusters](figure/motifClusters53.png) ![plot of chunk motifClusters](figure/motifClusters54.png) ![plot of chunk motifClusters](figure/motifClusters55.png) ![plot of chunk motifClusters](figure/motifClusters56.png) ![plot of chunk motifClusters](figure/motifClusters57.png) ![plot of chunk motifClusters](figure/motifClusters58.png) ![plot of chunk motifClusters](figure/motifClusters59.png) ![plot of chunk motifClusters](figure/motifClusters60.png) ![plot of chunk motifClusters](figure/motifClusters61.png) ![plot of chunk motifClusters](figure/motifClusters62.png) ![plot of chunk motifClusters](figure/motifClusters63.png) ![plot of chunk motifClusters](figure/motifClusters64.png) ![plot of chunk motifClusters](figure/motifClusters65.png) ![plot of chunk motifClusters](figure/motifClusters66.png) ![plot of chunk motifClusters](figure/motifClusters67.png) ![plot of chunk motifClusters](figure/motifClusters68.png) ![plot of chunk motifClusters](figure/motifClusters69.png) ![plot of chunk motifClusters](figure/motifClusters70.png) ![plot of chunk motifClusters](figure/motifClusters71.png) ![plot of chunk motifClusters](figure/motifClusters72.png) ![plot of chunk motifClusters](figure/motifClusters73.png) ![plot of chunk motifClusters](figure/motifClusters74.png) ![plot of chunk motifClusters](figure/motifClusters75.png) ![plot of chunk motifClusters](figure/motifClusters76.png) ![plot of chunk motifClusters](figure/motifClusters77.png) ![plot of chunk motifClusters](figure/motifClusters78.png) ![plot of chunk motifClusters](figure/motifClusters79.png) ![plot of chunk motifClusters](figure/motifClusters80.png) ![plot of chunk motifClusters](figure/motifClusters81.png) 
 
 
 ---
