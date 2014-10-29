@@ -19,10 +19,42 @@ Date refers to first version with changes. If there is a plus after, then all su
 * **2014_09_15** added removal of A) nearby SNPs on the same lineage and B) too many SNPs in general locally, as well as check against expectations
 * **2014_09_15** added proper support for mice for smaller number of musculus lineages
 * **2014_09_13** BUGFIX - x axis in left plot for comparison between two test p-values
----
+
+------
 
 
 ##Important Parameters
+
+```r
+kable(pv)
+```
+
+```
+## 
+## 
+## |Parameter             |Value                   |Description                                                              |
+## |:---------------------|:-----------------------|:------------------------------------------------------------------------|
+## |mouseFilter           |NA                      |what folder used for mice                                                |
+## |mrle                  |10                      |maximum run length less than or equal to                                 |
+## |ndge                  |0                       |nuclotide diversity greater than or equal to                             |
+## |Klist                 |10                      |range of K to use                                                        |
+## |gcW1                  |100                     |range to test for GC increase                                            |
+## |gcW2                  |1000                    |,range to plot GC increases                                              |
+## |gcW3                  |10                      |,smoothing window for AT to GC plots                                     |
+## |ctge                  |10                      |for a p-value to be generated, each cell must have at least this number  |
+## |rgte                  |50                      |for a row to count, there must be this many entries                      |
+## |testingNames          |lin,shared,at           |(short) names of the tests we will perform                               |
+## |plottingNames         |Lineage,Shared,AT to GC |plotting names of the tests we will perform                              |
+## |nTests                |3                       |Number of tests to be performed                                          |
+## |pThresh               |0.000152439024390244    |Initial threshold for p-value clstering                                  |
+## |mouseMatrixDefinition |narrow                  |How we define mice lineages                                              |
+## |nR1                   |12                      |If there are nR1 SNPs in nD1 bp, remove all SNPs                         |
+## |nD1                   |50                      |See above                                                                |
+## |nR2                   |7                       |For a lineage, if there are ge this many SNPs in nD2 bp, remove all SNPs |
+## |nD2                   |50                      |See above                                                                |
+## |removeNum             |0                       |How many samples are allowed to be uncallable                            |
+## |contingencyComparison |0                       |To what do we compare motifs                                             |
+```
 
 ---
 
@@ -36,10 +68,11 @@ Subsequently, SNPs are removed if they are too close together. This is the last 
 
 To get a sense of how many SNPs this removed for given parameter settings, I checked how many SNPs were filtered for a range of parameter settings for the smallest chromosome. I also compared this against expectations. To get an expectation, I simulated a pseudo-chromosome of results. I calculated the expected branch lengths of each lineage given the emprical data to this point, ie lineage 1 has 1 percent divergence against MRCA of the set of all lineages, lineage 2 has 0.5 percent divergence against MRCA, etc. Then, I decided whether each base was mutated according to the total branch length of the tree, and then, given a mutation, what branch it occured on with probabilities equal to each lineages share of the total tree length. 
 
+<!---
 Figure ADD FIGURE REFERENCE? shows the results. 
-
 TODO Add back in figure here
 ![alt text](/path/to/img.jpg "Title")
+-->
 
 ###Testing - general
 
@@ -53,6 +86,12 @@ Here I look at the number of motifs lost down a lineage versus all other lineage
 |:-|:--------|:------------------|
 |Motif|n1|n2|
 |0| n3 | n4|
+
+test
+
+| wer | wer2 | wer3 |
+| 1 | 2 | 3 |
+| 4 | 5 | 6 |
 
 ###Test 2 - Shared - Motif loss within a lineage versus ancestral counts
 
