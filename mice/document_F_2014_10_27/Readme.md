@@ -9,7 +9,7 @@
 Date refers to first version with changes. If there is a plus after, then all subsequent versions have the change
 * **2014_10_24** Added filtering folder for mice (ArrayNotFiltered95.0 used in all prior runs)
 * **2014_10_01** Changed clustering method - increase difficulty such that current threshold for iteration is Bonferonni for this round and all other previous rounds. Also, only allow a motif to be included in one cluster per repeat background
-* **2014_10_01** BUGFIX - Fixed major repeat name problem - assigning motifs to repeats was fine, but got name wrong between assigning and reporting. Also affected generation of QQ plots in this summary document
+* **2014_10_01** Fixed major repeat name problem - assigning motifs to repeats was fine, but got name wrong between assigning and reporting. Also affected generation of QQ plots in this summary document
 * **2014_09_22** Added number of motif clusters in summary section  
 * **2014_09_22** Add new AT  to GC plots, and details of making the plots
 * **2014_09_18** Give the option to specify how to compare against other motifs for making 2x2 tables
@@ -18,7 +18,7 @@ Date refers to first version with changes. If there is a plus after, then all su
 * **2014_09_16** Clustering - changed it so motifs are only eligible to be added to a cluster if they have the best p-value among lineages for that motif
 * **2014_09_15** added removal of A) nearby SNPs on the same lineage and B) too many SNPs in general locally, as well as check against expectations
 * **2014_09_15** added proper support for mice for smaller number of musculus lineages
-* **2014_09_13** BUGFIX - x axis in left plot for comparison between two test p-values
+* **2014_09_13** x axis in left plot for comparison between two test p-values
 
 ------
 
@@ -186,6 +186,95 @@ These plots also feature a PWM for the forward and reverse forms of the motif, a
 ##      PWKPhJ CASTEiJ WSBEiJ Spretus  FAM
 ## [1,]  1.186   1.176  1.169    1.23 1.09
 ```
+
+
+---
+
+## Number of Significant motifs per lineage per test
+
+
+```
+## Number of significant motifs and motif clusters which are most significant down a given lineage
+```
+
+```
+## Number of singificant results (and clusters) per lineage and test
+```
+
+```
+##        FAM       AMS      Spretus  AM       PWKPhJ CASTEiJ CASTEiJ.PWKPhJ
+## at     174 (15)  12 (7)   531 (13) 124 (13) 2 (2)  3 (3)   0 (0)         
+## lin    38 (8)    91 (16)  406 (19) 413 (9)  1 (1)  6 (3)   0 (0)         
+## shared 1656 (56) 424 (53) 965 (42) 550 (17) 3 (3)  10 (3)  1 (1)         
+##        WSBEiJ WSBEiJ.CASTEiJ
+## at     19 (6) 0 (0)         
+## lin    10 (2) 1 (1)         
+## shared 26 (5) 1 (1)
+```
+
+```
+## FAM
+##        nonRepeat (CA)n  (TG)n  B1_Mus1 B1_Mus2 RSINE1 B2_Mm2 B3     B1_Mm 
+## at     167 (11)  0 (0)  0 (0)  0 (0)   0 (0)   0 (0)  0 (0)  0 (0)  0 (0) 
+## lin    29 (5)    0 (0)  0 (0)  0 (0)   0 (0)   5 (1)  0 (0)  0 (0)  0 (0) 
+## shared 1268 (4)  88 (2) 80 (1) 44 (7)  31 (2)  19 (4) 21 (7) 16 (2) 15 (4)
+##        ID_B1 Others 
+## at     0 (0) 7 (4)  
+## lin    1 (1) 3 (1)  
+## shared 8 (2) 66 (21)
+## AMS
+##        nonRepeat RSINE1 B1_Mus1 B1_Mus2 B1_Mm  B3    MTC   B2_Mm2 B4A  
+## at     6 (4)     1 (1)  0 (0)   0 (0)   0 (0)  0 (0) 0 (0) 0 (0)  4 (1)
+## lin    56 (8)    18 (1) 1 (1)   0 (0)   0 (0)  5 (1) 4 (1) 0 (0)  1 (1)
+## shared 243 (9)   41 (2) 30 (1)  24 (6)  21 (6) 8 (2) 9 (3) 12 (7) 7 (3)
+##        ORR1C2 Others 
+## at     0 (0)  1 (1)  
+## lin    3 (1)  3 (2)  
+## shared 5 (1)  24 (13)
+## Spretus
+##        nonRepeat B3A    Lx3C   B4A    B3     RMER17C (TG)n  AT_rich RSINE1
+## at     479 (5)   23 (1) 0 (0)  13 (1) 3 (1)  0 (0)   0 (0)  0 (0)   2 (1) 
+## lin    360 (8)   12 (1) 11 (1) 3 (2)  0 (0)  8 (1)   2 (1)  0 (0)   4 (1) 
+## shared 821 (6)   32 (2) 12 (1) 5 (3)  15 (1) 9 (1)   13 (6) 13 (1)  6 (1) 
+##        URR1A Others 
+## at     0 (0) 11 (4) 
+## lin    2 (1) 4 (3)  
+## shared 8 (1) 31 (19)
+## AM
+##        nonRepeat ID_B1  RSINE1 B3    B4A   AT_rich B1_Mus2 (TCTA)n B1_Mm
+## at     115 (8)   0 (0)  0 (0)  7 (3) 0 (0) 0 (0)   0 (0)   0 (0)   0 (0)
+## lin    393 (4)   7 (2)  7 (1)  5 (1) 1 (1) 0 (0)   0 (0)   0 (0)   0 (0)
+## shared 500 (5)   17 (2) 15 (2) 8 (2) 3 (2) 2 (1)   2 (1)   2 (1)   1 (1)
+##        B3A   ID4  
+## at     1 (1) 1 (1)
+## lin    0 (0) 0 (0)
+## shared 0 (0) 0 (0)
+## PWKPhJ
+##        nonRepeat ID_B1
+## at     1 (1)     1 (1)
+## lin    1 (1)     0 (0)
+## shared 3 (3)     0 (0)
+## CASTEiJ
+##        nonRepeat MTD   (TCTA)n
+## at     3 (3)     0 (0) 0 (0)  
+## lin    5 (2)     1 (1) 0 (0)  
+## shared 8 (1)     1 (1) 1 (1)  
+## CASTEiJ.PWKPhJ
+##        nonRepeat
+## shared 1 (1)    
+## WSBEiJ
+##        nonRepeat (TG)n
+## at     19 (6)    0 (0)
+## lin    10 (2)    0 (0)
+## shared 25 (4)    1 (1)
+## WSBEiJ.PWKPhJ
+## [1] "No significant results"
+## WSBEiJ.CASTEiJ
+##        RSINE1
+## lin    1 (1) 
+## shared 1 (1)
+```
+
 
 
 
