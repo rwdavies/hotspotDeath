@@ -186,55 +186,34 @@ Note that the following numbers are only for motifs that have been clustered
 
 Number of motifs (clusters) per test and lineage
 
+```
+## Error: data is too long
+```
 
-|FAM    |AMS     |Spretus  |AM      |PWKPhJ |CASTEiJ |WSBEiJ |
-|:------|:-------|:--------|:-------|:------|:-------|:------|
-|32 (7) |82 (13) |373 (18) |386 (9) |2 (2)  |6 (3)   |9 (2)  |
 FAM
+No significant results
 
-
-|    |ID_B1 |Lx8   |nonRepeat |RSINE1 |
-|:---|:-----|:-----|:---------|:------|
-|lin |1 (1) |3 (1) |24 (4)    |4 (1)  |
 AMS
+No significant results
 
-
-|    |B1_Mus1 |B3    |B4    |nonRepeat |ORR1C2 |RLTR23 |RSINE1 |
-|:---|:-------|:-----|:-----|:---------|:------|:------|:------|
-|lin |1 (1)   |5 (1) |1 (1) |53 (7)    |3 (1)  |2 (1)  |17 (1) |
 Spretus
+No significant results
 
-
-|    |B3A    |B4A   |(CA)n |Lx2B  |Lx3C   |Lx9   |nonRepeat |RMER17C |RSINE1 |(TG)n |URR1A |
-|:---|:------|:-----|:-----|:-----|:------|:-----|:---------|:-------|:------|:-----|:-----|
-|lin |10 (1) |2 (2) |2 (1) |1 (1) |11 (1) |1 (1) |332 (7)   |7 (1)   |4 (1)  |2 (1) |1 (1) |
 AM
+No significant results
 
-
-|    |B3    |B4A   |ID_B1 |nonRepeat |RSINE1 |
-|:---|:-----|:-----|:-----|:---------|:------|
-|lin |5 (1) |1 (1) |7 (2) |366 (4)   |7 (1)  |
 PWKPhJ
+No significant results
 
-
-|    |nonRepeat |
-|:---|:---------|
-|lin |2 (2)     |
 CASTEiJ
+No significant results
 
-
-|    |MTD   |nonRepeat |
-|:---|:-----|:---------|
-|lin |1 (1) |5 (2)     |
 CASTEiJ.PWKPhJ
 No significant results
 
 WSBEiJ
+No significant results
 
-
-|    |nonRepeat |
-|:---|:---------|
-|lin |9 (2)     |
 WSBEiJ.PWKPhJ
 No significant results
 
