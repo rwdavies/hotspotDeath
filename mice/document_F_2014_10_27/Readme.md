@@ -245,79 +245,82 @@ No significant results
 
 ## Features of significant motifs
 
-Features of top associated motifs 
-Test: lin 
-AT content 
-                 
-                    0   1   2    3    4    5    6    7   8   9  10
-  not significant 0.0 0.6 3.2 10.0 20.1 25.6 21.6 12.4 4.9 1.3 0.3
-  significant     0.3 1.2 1.2  3.3 11.8 27.9 27.8 13.4 3.5 6.1 3.4
-Number of CpGs 
-                 
-                     0    1   2 3 4
-  not significant 69.3 28.6 2.1 0 0
-  significant     99.8  0.2 0.0 0 0
-Maximum run length 
-                 
-                    1    2    3   4   5   6   7   8   9  10
-  not significant 7.2 54.7 28.3 7.6 1.8 0.3 0.1 0.0 0.0 0.0
-  significant     8.1 59.8 15.3 1.7 1.5 2.1 5.9 4.2 1.1 0.2
-Nucleotide diversity 
-                 
-                    1   2    3    4
-  not significant 0.0 1.9 23.4 74.7
-  significant     0.2 9.2 33.4 57.1
-Test: shared 
-AT content 
-                 
-                    0   1   2    3    4    5    6    7    8    9  10
-  not significant 0.0 0.6 3.2 10.1 20.2 25.6 21.6 12.4  4.8  1.2 0.3
-  significant     0.2 1.2 2.0  3.8  7.6 16.3 19.3 19.6 16.7 10.1 3.3
-Number of CpGs 
-                 
-                     0    1   2 3 4
-  not significant 69.1 28.8 2.1 0 0
-  significant     97.5  2.2 0.3 0 0
-Maximum run length 
-                 
-                     1    2    3    4   5   6   7   8   9 10
-  not significant  7.2 54.8 28.4  7.6 1.7 0.3 0.0 0.0 0.0  0
-  significant     10.5 37.0 25.1 13.8 5.0 3.8 3.6 0.9 0.2  0
-Nucleotide diversity 
-                 
-                  1    2    3    4
-  not significant 0  1.8 23.2 75.0
-  significant     0 12.2 45.7 42.1
-Test: at 
-AT content 
-                 
-                  0   1   2   3    4    5    6    7   8   9  10
-  not significant 0 0.3 2.5 9.2 19.4 25.8 22.8 13.3 5.1 1.3 0.3
-  significant     0 0.0 0.4 2.8  8.7 26.4 30.7 21.7 5.9 1.9 1.6
-Number of CpGs 
-                 
-                     0    1   2 3
-  not significant 67.9 32.0 0.1 0
-  significant     99.5  0.5 0.0 0
-Maximum run length 
-                 
-                    1    2    3   4   5   6   7   8   9  10
-  not significant 7.2 55.2 28.2 7.4 1.6 0.3 0.1 0.0 0.0 0.0
-  significant     4.7 59.4 26.8 2.5 1.3 1.5 1.7 1.3 0.5 0.1
-Nucleotide diversity 
-                 
-                    1   2    3    4
-  not significant 0.0 1.3 22.3 76.5
-  significant     0.1 6.0 36.7 57.2
+
+```
+## Features of top associated motifs
+```
+
+```
+## Test: lin 
+## AT content 
+##                  
+##                     0   1   2    3    4    5    6    7   8   9  10
+##   not significant 0.0 0.6 3.2 10.0 20.1 25.6 21.6 12.4 4.9 1.3 0.3
+##   significant     0.3 1.2 1.2  3.3 11.8 27.9 27.8 13.4 3.5 6.1 3.4
+## Number of CpGs 
+##                  
+##                      0    1   2 3 4
+##   not significant 69.3 28.6 2.1 0 0
+##   significant     99.8  0.2 0.0 0 0
+## Maximum run length 
+##                  
+##                     1    2    3   4   5   6   7   8   9  10
+##   not significant 7.2 54.7 28.3 7.6 1.8 0.3 0.1 0.0 0.0 0.0
+##   significant     8.1 59.8 15.3 1.7 1.5 2.1 5.9 4.2 1.1 0.2
+## Nucleotide diversity 
+##                  
+##                     1   2    3    4
+##   not significant 0.0 1.9 23.4 74.7
+##   significant     0.2 9.2 33.4 57.1
+## Test: shared 
+## AT content 
+##                  
+##                     0   1   2    3    4    5    6    7    8    9  10
+##   not significant 0.0 0.6 3.2 10.1 20.2 25.6 21.6 12.4  4.8  1.2 0.3
+##   significant     0.2 1.2 2.0  3.8  7.6 16.3 19.3 19.6 16.7 10.1 3.3
+## Number of CpGs 
+##                  
+##                      0    1   2 3 4
+##   not significant 69.1 28.8 2.1 0 0
+##   significant     97.5  2.2 0.3 0 0
+## Maximum run length 
+##                  
+##                      1    2    3    4   5   6   7   8   9 10
+##   not significant  7.2 54.8 28.4  7.6 1.7 0.3 0.0 0.0 0.0  0
+##   significant     10.5 37.0 25.1 13.8 5.0 3.8 3.6 0.9 0.2  0
+## Nucleotide diversity 
+##                  
+##                   1    2    3    4
+##   not significant 0  1.8 23.2 75.0
+##   significant     0 12.2 45.7 42.1
+## Test: at 
+## AT content 
+##                  
+##                   0   1   2   3    4    5    6    7   8   9  10
+##   not significant 0 0.3 2.5 9.2 19.4 25.8 22.8 13.3 5.1 1.3 0.3
+##   significant     0 0.0 0.4 2.8  8.7 26.4 30.7 21.7 5.9 1.9 1.6
+## Number of CpGs 
+##                  
+##                      0    1   2 3
+##   not significant 67.9 32.0 0.1 0
+##   significant     99.5  0.5 0.0 0
+## Maximum run length 
+##                  
+##                     1    2    3   4   5   6   7   8   9  10
+##   not significant 7.2 55.2 28.2 7.4 1.6 0.3 0.1 0.0 0.0 0.0
+##   significant     4.7 59.4 26.8 2.5 1.3 1.5 1.7 1.3 0.5 0.1
+## Nucleotide diversity 
+##                  
+##                     1   2    3    4
+##   not significant 0.0 1.3 22.3 76.5
+##   significant     0.1 6.0 36.7 57.2
+```
 ---
 
 
 ## QQ plots - seperate
 
-
-```
-## Error: object 'qqData' not found
-```
+![plot of chunk pValuesQQPlots](figure/pValuesQQPlots1.png) ![plot of chunk pValuesQQPlots](figure/pValuesQQPlots2.png) ![plot of chunk pValuesQQPlots](figure/pValuesQQPlots3.png) ![plot of chunk pValuesQQPlots](figure/pValuesQQPlots4.png) ![plot of chunk pValuesQQPlots](figure/pValuesQQPlots5.png) ![plot of chunk pValuesQQPlots](figure/pValuesQQPlots6.png) 
 ---
 
 ## Compare p-values between methods
@@ -337,10 +340,7 @@ Nucleotide diversity
 
 ## Compare p-values between lineages within a method
 
-
-```
-## Error: object 'qqData' not found
-```
+![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage1.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage2.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage3.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage4.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage5.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage6.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage7.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage8.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage9.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage10.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage11.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage12.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage13.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage14.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage15.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage16.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage17.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage18.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage19.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage20.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage21.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage22.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage23.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage24.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage25.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage26.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage27.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage28.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage29.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage30.png) 
 ---
 
 
@@ -348,12 +348,7 @@ Nucleotide diversity
 
 ## All significant motifs
 
-
-```
-## Error: dim(X) must have a positive length
-```
-
-![plot of chunk motifClusters](figure/motifClusters.png) 
+![plot of chunk motifClusters](figure/motifClusters1.png) ![plot of chunk motifClusters](figure/motifClusters2.png) ![plot of chunk motifClusters](figure/motifClusters3.png) ![plot of chunk motifClusters](figure/motifClusters4.png) ![plot of chunk motifClusters](figure/motifClusters5.png) ![plot of chunk motifClusters](figure/motifClusters6.png) ![plot of chunk motifClusters](figure/motifClusters7.png) ![plot of chunk motifClusters](figure/motifClusters8.png) ![plot of chunk motifClusters](figure/motifClusters9.png) ![plot of chunk motifClusters](figure/motifClusters10.png) ![plot of chunk motifClusters](figure/motifClusters11.png) ![plot of chunk motifClusters](figure/motifClusters12.png) ![plot of chunk motifClusters](figure/motifClusters13.png) ![plot of chunk motifClusters](figure/motifClusters14.png) ![plot of chunk motifClusters](figure/motifClusters15.png) ![plot of chunk motifClusters](figure/motifClusters16.png) ![plot of chunk motifClusters](figure/motifClusters17.png) ![plot of chunk motifClusters](figure/motifClusters18.png) ![plot of chunk motifClusters](figure/motifClusters19.png) ![plot of chunk motifClusters](figure/motifClusters20.png) ![plot of chunk motifClusters](figure/motifClusters21.png) ![plot of chunk motifClusters](figure/motifClusters22.png) ![plot of chunk motifClusters](figure/motifClusters23.png) ![plot of chunk motifClusters](figure/motifClusters24.png) ![plot of chunk motifClusters](figure/motifClusters25.png) ![plot of chunk motifClusters](figure/motifClusters26.png) ![plot of chunk motifClusters](figure/motifClusters27.png) ![plot of chunk motifClusters](figure/motifClusters28.png) ![plot of chunk motifClusters](figure/motifClusters29.png) ![plot of chunk motifClusters](figure/motifClusters30.png) ![plot of chunk motifClusters](figure/motifClusters31.png) ![plot of chunk motifClusters](figure/motifClusters32.png) ![plot of chunk motifClusters](figure/motifClusters33.png) ![plot of chunk motifClusters](figure/motifClusters34.png) ![plot of chunk motifClusters](figure/motifClusters35.png) ![plot of chunk motifClusters](figure/motifClusters36.png) ![plot of chunk motifClusters](figure/motifClusters37.png) ![plot of chunk motifClusters](figure/motifClusters38.png) ![plot of chunk motifClusters](figure/motifClusters39.png) ![plot of chunk motifClusters](figure/motifClusters40.png) ![plot of chunk motifClusters](figure/motifClusters41.png) ![plot of chunk motifClusters](figure/motifClusters42.png) ![plot of chunk motifClusters](figure/motifClusters43.png) ![plot of chunk motifClusters](figure/motifClusters44.png) ![plot of chunk motifClusters](figure/motifClusters45.png) ![plot of chunk motifClusters](figure/motifClusters46.png) ![plot of chunk motifClusters](figure/motifClusters47.png) ![plot of chunk motifClusters](figure/motifClusters48.png) ![plot of chunk motifClusters](figure/motifClusters49.png) ![plot of chunk motifClusters](figure/motifClusters50.png) ![plot of chunk motifClusters](figure/motifClusters51.png) ![plot of chunk motifClusters](figure/motifClusters52.png) ![plot of chunk motifClusters](figure/motifClusters53.png) ![plot of chunk motifClusters](figure/motifClusters54.png) ![plot of chunk motifClusters](figure/motifClusters55.png) ![plot of chunk motifClusters](figure/motifClusters56.png) ![plot of chunk motifClusters](figure/motifClusters57.png) ![plot of chunk motifClusters](figure/motifClusters58.png) ![plot of chunk motifClusters](figure/motifClusters59.png) ![plot of chunk motifClusters](figure/motifClusters60.png) ![plot of chunk motifClusters](figure/motifClusters61.png) ![plot of chunk motifClusters](figure/motifClusters62.png) ![plot of chunk motifClusters](figure/motifClusters63.png) ![plot of chunk motifClusters](figure/motifClusters64.png) ![plot of chunk motifClusters](figure/motifClusters65.png) ![plot of chunk motifClusters](figure/motifClusters66.png) ![plot of chunk motifClusters](figure/motifClusters67.png) ![plot of chunk motifClusters](figure/motifClusters68.png) ![plot of chunk motifClusters](figure/motifClusters69.png) ![plot of chunk motifClusters](figure/motifClusters70.png) ![plot of chunk motifClusters](figure/motifClusters71.png) ![plot of chunk motifClusters](figure/motifClusters72.png) ![plot of chunk motifClusters](figure/motifClusters73.png) ![plot of chunk motifClusters](figure/motifClusters74.png) ![plot of chunk motifClusters](figure/motifClusters75.png) ![plot of chunk motifClusters](figure/motifClusters76.png) ![plot of chunk motifClusters](figure/motifClusters77.png) ![plot of chunk motifClusters](figure/motifClusters78.png) ![plot of chunk motifClusters](figure/motifClusters79.png) ![plot of chunk motifClusters](figure/motifClusters80.png) ![plot of chunk motifClusters](figure/motifClusters81.png) ![plot of chunk motifClusters](figure/motifClusters82.png) ![plot of chunk motifClusters](figure/motifClusters83.png) ![plot of chunk motifClusters](figure/motifClusters84.png) ![plot of chunk motifClusters](figure/motifClusters85.png) ![plot of chunk motifClusters](figure/motifClusters86.png) ![plot of chunk motifClusters](figure/motifClusters87.png) ![plot of chunk motifClusters](figure/motifClusters88.png) ![plot of chunk motifClusters](figure/motifClusters89.png) ![plot of chunk motifClusters](figure/motifClusters90.png) ![plot of chunk motifClusters](figure/motifClusters91.png) ![plot of chunk motifClusters](figure/motifClusters92.png) ![plot of chunk motifClusters](figure/motifClusters93.png) ![plot of chunk motifClusters](figure/motifClusters94.png) ![plot of chunk motifClusters](figure/motifClusters95.png) ![plot of chunk motifClusters](figure/motifClusters96.png) ![plot of chunk motifClusters](figure/motifClusters97.png) ![plot of chunk motifClusters](figure/motifClusters98.png) ![plot of chunk motifClusters](figure/motifClusters99.png) ![plot of chunk motifClusters](figure/motifClusters100.png) ![plot of chunk motifClusters](figure/motifClusters101.png) ![plot of chunk motifClusters](figure/motifClusters102.png) ![plot of chunk motifClusters](figure/motifClusters103.png) ![plot of chunk motifClusters](figure/motifClusters104.png) ![plot of chunk motifClusters](figure/motifClusters105.png) ![plot of chunk motifClusters](figure/motifClusters106.png) ![plot of chunk motifClusters](figure/motifClusters107.png) ![plot of chunk motifClusters](figure/motifClusters108.png) ![plot of chunk motifClusters](figure/motifClusters109.png) ![plot of chunk motifClusters](figure/motifClusters110.png) ![plot of chunk motifClusters](figure/motifClusters111.png) ![plot of chunk motifClusters](figure/motifClusters112.png) ![plot of chunk motifClusters](figure/motifClusters113.png) ![plot of chunk motifClusters](figure/motifClusters114.png) ![plot of chunk motifClusters](figure/motifClusters115.png) ![plot of chunk motifClusters](figure/motifClusters116.png) ![plot of chunk motifClusters](figure/motifClusters117.png) ![plot of chunk motifClusters](figure/motifClusters118.png) ![plot of chunk motifClusters](figure/motifClusters119.png) ![plot of chunk motifClusters](figure/motifClusters120.png) ![plot of chunk motifClusters](figure/motifClusters121.png) ![plot of chunk motifClusters](figure/motifClusters122.png) ![plot of chunk motifClusters](figure/motifClusters123.png) ![plot of chunk motifClusters](figure/motifClusters124.png) ![plot of chunk motifClusters](figure/motifClusters125.png) ![plot of chunk motifClusters](figure/motifClusters126.png) ![plot of chunk motifClusters](figure/motifClusters127.png) ![plot of chunk motifClusters](figure/motifClusters128.png) ![plot of chunk motifClusters](figure/motifClusters129.png) ![plot of chunk motifClusters](figure/motifClusters130.png) ![plot of chunk motifClusters](figure/motifClusters131.png) ![plot of chunk motifClusters](figure/motifClusters132.png) ![plot of chunk motifClusters](figure/motifClusters133.png) ![plot of chunk motifClusters](figure/motifClusters134.png) ![plot of chunk motifClusters](figure/motifClusters135.png) ![plot of chunk motifClusters](figure/motifClusters136.png) ![plot of chunk motifClusters](figure/motifClusters137.png) ![plot of chunk motifClusters](figure/motifClusters138.png) ![plot of chunk motifClusters](figure/motifClusters139.png) ![plot of chunk motifClusters](figure/motifClusters140.png) ![plot of chunk motifClusters](figure/motifClusters141.png) ![plot of chunk motifClusters](figure/motifClusters142.png) ![plot of chunk motifClusters](figure/motifClusters143.png) ![plot of chunk motifClusters](figure/motifClusters144.png) ![plot of chunk motifClusters](figure/motifClusters145.png) ![plot of chunk motifClusters](figure/motifClusters146.png) ![plot of chunk motifClusters](figure/motifClusters147.png) ![plot of chunk motifClusters](figure/motifClusters148.png) ![plot of chunk motifClusters](figure/motifClusters149.png) ![plot of chunk motifClusters](figure/motifClusters150.png) ![plot of chunk motifClusters](figure/motifClusters151.png) ![plot of chunk motifClusters](figure/motifClusters152.png) ![plot of chunk motifClusters](figure/motifClusters153.png) ![plot of chunk motifClusters](figure/motifClusters154.png) ![plot of chunk motifClusters](figure/motifClusters155.png) ![plot of chunk motifClusters](figure/motifClusters156.png) ![plot of chunk motifClusters](figure/motifClusters157.png) ![plot of chunk motifClusters](figure/motifClusters158.png) ![plot of chunk motifClusters](figure/motifClusters159.png) ![plot of chunk motifClusters](figure/motifClusters160.png) ![plot of chunk motifClusters](figure/motifClusters161.png) ![plot of chunk motifClusters](figure/motifClusters162.png) ![plot of chunk motifClusters](figure/motifClusters163.png) ![plot of chunk motifClusters](figure/motifClusters164.png) ![plot of chunk motifClusters](figure/motifClusters165.png) ![plot of chunk motifClusters](figure/motifClusters166.png) ![plot of chunk motifClusters](figure/motifClusters167.png) ![plot of chunk motifClusters](figure/motifClusters168.png) ![plot of chunk motifClusters](figure/motifClusters169.png) ![plot of chunk motifClusters](figure/motifClusters170.png) ![plot of chunk motifClusters](figure/motifClusters171.png) ![plot of chunk motifClusters](figure/motifClusters172.png) ![plot of chunk motifClusters](figure/motifClusters173.png) ![plot of chunk motifClusters](figure/motifClusters174.png) ![plot of chunk motifClusters](figure/motifClusters175.png) ![plot of chunk motifClusters](figure/motifClusters176.png) ![plot of chunk motifClusters](figure/motifClusters177.png) ![plot of chunk motifClusters](figure/motifClusters178.png) ![plot of chunk motifClusters](figure/motifClusters179.png) ![plot of chunk motifClusters](figure/motifClusters180.png) ![plot of chunk motifClusters](figure/motifClusters181.png) ![plot of chunk motifClusters](figure/motifClusters182.png) ![plot of chunk motifClusters](figure/motifClusters183.png) ![plot of chunk motifClusters](figure/motifClusters184.png) ![plot of chunk motifClusters](figure/motifClusters185.png) ![plot of chunk motifClusters](figure/motifClusters186.png) ![plot of chunk motifClusters](figure/motifClusters187.png) ![plot of chunk motifClusters](figure/motifClusters188.png) ![plot of chunk motifClusters](figure/motifClusters189.png) ![plot of chunk motifClusters](figure/motifClusters190.png) ![plot of chunk motifClusters](figure/motifClusters191.png) ![plot of chunk motifClusters](figure/motifClusters192.png) ![plot of chunk motifClusters](figure/motifClusters193.png) ![plot of chunk motifClusters](figure/motifClusters194.png) ![plot of chunk motifClusters](figure/motifClusters195.png) ![plot of chunk motifClusters](figure/motifClusters196.png) ![plot of chunk motifClusters](figure/motifClusters197.png) ![plot of chunk motifClusters](figure/motifClusters198.png) ![plot of chunk motifClusters](figure/motifClusters199.png) ![plot of chunk motifClusters](figure/motifClusters200.png) ![plot of chunk motifClusters](figure/motifClusters201.png) ![plot of chunk motifClusters](figure/motifClusters202.png) ![plot of chunk motifClusters](figure/motifClusters203.png) ![plot of chunk motifClusters](figure/motifClusters204.png) ![plot of chunk motifClusters](figure/motifClusters205.png) ![plot of chunk motifClusters](figure/motifClusters206.png) ![plot of chunk motifClusters](figure/motifClusters207.png) ![plot of chunk motifClusters](figure/motifClusters208.png) ![plot of chunk motifClusters](figure/motifClusters209.png) ![plot of chunk motifClusters](figure/motifClusters210.png) ![plot of chunk motifClusters](figure/motifClusters211.png) ![plot of chunk motifClusters](figure/motifClusters212.png) ![plot of chunk motifClusters](figure/motifClusters213.png) ![plot of chunk motifClusters](figure/motifClusters214.png) ![plot of chunk motifClusters](figure/motifClusters215.png) ![plot of chunk motifClusters](figure/motifClusters216.png) ![plot of chunk motifClusters](figure/motifClusters217.png) ![plot of chunk motifClusters](figure/motifClusters218.png) ![plot of chunk motifClusters](figure/motifClusters219.png) ![plot of chunk motifClusters](figure/motifClusters220.png) ![plot of chunk motifClusters](figure/motifClusters221.png) ![plot of chunk motifClusters](figure/motifClusters222.png) ![plot of chunk motifClusters](figure/motifClusters223.png) ![plot of chunk motifClusters](figure/motifClusters224.png) ![plot of chunk motifClusters](figure/motifClusters225.png) ![plot of chunk motifClusters](figure/motifClusters226.png) ![plot of chunk motifClusters](figure/motifClusters227.png) ![plot of chunk motifClusters](figure/motifClusters228.png) ![plot of chunk motifClusters](figure/motifClusters229.png) ![plot of chunk motifClusters](figure/motifClusters230.png) ![plot of chunk motifClusters](figure/motifClusters231.png) ![plot of chunk motifClusters](figure/motifClusters232.png) ![plot of chunk motifClusters](figure/motifClusters233.png) ![plot of chunk motifClusters](figure/motifClusters234.png) ![plot of chunk motifClusters](figure/motifClusters235.png) ![plot of chunk motifClusters](figure/motifClusters236.png) ![plot of chunk motifClusters](figure/motifClusters237.png) ![plot of chunk motifClusters](figure/motifClusters238.png) ![plot of chunk motifClusters](figure/motifClusters239.png) ![plot of chunk motifClusters](figure/motifClusters240.png) ![plot of chunk motifClusters](figure/motifClusters241.png) ![plot of chunk motifClusters](figure/motifClusters242.png) ![plot of chunk motifClusters](figure/motifClusters243.png) ![plot of chunk motifClusters](figure/motifClusters244.png) ![plot of chunk motifClusters](figure/motifClusters245.png) ![plot of chunk motifClusters](figure/motifClusters246.png) ![plot of chunk motifClusters](figure/motifClusters247.png) ![plot of chunk motifClusters](figure/motifClusters248.png) ![plot of chunk motifClusters](figure/motifClusters249.png) ![plot of chunk motifClusters](figure/motifClusters250.png) 
 
 
 ---
