@@ -179,121 +179,180 @@ Branch length compared to ancestral as percent of alignable genome
 
 Note that the following numbers are only for motifs that have been clustered
 
-
-```
-## Error: $ operator is invalid for atomic vectors
-```
-
 Number of motifs (clusters) per test and lineage
 
-```
-## Error: data is too long
-```
 
+|       |FAM       |AMS      |Spretus  |AM       |PWKPhJ |CASTEiJ |CASTEiJ.PWKPhJ |WSBEiJ |WSBEiJ.PWKPhJ |WSBEiJ.CASTEiJ |
+|:------|:---------|:--------|:--------|:--------|:------|:-------|:--------------|:------|:-------------|:--------------|
+|at     |124 (5)   |8 (5)    |449 (12) |109 (8)  |0 (0)  |2 (2)   |0 (0)          |13 (5) |0 (0)         |0 (0)          |
+|lin    |32 (7)    |82 (13)  |373 (18) |386 (9)  |2 (2)  |6 (3)   |0 (0)          |9 (2)  |0 (0)         |1 (1)          |
+|shared |1633 (45) |431 (43) |923 (40) |548 (19) |26 (1) |34 (5)  |9 (3)          |27 (7) |2 (2)         |2 (2)          |
 FAM
-No significant results
 
+
+|       |nonRepeat |(CA)n  |(TG)n  |B1_Mus1 |B1_Mus2 |RSINE1 |B2_Mm2 |B1_Mm  |B3     |B2_Mm1t |ID_B1 |(TATG)n |(TCTA)n |AT_rich |Lx8   |URR1A |MTD   |(TAGA)n |URR1B |B4    |RLTR15 |B1_Mur4 |RMER1B |
+|:------|:---------|:------|:------|:-------|:-------|:------|:------|:------|:------|:-------|:-----|:-------|:-------|:-------|:-----|:-----|:-----|:-------|:-----|:-----|:------|:-------|:------|
+|at     |124 (5)   |0 (0)  |0 (0)  |0 (0)   |0 (0)   |0 (0)  |0 (0)  |0 (0)  |0 (0)  |0 (0)   |0 (0) |0 (0)   |0 (0)   |0 (0)   |0 (0) |0 (0) |0 (0) |0 (0)   |0 (0) |0 (0) |0 (0)  |0 (0)   |0 (0)  |
+|lin    |24 (4)    |0 (0)  |0 (0)  |0 (0)   |0 (0)   |4 (1)  |0 (0)  |0 (0)  |0 (0)  |0 (0)   |1 (1) |0 (0)   |0 (0)   |0 (0)   |3 (1) |0 (0) |0 (0) |0 (0)   |0 (0) |0 (0) |0 (0)  |0 (0)   |0 (0)  |
+|shared |1216 (4)  |88 (2) |81 (1) |61 (5)  |39 (1)  |25 (2) |24 (7) |17 (4) |14 (1) |8 (4)   |7 (2) |8 (1)   |8 (1)   |7 (1)   |4 (1) |6 (1) |5 (1) |5 (1)   |4 (1) |2 (1) |2 (1)  |1 (1)   |1 (1)  |
 AMS
-No significant results
 
+
+|       |nonRepeat |RSINE1 |B1_Mus1 |B1_Mus2 |B1_Mm  |B3    |B2_Mm2 |B4A   |ORR1C2 |B4    |RLTR23 |AT_rich |B3A   |(TAGA)n |(CA)n |(TG)n |ID_B1 |RMER19C |(TCTA)n |
+|:------|:---------|:------|:-------|:-------|:------|:-----|:------|:-----|:------|:-----|:------|:-------|:-----|:-------|:-----|:-----|:-----|:-------|:-------|
+|at     |4 (3)     |1 (1)  |0 (0)   |0 (0)   |0 (0)  |0 (0) |0 (0)  |3 (1) |0 (0)  |0 (0) |0 (0)  |0 (0)   |0 (0) |0 (0)   |0 (0) |0 (0) |0 (0) |0 (0)   |0 (0)   |
+|lin    |53 (7)    |17 (1) |1 (1)   |0 (0)   |0 (0)  |5 (1) |0 (0)  |0 (0) |3 (1)  |1 (1) |2 (1)  |0 (0)   |0 (0) |0 (0)   |0 (0) |0 (0) |0 (0) |0 (0)   |0 (0)   |
+|shared |253 (6)   |45 (1) |30 (1)  |30 (5)  |22 (5) |6 (1) |10 (6) |6 (3) |5 (1)  |5 (1) |3 (1)  |3 (1)   |3 (2) |3 (2)   |2 (2) |2 (2) |1 (1) |1 (1)   |1 (1)   |
 Spretus
-No significant results
 
+
+|       |nonRepeat |B3A    |Lx3C   |B4A    |RMER17C |AT_rich |B3     |(TG)n  |RSINE1 |URR1A |(CA)n |B2_Mm2 |URR1B |Lx9   |B1_Mus1 |B1_Mus2 |Lx2B  |(TAGA)n |B1_Mm |B4    |ID_B1 |MTEa  |
+|:------|:---------|:------|:------|:------|:-------|:-------|:------|:------|:------|:-----|:-----|:------|:-----|:-----|:-------|:-------|:-----|:-------|:-----|:-----|:-----|:-----|
+|at     |407 (4)   |19 (1) |0 (0)  |12 (1) |0 (0)   |0 (0)   |2 (1)  |0 (0)  |1 (1)  |0 (0) |0 (0) |0 (0)  |1 (1) |4 (1) |0 (0)   |0 (0)   |0 (0) |2 (1)   |0 (0) |0 (0) |1 (1) |0 (0) |
+|lin    |332 (7)   |10 (1) |11 (1) |2 (2)  |7 (1)   |0 (0)   |0 (0)  |2 (1)  |4 (1)  |1 (1) |2 (1) |0 (0)  |0 (0) |1 (1) |0 (0)   |0 (0)   |1 (1) |0 (0)   |0 (0) |0 (0) |0 (0) |0 (0) |
+|shared |788 (6)   |29 (2) |12 (1) |4 (3)  |9 (1)   |15 (1)  |12 (1) |11 (5) |5 (1)  |8 (1) |6 (5) |7 (4)  |6 (1) |1 (1) |4 (2)   |2 (1)   |1 (1) |0 (0)   |1 (1) |1 (1) |0 (0) |1 (1) |
 AM
-No significant results
 
+
+|       |nonRepeat |ID_B1  |RSINE1 |B3    |B1_Mm |B1_Mus2 |B4A   |AT_rich |(TCTA)n |ID4   |
+|:------|:---------|:------|:------|:-----|:-----|:-------|:-----|:-------|:-------|:-----|
+|at     |103 (6)   |0 (0)  |0 (0)  |5 (1) |0 (0) |0 (0)   |0 (0) |0 (0)   |0 (0)   |1 (1) |
+|lin    |366 (4)   |7 (2)  |7 (1)  |5 (1) |0 (0) |0 (0)   |1 (1) |0 (0)   |0 (0)   |0 (0) |
+|shared |489 (3)   |17 (2) |14 (2) |8 (2) |6 (3) |6 (3)   |3 (2) |3 (1)   |2 (1)   |0 (0) |
 PWKPhJ
-No significant results
 
+
+|       |nonRepeat |
+|:------|:---------|
+|lin    |2 (2)     |
+|shared |26 (1)    |
 CASTEiJ
-No significant results
 
+
+|       |nonRepeat |AT_rich |MTD   |
+|:------|:---------|:-------|:-----|
+|at     |2 (2)     |0 (0)   |0 (0) |
+|lin    |5 (2)     |0 (0)   |1 (1) |
+|shared |29 (3)    |4 (1)   |1 (1) |
 CASTEiJ.PWKPhJ
-No significant results
 
+
+|       |AT_rich |nonRepeat |
+|:------|:-------|:---------|
+|shared |1 (1)   |8 (2)     |
 WSBEiJ
-No significant results
 
+
+|       |nonRepeat |(TG)n |
+|:------|:---------|:-----|
+|at     |13 (5)    |0 (0) |
+|lin    |9 (2)     |0 (0) |
+|shared |26 (6)    |1 (1) |
 WSBEiJ.PWKPhJ
-No significant results
 
+
+|       |nonRepeat |
+|:------|:---------|
+|shared |2 (2)     |
 WSBEiJ.CASTEiJ
-No significant results
+
+
+|       |RSINE1 |nonRepeat |
+|:------|:------|:---------|
+|lin    |1 (1)  |0 (0)     |
+|shared |1 (1)  |1 (1)     |
 
 ---
 
 ## Features of significant motifs
 
+Test: lin 
+AT content 
 
-```
-## Features of top associated motifs
-```
 
-```
-## Test: lin 
-## AT content 
-##                  
-##                     0   1   2    3    4    5    6    7   8   9  10
-##   not significant 0.0 0.6 3.2 10.0 20.1 25.6 21.6 12.4 4.9 1.3 0.3
-##   significant     0.3 1.2 1.2  3.3 11.8 27.9 27.8 13.4 3.5 6.1 3.4
-## Number of CpGs 
-##                  
-##                      0    1   2 3 4
-##   not significant 69.3 28.6 2.1 0 0
-##   significant     99.8  0.2 0.0 0 0
-## Maximum run length 
-##                  
-##                     1    2    3   4   5   6   7   8   9  10
-##   not significant 7.2 54.7 28.3 7.6 1.8 0.3 0.1 0.0 0.0 0.0
-##   significant     8.1 59.8 15.3 1.7 1.5 2.1 5.9 4.2 1.1 0.2
-## Nucleotide diversity 
-##                  
-##                     1   2    3    4
-##   not significant 0.0 1.9 23.4 74.7
-##   significant     0.2 9.2 33.4 57.1
-## Test: shared 
-## AT content 
-##                  
-##                     0   1   2    3    4    5    6    7    8    9  10
-##   not significant 0.0 0.6 3.2 10.1 20.2 25.6 21.6 12.4  4.8  1.2 0.3
-##   significant     0.2 1.2 2.0  3.8  7.6 16.3 19.3 19.6 16.7 10.1 3.3
-## Number of CpGs 
-##                  
-##                      0    1   2 3 4
-##   not significant 69.1 28.8 2.1 0 0
-##   significant     97.5  2.2 0.3 0 0
-## Maximum run length 
-##                  
-##                      1    2    3    4   5   6   7   8   9 10
-##   not significant  7.2 54.8 28.4  7.6 1.7 0.3 0.0 0.0 0.0  0
-##   significant     10.5 37.0 25.1 13.8 5.0 3.8 3.6 0.9 0.2  0
-## Nucleotide diversity 
-##                  
-##                   1    2    3    4
-##   not significant 0  1.8 23.2 75.0
-##   significant     0 12.2 45.7 42.1
-## Test: at 
-## AT content 
-##                  
-##                   0   1   2   3    4    5    6    7   8   9  10
-##   not significant 0 0.3 2.5 9.2 19.4 25.8 22.8 13.3 5.1 1.3 0.3
-##   significant     0 0.0 0.4 2.8  8.7 26.4 30.7 21.7 5.9 1.9 1.6
-## Number of CpGs 
-##                  
-##                      0    1   2 3
-##   not significant 67.9 32.0 0.1 0
-##   significant     99.5  0.5 0.0 0
-## Maximum run length 
-##                  
-##                     1    2    3   4   5   6   7   8   9  10
-##   not significant 7.2 55.2 28.2 7.4 1.6 0.3 0.1 0.0 0.0 0.0
-##   significant     4.7 59.4 26.8 2.5 1.3 1.5 1.7 1.3 0.5 0.1
-## Nucleotide diversity 
-##                  
-##                     1   2    3    4
-##   not significant 0.0 1.3 22.3 76.5
-##   significant     0.1 6.0 36.7 57.2
-```
+|                |   0|   1|   2|    3|    4|    5|    6|    7|   8|   9|  10|
+|:---------------|---:|---:|---:|----:|----:|----:|----:|----:|---:|---:|---:|
+|not significant | 0.0| 0.6| 3.2| 10.0| 20.1| 25.6| 21.6| 12.4| 4.9| 1.3| 0.3|
+|significant     | 0.3| 1.2| 1.2|  3.3| 11.8| 27.9| 27.8| 13.4| 3.5| 6.1| 3.4|
+Number of CpGs 
+
+
+|                |    0|    1|   2|   3|   4|
+|:---------------|----:|----:|---:|---:|---:|
+|not significant | 69.3| 28.6| 2.1| 0.0| 0.0|
+|significant     | 99.8|  0.2| 0.0| 0.0| 0.0|
+Maximum run length 
+
+
+|                |   1|    2|    3|   4|   5|   6|   7|   8|   9|  10|
+|:---------------|---:|----:|----:|---:|---:|---:|---:|---:|---:|---:|
+|not significant | 7.2| 54.7| 28.3| 7.6| 1.8| 0.3| 0.1| 0.0| 0.0| 0.0|
+|significant     | 8.1| 59.8| 15.3| 1.7| 1.5| 2.1| 5.9| 4.2| 1.1| 0.2|
+Nucleotide diversity 
+
+
+|                |   1|   2|    3|    4|
+|:---------------|---:|---:|----:|----:|
+|not significant | 0.0| 1.9| 23.4| 74.7|
+|significant     | 0.2| 9.2| 33.4| 57.1|
+Test: shared 
+AT content 
+
+
+|                |   0|   1|   2|    3|    4|    5|    6|    7|    8|    9|  10|
+|:---------------|---:|---:|---:|----:|----:|----:|----:|----:|----:|----:|---:|
+|not significant | 0.0| 0.6| 3.2| 10.1| 20.2| 25.6| 21.6| 12.4|  4.8|  1.2| 0.3|
+|significant     | 0.2| 1.2| 2.0|  3.8|  7.6| 16.3| 19.3| 19.6| 16.7| 10.1| 3.3|
+Number of CpGs 
+
+
+|                |    0|    1|   2|   3|   4|
+|:---------------|----:|----:|---:|---:|---:|
+|not significant | 69.1| 28.8| 2.1| 0.0| 0.0|
+|significant     | 97.5|  2.2| 0.3| 0.0| 0.0|
+Maximum run length 
+
+
+|                |    1|    2|    3|    4|   5|   6|   7|   8|   9|  10|
+|:---------------|----:|----:|----:|----:|---:|---:|---:|---:|---:|---:|
+|not significant |  7.2| 54.8| 28.4|  7.6| 1.7| 0.3| 0.0| 0.0| 0.0| 0.0|
+|significant     | 10.5| 37.0| 25.1| 13.8| 5.0| 3.8| 3.6| 0.9| 0.2| 0.0|
+Nucleotide diversity 
+
+
+|                |   1|    2|    3|    4|
+|:---------------|---:|----:|----:|----:|
+|not significant | 0.0|  1.8| 23.2| 75.0|
+|significant     | 0.0| 12.2| 45.7| 42.1|
+Test: at 
+AT content 
+
+
+|                |   0|   1|   2|   3|    4|    5|    6|    7|   8|   9|  10|
+|:---------------|---:|---:|---:|---:|----:|----:|----:|----:|---:|---:|---:|
+|not significant | 0.0| 0.3| 2.5| 9.2| 19.4| 25.8| 22.8| 13.3| 5.1| 1.3| 0.3|
+|significant     | 0.0| 0.0| 0.4| 2.8|  8.7| 26.4| 30.7| 21.7| 5.9| 1.9| 1.6|
+Number of CpGs 
+
+
+|                |    0|    1|   2|   3|
+|:---------------|----:|----:|---:|---:|
+|not significant | 67.9| 32.0| 0.1| 0.0|
+|significant     | 99.5|  0.5| 0.0| 0.0|
+Maximum run length 
+
+
+|                |   1|    2|    3|   4|   5|   6|   7|   8|   9|  10|
+|:---------------|---:|----:|----:|---:|---:|---:|---:|---:|---:|---:|
+|not significant | 7.2| 55.2| 28.2| 7.4| 1.6| 0.3| 0.1| 0.0| 0.0| 0.0|
+|significant     | 4.7| 59.4| 26.8| 2.5| 1.3| 1.5| 1.7| 1.3| 0.5| 0.1|
+Nucleotide diversity 
+
+
+|                |   1|   2|    3|    4|
+|:---------------|---:|---:|----:|----:|
+|not significant | 0.0| 1.3| 22.3| 76.5|
+|significant     | 0.1| 6.0| 36.7| 57.2|
 ---
 
 
@@ -304,16 +363,7 @@ No significant results
 
 ## Compare p-values between methods
 
-
-```
-## Warning: numerical expression has 3 elements: only the first used
-```
-
-```
-## Error: NA/NaN argument
-```
-
-![plot of chunk pvaluesBetweenMethods](figure/pvaluesBetweenMethods.png) 
+![plot of chunk pvaluesBetweenMethods](figure/pvaluesBetweenMethods1.png) ![plot of chunk pvaluesBetweenMethods](figure/pvaluesBetweenMethods2.png) ![plot of chunk pvaluesBetweenMethods](figure/pvaluesBetweenMethods3.png) 
 ---
 
 
