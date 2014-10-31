@@ -353,7 +353,72 @@ Nucleotide diversity
 |significant     | 0.1| 6.0| 36.7| 57.2|
 ---
 
+
+## PWK results on CAST top results
+
+Other methods have implied that M. m. musculus might have a PRDM9 allele similar to the CAST motif, but there are no de novo PWK motifs. Here, we look at the p-values for the top CAST motif in the other strainw
+
+
+```
+## Test: lin
+## 
+## 
+## |           |p_WSBEiJ |or_WSBEiJ |p_PWKPhJ |or_PWKPhJ |p_CASTEiJ |or_CASTEiJ |
+## |:----------|:--------|:---------|:--------|:---------|:---------|:----------|
+## |CCAAGTCTGC |0.63     |1.06      |0.28     |0.86      |4.6e-06   |1.62       |
+## |CAGACTTGGC |0.14     |1.2       |0.53     |0.91      |1.3e-05   |1.63       |
+## |AGACTTGGAT |0.57     |1.07      |0.21     |1.15      |4e-08     |1.8        |
+## |AGACTTGGCT |0.048    |1.23      |0.038    |0.77      |8.6e-07   |1.63       |
+## |AGACTTTGCT |0.78     |1.03      |0.91     |1.01      |3.2e-10   |1.82       |
+## |AATCCAAGTC |0.68     |0.93      |0.89     |0.97      |2.4e-15   |2.38       |
+## |AAGCCAAGTC |0.038    |1.25      |0.73     |0.95      |4.6e-11   |1.89       |
+## |AATCCCAGTC |0.78     |1.03      |0.18     |0.81      |5.5e-08   |1.87       |
+## |AAGCAAAGTC |0.38     |1.1       |0.51     |0.92      |1.1e-11   |1.87       |
+## |AAGCCCAGTC |0.13     |1.2       |1        |1         |1.9e-08   |1.83       |
+## |AAATCCAAGT |0.66     |0.94      |0.3      |1.11      |2.6e-05   |1.51       |
+## |ACTTGGATTC |0.78     |0.95      |0.49     |0.89      |3.9e-05   |1.65       |
+## Test: lin
+## 
+## 
+## |           |p_WSBEiJ |or_WSBEiJ |p_PWKPhJ |or_PWKPhJ |p_CASTEiJ |or_CASTEiJ |
+## |:----------|:--------|:---------|:--------|:---------|:---------|:----------|
+## |CCAAGTCTGC |0.3      |1.06      |0.63     |0.86      |6.5e-07   |1.62       |
+## |CAGACTTGGC |0.22     |1.2       |0.43     |0.91      |6.5e-05   |1.63       |
+## |AGACTTGGAT |0.25     |1.07      |0.067    |1.15      |3.1e-09   |1.8        |
+## |AGACTTGGCT |0.035    |1.23      |0.068    |0.77      |1e-06     |1.63       |
+## |AGACTTTGCT |0.78     |1.03      |0.91     |1.01      |2.2e-09   |1.82       |
+## |AATCCAAGTC |1        |0.93      |0.83     |0.97      |1.1e-15   |2.38       |
+## |AAGCCAAGTC |0.009    |1.25      |0.86     |0.95      |5.9e-12   |1.89       |
+## |AATCCCAGTC |0.034    |1.03      |0.65     |0.81      |1.2e-12   |1.87       |
+## |AAGCAAAGTC |0.21     |1.1       |0.83     |0.92      |4.6e-12   |1.87       |
+## |AAGCCCAGTC |0.0029   |1.2       |0.14     |1         |5.6e-12   |1.83       |
+## |AAATCCAAGT |0.46     |0.94      |0.53     |1.11      |0.00026   |1.51       |
+## |ACTTGGATTC |0.89     |0.95      |0.83     |0.89      |9.6e-06   |1.65       |
+## Test: lin
+## 
+## 
+## |           |p_WSBEiJ |or_WSBEiJ |p_PWKPhJ |or_PWKPhJ |p_CASTEiJ |or_CASTEiJ |
+## |:----------|:--------|:---------|:--------|:---------|:---------|:----------|
+## |ACTTATAAGC |0.24     |0.94      |NA       |0.98      |0.013     |0.99       |
+## |GCCTTTGTCC |0.11     |1.16      |0.89     |0.94      |0.26      |0.9        |
+## |CCAAGCGCGG |0.8      |NA        |0.33     |NA        |0.1       |NA         |
+## |AAGTCTGTGG |0.021    |1.1       |0.89     |1.01      |6.3e-05   |1.28       |
+## |AAAACCTTGG |1        |1.06      |1        |1         |9e-08     |0.71       |
+## |ATCAGGGGGC |0.00093  |1.47      |0.89     |0.91      |0.0041    |0.91       |
+## |AACAGGGGGC |0.0028   |1.07      |1        |0.82      |1.9e-09   |0.97       |
+## |ACGGCTGGGC |0.015    |0.81      |0.34     |0.48      |1e-04     |1.05       |
+## |AGCACGGGGC |0.085    |1.22      |0.16     |0.96      |3.9e-07   |1.14       |
+## |CCCGCTGGGC |0.8      |0.95      |1        |1.03      |0.019     |0.99       |
+## |ATTAGACATG |0.00077  |1.07      |0.062    |1.08      |0.58      |0.81       |
+## |ACCGGAGTGC |0.05     |1.18      |0.46     |NA        |0.068     |NA         |
+```
+---
+
+
+
 ## Giant AT to GC plot
+
+All clustered AT to GC plots collapsed together 
 
 ![plot of chunk atToGCAll](figure/atToGCAll.png) 
 ---
@@ -380,7 +445,1560 @@ Nucleotide diversity
 
 ## All significant motifs
 
-![plot of chunk motifClusters](figure/motifClusters1.png) ![plot of chunk motifClusters](figure/motifClusters2.png) ![plot of chunk motifClusters](figure/motifClusters3.png) ![plot of chunk motifClusters](figure/motifClusters4.png) ![plot of chunk motifClusters](figure/motifClusters5.png) ![plot of chunk motifClusters](figure/motifClusters6.png) ![plot of chunk motifClusters](figure/motifClusters7.png) ![plot of chunk motifClusters](figure/motifClusters8.png) ![plot of chunk motifClusters](figure/motifClusters9.png) ![plot of chunk motifClusters](figure/motifClusters10.png) ![plot of chunk motifClusters](figure/motifClusters11.png) ![plot of chunk motifClusters](figure/motifClusters12.png) ![plot of chunk motifClusters](figure/motifClusters13.png) ![plot of chunk motifClusters](figure/motifClusters14.png) ![plot of chunk motifClusters](figure/motifClusters15.png) ![plot of chunk motifClusters](figure/motifClusters16.png) ![plot of chunk motifClusters](figure/motifClusters17.png) ![plot of chunk motifClusters](figure/motifClusters18.png) ![plot of chunk motifClusters](figure/motifClusters19.png) ![plot of chunk motifClusters](figure/motifClusters20.png) ![plot of chunk motifClusters](figure/motifClusters21.png) ![plot of chunk motifClusters](figure/motifClusters22.png) ![plot of chunk motifClusters](figure/motifClusters23.png) ![plot of chunk motifClusters](figure/motifClusters24.png) ![plot of chunk motifClusters](figure/motifClusters25.png) ![plot of chunk motifClusters](figure/motifClusters26.png) ![plot of chunk motifClusters](figure/motifClusters27.png) ![plot of chunk motifClusters](figure/motifClusters28.png) ![plot of chunk motifClusters](figure/motifClusters29.png) ![plot of chunk motifClusters](figure/motifClusters30.png) ![plot of chunk motifClusters](figure/motifClusters31.png) ![plot of chunk motifClusters](figure/motifClusters32.png) ![plot of chunk motifClusters](figure/motifClusters33.png) ![plot of chunk motifClusters](figure/motifClusters34.png) ![plot of chunk motifClusters](figure/motifClusters35.png) ![plot of chunk motifClusters](figure/motifClusters36.png) ![plot of chunk motifClusters](figure/motifClusters37.png) ![plot of chunk motifClusters](figure/motifClusters38.png) ![plot of chunk motifClusters](figure/motifClusters39.png) ![plot of chunk motifClusters](figure/motifClusters40.png) ![plot of chunk motifClusters](figure/motifClusters41.png) ![plot of chunk motifClusters](figure/motifClusters42.png) ![plot of chunk motifClusters](figure/motifClusters43.png) ![plot of chunk motifClusters](figure/motifClusters44.png) ![plot of chunk motifClusters](figure/motifClusters45.png) ![plot of chunk motifClusters](figure/motifClusters46.png) ![plot of chunk motifClusters](figure/motifClusters47.png) ![plot of chunk motifClusters](figure/motifClusters48.png) ![plot of chunk motifClusters](figure/motifClusters49.png) ![plot of chunk motifClusters](figure/motifClusters50.png) ![plot of chunk motifClusters](figure/motifClusters51.png) ![plot of chunk motifClusters](figure/motifClusters52.png) ![plot of chunk motifClusters](figure/motifClusters53.png) ![plot of chunk motifClusters](figure/motifClusters54.png) ![plot of chunk motifClusters](figure/motifClusters55.png) ![plot of chunk motifClusters](figure/motifClusters56.png) ![plot of chunk motifClusters](figure/motifClusters57.png) ![plot of chunk motifClusters](figure/motifClusters58.png) ![plot of chunk motifClusters](figure/motifClusters59.png) ![plot of chunk motifClusters](figure/motifClusters60.png) ![plot of chunk motifClusters](figure/motifClusters61.png) ![plot of chunk motifClusters](figure/motifClusters62.png) ![plot of chunk motifClusters](figure/motifClusters63.png) ![plot of chunk motifClusters](figure/motifClusters64.png) ![plot of chunk motifClusters](figure/motifClusters65.png) ![plot of chunk motifClusters](figure/motifClusters66.png) ![plot of chunk motifClusters](figure/motifClusters67.png) ![plot of chunk motifClusters](figure/motifClusters68.png) ![plot of chunk motifClusters](figure/motifClusters69.png) ![plot of chunk motifClusters](figure/motifClusters70.png) ![plot of chunk motifClusters](figure/motifClusters71.png) ![plot of chunk motifClusters](figure/motifClusters72.png) ![plot of chunk motifClusters](figure/motifClusters73.png) ![plot of chunk motifClusters](figure/motifClusters74.png) ![plot of chunk motifClusters](figure/motifClusters75.png) ![plot of chunk motifClusters](figure/motifClusters76.png) ![plot of chunk motifClusters](figure/motifClusters77.png) ![plot of chunk motifClusters](figure/motifClusters78.png) ![plot of chunk motifClusters](figure/motifClusters79.png) ![plot of chunk motifClusters](figure/motifClusters80.png) ![plot of chunk motifClusters](figure/motifClusters81.png) ![plot of chunk motifClusters](figure/motifClusters82.png) ![plot of chunk motifClusters](figure/motifClusters83.png) ![plot of chunk motifClusters](figure/motifClusters84.png) ![plot of chunk motifClusters](figure/motifClusters85.png) ![plot of chunk motifClusters](figure/motifClusters86.png) ![plot of chunk motifClusters](figure/motifClusters87.png) ![plot of chunk motifClusters](figure/motifClusters88.png) ![plot of chunk motifClusters](figure/motifClusters89.png) ![plot of chunk motifClusters](figure/motifClusters90.png) ![plot of chunk motifClusters](figure/motifClusters91.png) ![plot of chunk motifClusters](figure/motifClusters92.png) ![plot of chunk motifClusters](figure/motifClusters93.png) ![plot of chunk motifClusters](figure/motifClusters94.png) ![plot of chunk motifClusters](figure/motifClusters95.png) ![plot of chunk motifClusters](figure/motifClusters96.png) ![plot of chunk motifClusters](figure/motifClusters97.png) ![plot of chunk motifClusters](figure/motifClusters98.png) ![plot of chunk motifClusters](figure/motifClusters99.png) ![plot of chunk motifClusters](figure/motifClusters100.png) ![plot of chunk motifClusters](figure/motifClusters101.png) ![plot of chunk motifClusters](figure/motifClusters102.png) ![plot of chunk motifClusters](figure/motifClusters103.png) ![plot of chunk motifClusters](figure/motifClusters104.png) ![plot of chunk motifClusters](figure/motifClusters105.png) ![plot of chunk motifClusters](figure/motifClusters106.png) ![plot of chunk motifClusters](figure/motifClusters107.png) ![plot of chunk motifClusters](figure/motifClusters108.png) ![plot of chunk motifClusters](figure/motifClusters109.png) ![plot of chunk motifClusters](figure/motifClusters110.png) ![plot of chunk motifClusters](figure/motifClusters111.png) ![plot of chunk motifClusters](figure/motifClusters112.png) ![plot of chunk motifClusters](figure/motifClusters113.png) ![plot of chunk motifClusters](figure/motifClusters114.png) ![plot of chunk motifClusters](figure/motifClusters115.png) ![plot of chunk motifClusters](figure/motifClusters116.png) ![plot of chunk motifClusters](figure/motifClusters117.png) ![plot of chunk motifClusters](figure/motifClusters118.png) ![plot of chunk motifClusters](figure/motifClusters119.png) ![plot of chunk motifClusters](figure/motifClusters120.png) ![plot of chunk motifClusters](figure/motifClusters121.png) ![plot of chunk motifClusters](figure/motifClusters122.png) ![plot of chunk motifClusters](figure/motifClusters123.png) ![plot of chunk motifClusters](figure/motifClusters124.png) ![plot of chunk motifClusters](figure/motifClusters125.png) ![plot of chunk motifClusters](figure/motifClusters126.png) ![plot of chunk motifClusters](figure/motifClusters127.png) ![plot of chunk motifClusters](figure/motifClusters128.png) ![plot of chunk motifClusters](figure/motifClusters129.png) ![plot of chunk motifClusters](figure/motifClusters130.png) ![plot of chunk motifClusters](figure/motifClusters131.png) ![plot of chunk motifClusters](figure/motifClusters132.png) ![plot of chunk motifClusters](figure/motifClusters133.png) ![plot of chunk motifClusters](figure/motifClusters134.png) ![plot of chunk motifClusters](figure/motifClusters135.png) ![plot of chunk motifClusters](figure/motifClusters136.png) ![plot of chunk motifClusters](figure/motifClusters137.png) ![plot of chunk motifClusters](figure/motifClusters138.png) ![plot of chunk motifClusters](figure/motifClusters139.png) ![plot of chunk motifClusters](figure/motifClusters140.png) ![plot of chunk motifClusters](figure/motifClusters141.png) ![plot of chunk motifClusters](figure/motifClusters142.png) ![plot of chunk motifClusters](figure/motifClusters143.png) ![plot of chunk motifClusters](figure/motifClusters144.png) ![plot of chunk motifClusters](figure/motifClusters145.png) ![plot of chunk motifClusters](figure/motifClusters146.png) ![plot of chunk motifClusters](figure/motifClusters147.png) ![plot of chunk motifClusters](figure/motifClusters148.png) ![plot of chunk motifClusters](figure/motifClusters149.png) ![plot of chunk motifClusters](figure/motifClusters150.png) ![plot of chunk motifClusters](figure/motifClusters151.png) ![plot of chunk motifClusters](figure/motifClusters152.png) ![plot of chunk motifClusters](figure/motifClusters153.png) ![plot of chunk motifClusters](figure/motifClusters154.png) ![plot of chunk motifClusters](figure/motifClusters155.png) ![plot of chunk motifClusters](figure/motifClusters156.png) ![plot of chunk motifClusters](figure/motifClusters157.png) ![plot of chunk motifClusters](figure/motifClusters158.png) ![plot of chunk motifClusters](figure/motifClusters159.png) ![plot of chunk motifClusters](figure/motifClusters160.png) ![plot of chunk motifClusters](figure/motifClusters161.png) ![plot of chunk motifClusters](figure/motifClusters162.png) ![plot of chunk motifClusters](figure/motifClusters163.png) ![plot of chunk motifClusters](figure/motifClusters164.png) ![plot of chunk motifClusters](figure/motifClusters165.png) ![plot of chunk motifClusters](figure/motifClusters166.png) ![plot of chunk motifClusters](figure/motifClusters167.png) ![plot of chunk motifClusters](figure/motifClusters168.png) ![plot of chunk motifClusters](figure/motifClusters169.png) ![plot of chunk motifClusters](figure/motifClusters170.png) ![plot of chunk motifClusters](figure/motifClusters171.png) ![plot of chunk motifClusters](figure/motifClusters172.png) ![plot of chunk motifClusters](figure/motifClusters173.png) ![plot of chunk motifClusters](figure/motifClusters174.png) ![plot of chunk motifClusters](figure/motifClusters175.png) ![plot of chunk motifClusters](figure/motifClusters176.png) ![plot of chunk motifClusters](figure/motifClusters177.png) ![plot of chunk motifClusters](figure/motifClusters178.png) ![plot of chunk motifClusters](figure/motifClusters179.png) ![plot of chunk motifClusters](figure/motifClusters180.png) ![plot of chunk motifClusters](figure/motifClusters181.png) ![plot of chunk motifClusters](figure/motifClusters182.png) ![plot of chunk motifClusters](figure/motifClusters183.png) ![plot of chunk motifClusters](figure/motifClusters184.png) ![plot of chunk motifClusters](figure/motifClusters185.png) ![plot of chunk motifClusters](figure/motifClusters186.png) ![plot of chunk motifClusters](figure/motifClusters187.png) ![plot of chunk motifClusters](figure/motifClusters188.png) ![plot of chunk motifClusters](figure/motifClusters189.png) ![plot of chunk motifClusters](figure/motifClusters190.png) ![plot of chunk motifClusters](figure/motifClusters191.png) ![plot of chunk motifClusters](figure/motifClusters192.png) ![plot of chunk motifClusters](figure/motifClusters193.png) ![plot of chunk motifClusters](figure/motifClusters194.png) ![plot of chunk motifClusters](figure/motifClusters195.png) ![plot of chunk motifClusters](figure/motifClusters196.png) ![plot of chunk motifClusters](figure/motifClusters197.png) ![plot of chunk motifClusters](figure/motifClusters198.png) ![plot of chunk motifClusters](figure/motifClusters199.png) ![plot of chunk motifClusters](figure/motifClusters200.png) ![plot of chunk motifClusters](figure/motifClusters201.png) ![plot of chunk motifClusters](figure/motifClusters202.png) ![plot of chunk motifClusters](figure/motifClusters203.png) ![plot of chunk motifClusters](figure/motifClusters204.png) ![plot of chunk motifClusters](figure/motifClusters205.png) ![plot of chunk motifClusters](figure/motifClusters206.png) ![plot of chunk motifClusters](figure/motifClusters207.png) ![plot of chunk motifClusters](figure/motifClusters208.png) ![plot of chunk motifClusters](figure/motifClusters209.png) ![plot of chunk motifClusters](figure/motifClusters210.png) ![plot of chunk motifClusters](figure/motifClusters211.png) ![plot of chunk motifClusters](figure/motifClusters212.png) ![plot of chunk motifClusters](figure/motifClusters213.png) ![plot of chunk motifClusters](figure/motifClusters214.png) ![plot of chunk motifClusters](figure/motifClusters215.png) ![plot of chunk motifClusters](figure/motifClusters216.png) ![plot of chunk motifClusters](figure/motifClusters217.png) ![plot of chunk motifClusters](figure/motifClusters218.png) ![plot of chunk motifClusters](figure/motifClusters219.png) ![plot of chunk motifClusters](figure/motifClusters220.png) ![plot of chunk motifClusters](figure/motifClusters221.png) ![plot of chunk motifClusters](figure/motifClusters222.png) ![plot of chunk motifClusters](figure/motifClusters223.png) ![plot of chunk motifClusters](figure/motifClusters224.png) ![plot of chunk motifClusters](figure/motifClusters225.png) ![plot of chunk motifClusters](figure/motifClusters226.png) ![plot of chunk motifClusters](figure/motifClusters227.png) ![plot of chunk motifClusters](figure/motifClusters228.png) ![plot of chunk motifClusters](figure/motifClusters229.png) ![plot of chunk motifClusters](figure/motifClusters230.png) ![plot of chunk motifClusters](figure/motifClusters231.png) ![plot of chunk motifClusters](figure/motifClusters232.png) ![plot of chunk motifClusters](figure/motifClusters233.png) ![plot of chunk motifClusters](figure/motifClusters234.png) ![plot of chunk motifClusters](figure/motifClusters235.png) ![plot of chunk motifClusters](figure/motifClusters236.png) ![plot of chunk motifClusters](figure/motifClusters237.png) ![plot of chunk motifClusters](figure/motifClusters238.png) ![plot of chunk motifClusters](figure/motifClusters239.png) ![plot of chunk motifClusters](figure/motifClusters240.png) ![plot of chunk motifClusters](figure/motifClusters241.png) ![plot of chunk motifClusters](figure/motifClusters242.png) ![plot of chunk motifClusters](figure/motifClusters243.png) ![plot of chunk motifClusters](figure/motifClusters244.png) ![plot of chunk motifClusters](figure/motifClusters245.png) ![plot of chunk motifClusters](figure/motifClusters246.png) ![plot of chunk motifClusters](figure/motifClusters247.png) ![plot of chunk motifClusters](figure/motifClusters248.png) ![plot of chunk motifClusters](figure/motifClusters249.png) ![plot of chunk motifClusters](figure/motifClusters250.png) 
+
+```
+## Lineage, FAM, ID_B1, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters1.png) 
+
+```
+## Lineage, FAM, Lx8, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters2.png) 
+
+```
+## Lineage, FAM, nonRepeat, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters3.png) 
+
+```
+## Lineage, FAM, nonRepeat, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters4.png) 
+
+```
+## Lineage, FAM, nonRepeat, motifNumber = 3
+```
+
+![plot of chunk motifClusters](figure/motifClusters5.png) 
+
+```
+## Lineage, FAM, nonRepeat, motifNumber = 4
+```
+
+![plot of chunk motifClusters](figure/motifClusters6.png) 
+
+```
+## Lineage, FAM, RSINE1, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters7.png) 
+
+```
+## Lineage, AMS, B1_Mus1, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters8.png) 
+
+```
+## Lineage, AMS, B3, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters9.png) 
+
+```
+## Lineage, AMS, B4, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters10.png) 
+
+```
+## Lineage, AMS, nonRepeat, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters11.png) 
+
+```
+## Lineage, AMS, nonRepeat, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters12.png) 
+
+```
+## Lineage, AMS, nonRepeat, motifNumber = 3
+```
+
+![plot of chunk motifClusters](figure/motifClusters13.png) 
+
+```
+## Lineage, AMS, nonRepeat, motifNumber = 4
+```
+
+![plot of chunk motifClusters](figure/motifClusters14.png) 
+
+```
+## Lineage, AMS, nonRepeat, motifNumber = 5
+```
+
+![plot of chunk motifClusters](figure/motifClusters15.png) 
+
+```
+## Lineage, AMS, nonRepeat, motifNumber = 6
+```
+
+![plot of chunk motifClusters](figure/motifClusters16.png) 
+
+```
+## Lineage, AMS, nonRepeat, motifNumber = 7
+```
+
+![plot of chunk motifClusters](figure/motifClusters17.png) 
+
+```
+## Lineage, AMS, ORR1C2, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters18.png) 
+
+```
+## Lineage, AMS, RLTR23, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters19.png) 
+
+```
+## Lineage, AMS, RSINE1, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters20.png) 
+
+```
+## Lineage, Spretus, B3A, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters21.png) 
+
+```
+## Lineage, Spretus, B4A, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters22.png) 
+
+```
+## Lineage, Spretus, B4A, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters23.png) 
+
+```
+## Lineage, Spretus, (CA)n, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters24.png) 
+
+```
+## Lineage, Spretus, Lx2B, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters25.png) 
+
+```
+## Lineage, Spretus, Lx3C, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters26.png) 
+
+```
+## Lineage, Spretus, Lx9, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters27.png) 
+
+```
+## Lineage, Spretus, nonRepeat, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters28.png) 
+
+```
+## Lineage, Spretus, nonRepeat, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters29.png) 
+
+```
+## Lineage, Spretus, nonRepeat, motifNumber = 3
+```
+
+![plot of chunk motifClusters](figure/motifClusters30.png) 
+
+```
+## Lineage, Spretus, nonRepeat, motifNumber = 4
+```
+
+![plot of chunk motifClusters](figure/motifClusters31.png) 
+
+```
+## Lineage, Spretus, nonRepeat, motifNumber = 5
+```
+
+![plot of chunk motifClusters](figure/motifClusters32.png) 
+
+```
+## Lineage, Spretus, nonRepeat, motifNumber = 6
+```
+
+![plot of chunk motifClusters](figure/motifClusters33.png) 
+
+```
+## Lineage, Spretus, nonRepeat, motifNumber = 7
+```
+
+![plot of chunk motifClusters](figure/motifClusters34.png) 
+
+```
+## Lineage, Spretus, RMER17C, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters35.png) 
+
+```
+## Lineage, Spretus, RSINE1, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters36.png) 
+
+```
+## Lineage, Spretus, (TG)n, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters37.png) 
+
+```
+## Lineage, Spretus, URR1A, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters38.png) 
+
+```
+## Lineage, AM, B3, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters39.png) 
+
+```
+## Lineage, AM, B4A, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters40.png) 
+
+```
+## Lineage, AM, ID_B1, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters41.png) 
+
+```
+## Lineage, AM, ID_B1, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters42.png) 
+
+```
+## Lineage, AM, nonRepeat, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters43.png) 
+
+```
+## Lineage, AM, nonRepeat, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters44.png) 
+
+```
+## Lineage, AM, nonRepeat, motifNumber = 3
+```
+
+![plot of chunk motifClusters](figure/motifClusters45.png) 
+
+```
+## Lineage, AM, nonRepeat, motifNumber = 4
+```
+
+![plot of chunk motifClusters](figure/motifClusters46.png) 
+
+```
+## Lineage, AM, RSINE1, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters47.png) 
+
+```
+## Lineage, PWKPhJ, nonRepeat, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters48.png) 
+
+```
+## Lineage, PWKPhJ, nonRepeat, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters49.png) 
+
+```
+## Lineage, CASTEiJ, MTD, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters50.png) 
+
+```
+## Lineage, CASTEiJ, nonRepeat, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters51.png) 
+
+```
+## Lineage, CASTEiJ, nonRepeat, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters52.png) 
+
+```
+## Lineage, WSBEiJ, nonRepeat, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters53.png) 
+
+```
+## Lineage, WSBEiJ, nonRepeat, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters54.png) 
+
+```
+## Lineage, WSBEiJ.CASTEiJ, RSINE1, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters55.png) 
+
+```
+## Shared, FAM, AT_rich, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters56.png) 
+
+```
+## Shared, FAM, B1_Mm, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters57.png) 
+
+```
+## Shared, FAM, B1_Mm, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters58.png) 
+
+```
+## Shared, FAM, B1_Mm, motifNumber = 3
+```
+
+![plot of chunk motifClusters](figure/motifClusters59.png) 
+
+```
+## Shared, FAM, B1_Mm, motifNumber = 4
+```
+
+![plot of chunk motifClusters](figure/motifClusters60.png) 
+
+```
+## Shared, FAM, B1_Mur4, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters61.png) 
+
+```
+## Shared, FAM, B1_Mus1, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters62.png) 
+
+```
+## Shared, FAM, B1_Mus1, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters63.png) 
+
+```
+## Shared, FAM, B1_Mus1, motifNumber = 3
+```
+
+![plot of chunk motifClusters](figure/motifClusters64.png) 
+
+```
+## Shared, FAM, B1_Mus1, motifNumber = 4
+```
+
+![plot of chunk motifClusters](figure/motifClusters65.png) 
+
+```
+## Shared, FAM, B1_Mus1, motifNumber = 5
+```
+
+![plot of chunk motifClusters](figure/motifClusters66.png) 
+
+```
+## Shared, FAM, B1_Mus2, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters67.png) 
+
+```
+## Shared, FAM, B2_Mm1t, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters68.png) 
+
+```
+## Shared, FAM, B2_Mm1t, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters69.png) 
+
+```
+## Shared, FAM, B2_Mm1t, motifNumber = 3
+```
+
+![plot of chunk motifClusters](figure/motifClusters70.png) 
+
+```
+## Shared, FAM, B2_Mm1t, motifNumber = 4
+```
+
+![plot of chunk motifClusters](figure/motifClusters71.png) 
+
+```
+## Shared, FAM, B2_Mm2, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters72.png) 
+
+```
+## Shared, FAM, B2_Mm2, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters73.png) 
+
+```
+## Shared, FAM, B2_Mm2, motifNumber = 3
+```
+
+![plot of chunk motifClusters](figure/motifClusters74.png) 
+
+```
+## Shared, FAM, B2_Mm2, motifNumber = 4
+```
+
+![plot of chunk motifClusters](figure/motifClusters75.png) 
+
+```
+## Shared, FAM, B2_Mm2, motifNumber = 5
+```
+
+![plot of chunk motifClusters](figure/motifClusters76.png) 
+
+```
+## Shared, FAM, B2_Mm2, motifNumber = 6
+```
+
+![plot of chunk motifClusters](figure/motifClusters77.png) 
+
+```
+## Shared, FAM, B2_Mm2, motifNumber = 7
+```
+
+![plot of chunk motifClusters](figure/motifClusters78.png) 
+
+```
+## Shared, FAM, B3, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters79.png) 
+
+```
+## Shared, FAM, B4, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters80.png) 
+
+```
+## Shared, FAM, (CA)n, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters81.png) 
+
+```
+## Shared, FAM, (CA)n, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters82.png) 
+
+```
+## Shared, FAM, ID_B1, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters83.png) 
+
+```
+## Shared, FAM, ID_B1, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters84.png) 
+
+```
+## Shared, FAM, Lx8, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters85.png) 
+
+```
+## Shared, FAM, MTD, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters86.png) 
+
+```
+## Shared, FAM, nonRepeat, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters87.png) 
+
+```
+## Shared, FAM, nonRepeat, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters88.png) 
+
+```
+## Shared, FAM, nonRepeat, motifNumber = 3
+```
+
+![plot of chunk motifClusters](figure/motifClusters89.png) 
+
+```
+## Shared, FAM, nonRepeat, motifNumber = 4
+```
+
+![plot of chunk motifClusters](figure/motifClusters90.png) 
+
+```
+## Shared, FAM, RLTR15, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters91.png) 
+
+```
+## Shared, FAM, RMER1B, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters92.png) 
+
+```
+## Shared, FAM, RSINE1, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters93.png) 
+
+```
+## Shared, FAM, RSINE1, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters94.png) 
+
+```
+## Shared, FAM, (TAGA)n, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters95.png) 
+
+```
+## Shared, FAM, (TATG)n, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters96.png) 
+
+```
+## Shared, FAM, (TCTA)n, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters97.png) 
+
+```
+## Shared, FAM, (TG)n, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters98.png) 
+
+```
+## Shared, FAM, URR1A, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters99.png) 
+
+```
+## Shared, FAM, URR1B, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters100.png) 
+
+```
+## Shared, AMS, AT_rich, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters101.png) 
+
+```
+## Shared, AMS, B1_Mm, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters102.png) 
+
+```
+## Shared, AMS, B1_Mm, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters103.png) 
+
+```
+## Shared, AMS, B1_Mm, motifNumber = 3
+```
+
+![plot of chunk motifClusters](figure/motifClusters104.png) 
+
+```
+## Shared, AMS, B1_Mm, motifNumber = 4
+```
+
+![plot of chunk motifClusters](figure/motifClusters105.png) 
+
+```
+## Shared, AMS, B1_Mm, motifNumber = 5
+```
+
+![plot of chunk motifClusters](figure/motifClusters106.png) 
+
+```
+## Shared, AMS, B1_Mus1, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters107.png) 
+
+```
+## Shared, AMS, B1_Mus2, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters108.png) 
+
+```
+## Shared, AMS, B1_Mus2, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters109.png) 
+
+```
+## Shared, AMS, B1_Mus2, motifNumber = 3
+```
+
+![plot of chunk motifClusters](figure/motifClusters110.png) 
+
+```
+## Shared, AMS, B1_Mus2, motifNumber = 4
+```
+
+![plot of chunk motifClusters](figure/motifClusters111.png) 
+
+```
+## Shared, AMS, B1_Mus2, motifNumber = 5
+```
+
+![plot of chunk motifClusters](figure/motifClusters112.png) 
+
+```
+## Shared, AMS, B2_Mm2, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters113.png) 
+
+```
+## Shared, AMS, B2_Mm2, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters114.png) 
+
+```
+## Shared, AMS, B2_Mm2, motifNumber = 3
+```
+
+![plot of chunk motifClusters](figure/motifClusters115.png) 
+
+```
+## Shared, AMS, B2_Mm2, motifNumber = 4
+```
+
+![plot of chunk motifClusters](figure/motifClusters116.png) 
+
+```
+## Shared, AMS, B2_Mm2, motifNumber = 5
+```
+
+![plot of chunk motifClusters](figure/motifClusters117.png) 
+
+```
+## Shared, AMS, B2_Mm2, motifNumber = 6
+```
+
+![plot of chunk motifClusters](figure/motifClusters118.png) 
+
+```
+## Shared, AMS, B3, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters119.png) 
+
+```
+## Shared, AMS, B3A, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters120.png) 
+
+```
+## Shared, AMS, B3A, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters121.png) 
+
+```
+## Shared, AMS, B4, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters122.png) 
+
+```
+## Shared, AMS, B4A, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters123.png) 
+
+```
+## Shared, AMS, B4A, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters124.png) 
+
+```
+## Shared, AMS, B4A, motifNumber = 3
+```
+
+![plot of chunk motifClusters](figure/motifClusters125.png) 
+
+```
+## Shared, AMS, (CA)n, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters126.png) 
+
+```
+## Shared, AMS, (CA)n, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters127.png) 
+
+```
+## Shared, AMS, ID_B1, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters128.png) 
+
+```
+## Shared, AMS, nonRepeat, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters129.png) 
+
+```
+## Shared, AMS, nonRepeat, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters130.png) 
+
+```
+## Shared, AMS, nonRepeat, motifNumber = 3
+```
+
+![plot of chunk motifClusters](figure/motifClusters131.png) 
+
+```
+## Shared, AMS, nonRepeat, motifNumber = 4
+```
+
+![plot of chunk motifClusters](figure/motifClusters132.png) 
+
+```
+## Shared, AMS, nonRepeat, motifNumber = 5
+```
+
+![plot of chunk motifClusters](figure/motifClusters133.png) 
+
+```
+## Shared, AMS, nonRepeat, motifNumber = 6
+```
+
+![plot of chunk motifClusters](figure/motifClusters134.png) 
+
+```
+## Shared, AMS, ORR1C2, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters135.png) 
+
+```
+## Shared, AMS, RLTR23, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters136.png) 
+
+```
+## Shared, AMS, RMER19C, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters137.png) 
+
+```
+## Shared, AMS, RSINE1, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters138.png) 
+
+```
+## Shared, AMS, (TAGA)n, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters139.png) 
+
+```
+## Shared, AMS, (TAGA)n, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters140.png) 
+
+```
+## Shared, AMS, (TCTA)n, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters141.png) 
+
+```
+## Shared, AMS, (TG)n, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters142.png) 
+
+```
+## Shared, AMS, (TG)n, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters143.png) 
+
+```
+## Shared, Spretus, AT_rich, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters144.png) 
+
+```
+## Shared, Spretus, B1_Mm, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters145.png) 
+
+```
+## Shared, Spretus, B1_Mus1, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters146.png) 
+
+```
+## Shared, Spretus, B1_Mus1, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters147.png) 
+
+```
+## Shared, Spretus, B1_Mus2, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters148.png) 
+
+```
+## Shared, Spretus, B2_Mm2, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters149.png) 
+
+```
+## Shared, Spretus, B2_Mm2, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters150.png) 
+
+```
+## Shared, Spretus, B2_Mm2, motifNumber = 3
+```
+
+![plot of chunk motifClusters](figure/motifClusters151.png) 
+
+```
+## Shared, Spretus, B2_Mm2, motifNumber = 4
+```
+
+![plot of chunk motifClusters](figure/motifClusters152.png) 
+
+```
+## Shared, Spretus, B3, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters153.png) 
+
+```
+## Shared, Spretus, B3A, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters154.png) 
+
+```
+## Shared, Spretus, B3A, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters155.png) 
+
+```
+## Shared, Spretus, B4, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters156.png) 
+
+```
+## Shared, Spretus, B4A, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters157.png) 
+
+```
+## Shared, Spretus, B4A, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters158.png) 
+
+```
+## Shared, Spretus, B4A, motifNumber = 3
+```
+
+![plot of chunk motifClusters](figure/motifClusters159.png) 
+
+```
+## Shared, Spretus, (CA)n, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters160.png) 
+
+```
+## Shared, Spretus, (CA)n, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters161.png) 
+
+```
+## Shared, Spretus, (CA)n, motifNumber = 3
+```
+
+![plot of chunk motifClusters](figure/motifClusters162.png) 
+
+```
+## Shared, Spretus, (CA)n, motifNumber = 4
+```
+
+![plot of chunk motifClusters](figure/motifClusters163.png) 
+
+```
+## Shared, Spretus, (CA)n, motifNumber = 5
+```
+
+![plot of chunk motifClusters](figure/motifClusters164.png) 
+
+```
+## Shared, Spretus, Lx2B, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters165.png) 
+
+```
+## Shared, Spretus, Lx3C, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters166.png) 
+
+```
+## Shared, Spretus, Lx9, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters167.png) 
+
+```
+## Shared, Spretus, MTEa, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters168.png) 
+
+```
+## Shared, Spretus, nonRepeat, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters169.png) 
+
+```
+## Shared, Spretus, nonRepeat, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters170.png) 
+
+```
+## Shared, Spretus, nonRepeat, motifNumber = 3
+```
+
+![plot of chunk motifClusters](figure/motifClusters171.png) 
+
+```
+## Shared, Spretus, nonRepeat, motifNumber = 4
+```
+
+![plot of chunk motifClusters](figure/motifClusters172.png) 
+
+```
+## Shared, Spretus, nonRepeat, motifNumber = 5
+```
+
+![plot of chunk motifClusters](figure/motifClusters173.png) 
+
+```
+## Shared, Spretus, nonRepeat, motifNumber = 6
+```
+
+![plot of chunk motifClusters](figure/motifClusters174.png) 
+
+```
+## Shared, Spretus, RMER17C, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters175.png) 
+
+```
+## Shared, Spretus, RSINE1, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters176.png) 
+
+```
+## Shared, Spretus, (TG)n, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters177.png) 
+
+```
+## Shared, Spretus, (TG)n, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters178.png) 
+
+```
+## Shared, Spretus, (TG)n, motifNumber = 3
+```
+
+![plot of chunk motifClusters](figure/motifClusters179.png) 
+
+```
+## Shared, Spretus, (TG)n, motifNumber = 4
+```
+
+![plot of chunk motifClusters](figure/motifClusters180.png) 
+
+```
+## Shared, Spretus, (TG)n, motifNumber = 5
+```
+
+![plot of chunk motifClusters](figure/motifClusters181.png) 
+
+```
+## Shared, Spretus, URR1A, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters182.png) 
+
+```
+## Shared, Spretus, URR1B, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters183.png) 
+
+```
+## Shared, AM, AT_rich, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters184.png) 
+
+```
+## Shared, AM, B1_Mm, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters185.png) 
+
+```
+## Shared, AM, B1_Mm, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters186.png) 
+
+```
+## Shared, AM, B1_Mm, motifNumber = 3
+```
+
+![plot of chunk motifClusters](figure/motifClusters187.png) 
+
+```
+## Shared, AM, B1_Mus2, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters188.png) 
+
+```
+## Shared, AM, B1_Mus2, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters189.png) 
+
+```
+## Shared, AM, B1_Mus2, motifNumber = 3
+```
+
+![plot of chunk motifClusters](figure/motifClusters190.png) 
+
+```
+## Shared, AM, B3, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters191.png) 
+
+```
+## Shared, AM, B3, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters192.png) 
+
+```
+## Shared, AM, B4A, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters193.png) 
+
+```
+## Shared, AM, B4A, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters194.png) 
+
+```
+## Shared, AM, ID_B1, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters195.png) 
+
+```
+## Shared, AM, ID_B1, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters196.png) 
+
+```
+## Shared, AM, nonRepeat, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters197.png) 
+
+```
+## Shared, AM, nonRepeat, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters198.png) 
+
+```
+## Shared, AM, nonRepeat, motifNumber = 3
+```
+
+![plot of chunk motifClusters](figure/motifClusters199.png) 
+
+```
+## Shared, AM, RSINE1, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters200.png) 
+
+```
+## Shared, AM, RSINE1, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters201.png) 
+
+```
+## Shared, AM, (TCTA)n, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters202.png) 
+
+```
+## Shared, PWKPhJ, nonRepeat, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters203.png) 
+
+```
+## Shared, CASTEiJ, AT_rich, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters204.png) 
+
+```
+## Shared, CASTEiJ, MTD, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters205.png) 
+
+```
+## Shared, CASTEiJ, nonRepeat, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters206.png) 
+
+```
+## Shared, CASTEiJ, nonRepeat, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters207.png) 
+
+```
+## Shared, CASTEiJ, nonRepeat, motifNumber = 3
+```
+
+![plot of chunk motifClusters](figure/motifClusters208.png) 
+
+```
+## Shared, CASTEiJ.PWKPhJ, AT_rich, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters209.png) 
+
+```
+## Shared, CASTEiJ.PWKPhJ, nonRepeat, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters210.png) 
+
+```
+## Shared, CASTEiJ.PWKPhJ, nonRepeat, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters211.png) 
+
+```
+## Shared, WSBEiJ, nonRepeat, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters212.png) 
+
+```
+## Shared, WSBEiJ, nonRepeat, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters213.png) 
+
+```
+## Shared, WSBEiJ, nonRepeat, motifNumber = 3
+```
+
+![plot of chunk motifClusters](figure/motifClusters214.png) 
+
+```
+## Shared, WSBEiJ, nonRepeat, motifNumber = 4
+```
+
+![plot of chunk motifClusters](figure/motifClusters215.png) 
+
+```
+## Shared, WSBEiJ, nonRepeat, motifNumber = 5
+```
+
+![plot of chunk motifClusters](figure/motifClusters216.png) 
+
+```
+## Shared, WSBEiJ, nonRepeat, motifNumber = 6
+```
+
+![plot of chunk motifClusters](figure/motifClusters217.png) 
+
+```
+## Shared, WSBEiJ, (TG)n, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters218.png) 
+
+```
+## Shared, WSBEiJ.PWKPhJ, nonRepeat, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters219.png) 
+
+```
+## Shared, WSBEiJ.PWKPhJ, nonRepeat, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters220.png) 
+
+```
+## Shared, WSBEiJ.CASTEiJ, nonRepeat, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters221.png) 
+
+```
+## Shared, WSBEiJ.CASTEiJ, RSINE1, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters222.png) 
+
+```
+## AT to GC, FAM, nonRepeat, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters223.png) 
+
+```
+## AT to GC, FAM, nonRepeat, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters224.png) 
+
+```
+## AT to GC, FAM, nonRepeat, motifNumber = 3
+```
+
+![plot of chunk motifClusters](figure/motifClusters225.png) 
+
+```
+## AT to GC, FAM, nonRepeat, motifNumber = 4
+```
+
+![plot of chunk motifClusters](figure/motifClusters226.png) 
+
+```
+## AT to GC, FAM, nonRepeat, motifNumber = 5
+```
+
+![plot of chunk motifClusters](figure/motifClusters227.png) 
+
+```
+## AT to GC, AMS, B4A, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters228.png) 
+
+```
+## AT to GC, AMS, nonRepeat, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters229.png) 
+
+```
+## AT to GC, AMS, nonRepeat, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters230.png) 
+
+```
+## AT to GC, AMS, nonRepeat, motifNumber = 3
+```
+
+![plot of chunk motifClusters](figure/motifClusters231.png) 
+
+```
+## AT to GC, AMS, RSINE1, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters232.png) 
+
+```
+## AT to GC, Spretus, B3, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters233.png) 
+
+```
+## AT to GC, Spretus, B3A, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters234.png) 
+
+```
+## AT to GC, Spretus, B4A, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters235.png) 
+
+```
+## AT to GC, Spretus, ID_B1, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters236.png) 
+
+```
+## AT to GC, Spretus, Lx9, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters237.png) 
+
+```
+## AT to GC, Spretus, nonRepeat, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters238.png) 
+
+```
+## AT to GC, Spretus, nonRepeat, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters239.png) 
+
+```
+## AT to GC, Spretus, nonRepeat, motifNumber = 3
+```
+
+![plot of chunk motifClusters](figure/motifClusters240.png) 
+
+```
+## AT to GC, Spretus, nonRepeat, motifNumber = 4
+```
+
+![plot of chunk motifClusters](figure/motifClusters241.png) 
+
+```
+## AT to GC, Spretus, RSINE1, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters242.png) 
+
+```
+## AT to GC, Spretus, (TAGA)n, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters243.png) 
+
+```
+## AT to GC, Spretus, URR1B, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters244.png) 
+
+```
+## AT to GC, AM, B3, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters245.png) 
+
+```
+## AT to GC, AM, ID4, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters246.png) 
+
+```
+## AT to GC, AM, nonRepeat, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters247.png) 
+
+```
+## AT to GC, AM, nonRepeat, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters248.png) 
+
+```
+## AT to GC, AM, nonRepeat, motifNumber = 3
+```
+
+![plot of chunk motifClusters](figure/motifClusters249.png) 
+
+```
+## AT to GC, AM, nonRepeat, motifNumber = 4
+```
+
+![plot of chunk motifClusters](figure/motifClusters250.png) 
+
+```
+## AT to GC, AM, nonRepeat, motifNumber = 5
+```
+
+![plot of chunk motifClusters](figure/motifClusters251.png) 
+
+```
+## AT to GC, AM, nonRepeat, motifNumber = 6
+```
+
+![plot of chunk motifClusters](figure/motifClusters252.png) 
+
+```
+## AT to GC, CASTEiJ, nonRepeat, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters253.png) 
+
+```
+## AT to GC, CASTEiJ, nonRepeat, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters254.png) 
+
+```
+## AT to GC, WSBEiJ, nonRepeat, motifNumber = 1
+```
+
+![plot of chunk motifClusters](figure/motifClusters255.png) 
+
+```
+## AT to GC, WSBEiJ, nonRepeat, motifNumber = 2
+```
+
+![plot of chunk motifClusters](figure/motifClusters256.png) 
+
+```
+## AT to GC, WSBEiJ, nonRepeat, motifNumber = 3
+```
+
+![plot of chunk motifClusters](figure/motifClusters257.png) 
+
+```
+## AT to GC, WSBEiJ, nonRepeat, motifNumber = 4
+```
+
+![plot of chunk motifClusters](figure/motifClusters258.png) 
+
+```
+## AT to GC, WSBEiJ, nonRepeat, motifNumber = 5
+```
+
+![plot of chunk motifClusters](figure/motifClusters259.png) 
 
 
 ---
