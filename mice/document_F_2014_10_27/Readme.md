@@ -353,6 +353,11 @@ Nucleotide diversity
 |significant     | 0.1| 6.0| 36.7| 57.2|
 ---
 
+## Giant AT to GC plot
+
+![plot of chunk atToGCAll](figure/atToGCAll.png) 
+---
+
 
 ## QQ plots - seperate
 
