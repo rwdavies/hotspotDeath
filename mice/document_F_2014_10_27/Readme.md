@@ -354,9 +354,9 @@ Nucleotide diversity
 ---
 
 
-## PWK results on CAST top results
+## PWK results at CAST top results
 
-Other methods have implied that M. m. musculus might have a PRDM9 allele similar to the CAST motif, but there are no de novo PWK motifs. Here, we look at the p-values for the top CAST motif in the other strainw
+Other studies have found that M. m. musculus has a PRDM9 allele similar to the CAST motif, but while we found a denovo CAST motif similar to published work, here we found no de novo PWK motifs. Here, we look at the p-values for the motifs in the top CAST cluster in the other strains
 
 Test: lin
 
@@ -380,35 +380,38 @@ Test: shared
 
 |           |p_WSBEiJ |or_WSBEiJ |p_PWKPhJ |or_PWKPhJ |p_CASTEiJ |or_CASTEiJ |
 |:----------|:--------|:---------|:--------|:---------|:---------|:----------|
-|CCAAGTCTGC |0.3      |1.06      |0.63     |0.86      |6.5e-07   |1.62       |
-|CAGACTTGGC |0.22     |1.2       |0.43     |0.91      |6.5e-05   |1.63       |
-|AGACTTGGAT |0.25     |1.07      |0.067    |1.15      |3.1e-09   |1.8        |
-|AGACTTGGCT |0.035    |1.23      |0.068    |0.77      |1e-06     |1.63       |
-|AGACTTTGCT |0.78     |1.03      |0.91     |1.01      |2.2e-09   |1.82       |
-|AATCCAAGTC |1        |0.93      |0.83     |0.97      |1.1e-15   |2.38       |
-|AAGCCAAGTC |0.009    |1.25      |0.86     |0.95      |5.9e-12   |1.89       |
-|AATCCCAGTC |0.034    |1.03      |0.65     |0.81      |1.2e-12   |1.87       |
-|AAGCAAAGTC |0.21     |1.1       |0.83     |0.92      |4.6e-12   |1.87       |
-|AAGCCCAGTC |0.0029   |1.2       |0.14     |1         |5.6e-12   |1.83       |
-|AAATCCAAGT |0.46     |0.94      |0.53     |1.11      |0.00026   |1.51       |
-|ACTTGGATTC |0.89     |0.95      |0.83     |0.89      |9.6e-06   |1.65       |
+|CCAAGTCTGC |0.3      |1.13      |0.63     |0.93      |6.5e-07   |1.67       |
+|CAGACTTGGC |0.22     |1.15      |0.43     |0.9       |6.5e-05   |1.53       |
+|AGACTTGGAT |0.25     |1.15      |0.067    |1.23      |3.1e-09   |1.85       |
+|AGACTTGGCT |0.035    |1.24      |0.068    |0.8       |1e-06     |1.6        |
+|AGACTTTGCT |0.78     |1.03      |0.91     |1.01      |2.2e-09   |1.73       |
+|AATCCAAGTC |1        |0.99      |0.83     |1.03      |1.1e-15   |2.33       |
+|AAGCCAAGTC |0.009    |1.31      |0.86     |1.02      |5.9e-12   |1.91       |
+|AATCCCAGTC |0.034    |1.33      |0.65     |1.06      |1.2e-12   |2.28       |
+|AAGCAAAGTC |0.21     |1.14      |0.83     |0.97      |4.6e-12   |1.86       |
+|AAGCCCAGTC |0.0029   |1.42      |0.14     |1.2       |5.6e-12   |2.08       |
+|AAATCCAAGT |0.46     |0.91      |0.53     |1.07      |0.00026   |1.42       |
+|ACTTGGATTC |0.89     |1.02      |0.83     |0.96      |9.6e-06   |1.7        |
 Test: at
 
 
 |           |p_WSBEiJ |or_WSBEiJ |p_PWKPhJ |or_PWKPhJ |p_CASTEiJ |or_CASTEiJ |
 |:----------|:--------|:---------|:--------|:---------|:---------|:----------|
-|ACTTATAAGC |0.24     |0.94      |NA       |0.98      |0.013     |0.99       |
-|GCCTTTGTCC |0.11     |1.16      |0.89     |0.94      |0.26      |0.9        |
-|CCAAGCGCGG |0.8      |NA        |0.33     |NA        |0.1       |NA         |
-|AAGTCTGTGG |0.021    |1.1       |0.89     |1.01      |6.3e-05   |1.28       |
-|AAAACCTTGG |1        |1.06      |1        |1         |9e-08     |0.71       |
-|ATCAGGGGGC |0.00093  |1.47      |0.89     |0.91      |0.0041    |0.91       |
-|AACAGGGGGC |0.0028   |1.07      |1        |0.82      |1.9e-09   |0.97       |
-|ACGGCTGGGC |0.015    |0.81      |0.34     |0.48      |1e-04     |1.05       |
-|AGCACGGGGC |0.085    |1.22      |0.16     |0.96      |3.9e-07   |1.14       |
-|CCCGCTGGGC |0.8      |0.95      |1        |1.03      |0.019     |0.99       |
-|ATTAGACATG |0.00077  |1.07      |0.062    |1.08      |0.58      |0.81       |
-|ACCGGAGTGC |0.05     |1.18      |0.46     |NA        |0.068     |NA         |
+|CCAAGTCTGC |0.24     |1.29      |NA       |NA        |0.013     |1.57       |
+|CAGACTTGGC |0.11     |1.43      |0.89     |1         |0.26      |1.26       |
+|AGACTTGGAT |0.8      |0.9       |0.33     |1.22      |0.1       |1.34       |
+|AGACTTGGCT |0.021    |1.54      |0.89     |0.93      |6.3e-05   |1.86       |
+|AGACTTTGCT |1        |0.99      |1        |0.97      |9e-08     |2.1        |
+|AATCCAAGTC |0.00093  |2.17      |0.89     |0.91      |0.0041    |1.62       |
+|AAGCCAAGTC |0.0028   |1.72      |1        |1         |1.9e-09   |2.29       |
+|AATCCCAGTC |0.015    |1.75      |0.34     |1.28      |1e-04     |1.96       |
+|AAGCAAAGTC |0.085    |1.38      |0.16     |0.65      |3.9e-07   |1.97       |
+|AAGCCCAGTC |0.8      |1.06      |1        |0.96      |0.019     |1.53       |
+|AAATCCAAGT |0.00077  |1.85      |0.062    |1.4       |0.58      |0.88       |
+|ACTTGGATTC |0.05     |1.61      |0.46     |1.23      |0.068     |1.44       |
+            used   (Mb) gc trigger (Mb)  max used   (Mb)
+Ncells   5275307  281.8  2.040e+07 1090   5275307  281.8
+Vcells 446566771 3407.1  1.061e+09 8095 446566771 3407.1
 ---
 
 
