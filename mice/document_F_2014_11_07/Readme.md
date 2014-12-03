@@ -188,64 +188,39 @@ Note that the following numbers are only for motifs that have been clustered
 
 
 ```
-## Warning: no non-missing arguments to max; returning -Inf
-```
-
-```
-## Error: number of columns of matrices must match (see arg 2)
+## Error: $ operator is invalid for atomic vectors
 ```
 
 Number of motifs (clusters) per test and lineage
 
+```
+## Error: data is too long
+```
 
-|FAM    |AMS    |Spretus |AM      |PWKPhJ |CASTEiJ |WSBEiJ |
-|:------|:------|:-------|:-------|:------|:-------|:------|
-|24 (4) |51 (7) |328 (6) |363 (4) |2 (2)  |5 (2)   |9 (2)  |
 FAM
+No significant results
 
-
-|        |nonRepeat |
-|:-------|:---------|
-|losslin |24 (4)    |
 AMS
+No significant results
 
-
-|        |nonRepeat |
-|:-------|:---------|
-|losslin |51 (7)    |
 Spretus
+No significant results
 
-
-|        |nonRepeat |
-|:-------|:---------|
-|losslin |328 (6)   |
 AM
+No significant results
 
-
-|        |nonRepeat |
-|:-------|:---------|
-|losslin |363 (4)   |
 PWKPhJ
+No significant results
 
-
-|        |nonRepeat |
-|:-------|:---------|
-|losslin |2 (2)     |
 CASTEiJ
+No significant results
 
-
-|        |nonRepeat |
-|:-------|:---------|
-|losslin |5 (2)     |
 CASTEiJ.PWKPhJ
 No significant results
 
 WSBEiJ
+No significant results
 
-
-|        |nonRepeat |
-|:-------|:---------|
-|losslin |9 (2)     |
 WSBEiJ.PWKPhJ
 No significant results
 
@@ -467,8 +442,6 @@ All clustered AT to GC plots collapsed together for the loss lineage test
 ---
 
 ## Links to pages of significant motifs
-
-[Test link to fam](https://github.com/rwdavies/hotspotDeath/tree/master/mice/document_F_2014_11_07/motifPvalues/losslin/FAM)
 
 
 |               |losslin                                                                                                                      |lossat                                                                                                                      |gainlin                                                                                                                      |gainat                                                                                                                      |
