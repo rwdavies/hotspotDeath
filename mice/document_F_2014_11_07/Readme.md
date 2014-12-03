@@ -461,16 +461,9 @@ Test: gainat
 
 ## Giant AT to GC plot
 
-All clustered AT to GC plots collapsed together 
+All clustered AT to GC plots collapsed together for the loss lineage test
 
-
-```
-## Error: non-numeric argument to binary operator
-```
-
-```
-## Error: non-numeric argument to binary operator
-```
+![plot of chunk atToGCAll](figure/atToGCAll.png) 
 ---
 
 
