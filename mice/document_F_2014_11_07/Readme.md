@@ -466,8 +466,22 @@ All clustered AT to GC plots collapsed together for the loss lineage test
 ![plot of chunk atToGCAll](figure/atToGCAll.png) 
 ---
 
+[Test link to fam](https://github.com/rwdavies/hotspotDeath/tree/master/mice/document_F_2014_11_07/motifPvalues/losslin/FAM)
+
+
+
+
+---
+
 
 <!--
+
+## All significant motifs
+
+
+
+
+---
 
 
 ## QQ plots - seperate
@@ -479,11 +493,6 @@ All clustered AT to GC plots collapsed together for the loss lineage test
 
 
 ## Compare p-values between methods
-
-
-```
-## Warning: calling par(new=TRUE) with no plot
-```
 
 ![plot of chunk pvaluesBetweenMethods](figure/pvaluesBetweenMethods1.png) ![plot of chunk pvaluesBetweenMethods](figure/pvaluesBetweenMethods2.png) ![plot of chunk pvaluesBetweenMethods](figure/pvaluesBetweenMethods3.png) 
 ---
@@ -497,20 +506,5 @@ All clustered AT to GC plots collapsed together for the loss lineage test
 
 
 
-## All significant motifs
-
-
-```
-## Loss Lineage, FAM, nonRepeat, motifNumber = 1
-```
-
-```
-## Error: non-numeric argument to binary operator
-```
-
-![plot of chunk motifClusters](figure/motifClusters.png) 
-
-
----
 
 -->
