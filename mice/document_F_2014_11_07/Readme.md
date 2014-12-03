@@ -470,17 +470,7 @@ All clustered AT to GC plots collapsed together for the loss lineage test
 
 
 ```r
-# add link to file here
-
-cat("[Link](http://en.wikipedia.org/wiki/Sequence_logo)")
-```
-
-```
-## [Link](http://en.wikipedia.org/wiki/Sequence_logo)
-```
-
-```r
-# push the created code to it?
+cat("[Link](http://en.wikipedia.org/wiki/Sequence_logo)",file=paste(masterDirHDD,documentF,"/Readme.md",sep=""))
 ```
 
 
