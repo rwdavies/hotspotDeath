@@ -194,12 +194,15 @@ Note that the following numbers are only for motifs that have been clustered
 Number of motifs (clusters) per test and lineage
 
 ```
-## Error: data is too long
+## Error: the table must have a header (column names)
 ```
 
 FAM
-No significant results
 
+
+|        |ID_B1 |Lx8   |nonRepeat |RSINE1 |
+|:-------|:-----|:-----|:---------|:------|
+|losslin |1 (1) |3 (1) |24 (4)    |4 (1)  |
 AMS
 No significant results
 
