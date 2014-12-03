@@ -1,5 +1,5 @@
 
-```{r motifPValues, echo=FALSE,dev="png",dpi=300,fig.width=18,fig.height=6, cache=TRUE}
+```{r motifPValues, echo=FALSE,dev="png",dpi=300,fig.width=18,fig.height=6, cache=FALSE}
 test="gainlin";iLin=8
     load(file=paste(masterDirHDD,clusterE,"/",test,".K",K,".motifSuperResults.RData",sep=""))
     # top non-repeat cluster 
