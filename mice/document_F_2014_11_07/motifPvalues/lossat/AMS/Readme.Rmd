@@ -8,6 +8,7 @@ test="lossat";iLin=2
     if(class(x)!="try-error")
     {
       sigBack=names(motifSuperResults[[iLin]])
+      sigBack="nonRepeat"
       for(repeatName in sigBack)
       {
         msrL=msr[[repeatName]]
