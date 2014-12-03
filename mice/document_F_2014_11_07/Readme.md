@@ -382,17 +382,6 @@ Nucleotide diversity
 
 Other studies have found that M. m. musculus has a PRDM9 allele similar to the CAST motif, but while we found a denovo CAST motif similar to published work, here we found no de novo PWK motifs. Here, we look at the p-values for the motifs in the top CAST cluster in the other strains
 
-
-```
-## Warning: cannot open compressed file
-## '/Net/dense/data/wildmice/motifLoss/cluster_E_2014_11_07/lin.K10.motifSuperResults.RData',
-## probable reason 'No such file or directory'
-```
-
-```
-## Error: cannot open the connection
-```
-
 Test: losslin
 
 
@@ -444,6 +433,23 @@ Test: gainlin
 |AAGCCCAGTC |0.94     |0.97      |0.78     |0.95      |0.086     |0.76       |
 |AAATCCAAGT |0.96     |1         |0.34     |0.89      |0.58      |0.94       |
 |ACTTGGATTC |0.11     |1.22      |0.73     |1.04      |0.58      |0.91       |
+Test: gainat
+
+
+|           |p_WSBEiJ |or_WSBEiJ |p_PWKPhJ |or_PWKPhJ |p_CASTEiJ |or_CASTEiJ |
+|:----------|:--------|:---------|:--------|:---------|:---------|:----------|
+|CCAAGTCTGC |0.53     |1.16      |NA       |NA        |0.57      |1.15       |
+|CAGACTTGGC |0.88     |1.03      |0.75     |1.1       |0.2       |1.4        |
+|AGACTTGGAT |0.9      |1.03      |0.46     |1.22      |0.89      |1.04       |
+|AGACTTGGCT |0.086    |1.46      |1        |0.93      |0.079     |1.41       |
+|AGACTTTGCT |0.91     |0.94      |0.91     |1.01      |1         |0.96       |
+|AATCCAAGTC |NA       |NA        |0.17     |1.42      |0.39      |1.26       |
+|AAGCCAAGTC |0.19     |1.39      |NA       |NA        |0.25      |1.31       |
+|AATCCCAGTC |NA       |NA        |1        |0.94      |NA        |NA         |
+|AAGCAAAGTC |0.42     |0.78      |1        |1         |0.45      |1.18       |
+|AAGCCCAGTC |0.019    |1.8       |NA       |NA        |NA        |NA         |
+|AAATCCAAGT |0.42     |0.78      |0.72     |0.87      |0.1       |1.4        |
+|ACTTGGATTC |NA       |NA        |0.67     |1.11      |NA        |NA         |
 ---
 
 
