@@ -1,0 +1,37 @@
+
+```{r motifPValues, echo=FALSE,dev="png",dpi=300,fig.width=18,fig.height=6, cache=TRUE}
+test="losslin";iLin=10
+    load(file=paste(masterDirHDD,clusterE,"/",test,".K",K,".motifSuperResults.RData",sep=""))
+    # top non-repeat cluster 
+    repeatName="nonRepeat"
+    msr=motifSuperResults[[iLin]]
+    if(class(x)!="try-error")
+    {
+      sigBack=names(motifSuperResults[[iLin]])
+      for(repeatName in sigBack)
+      {
+        msrL=msr[[repeatName]]
+        if(is.null(x)==FALSE) 
+        { 
+          for(motifNumber in 1:length(msrL[["clusteringResults"]]))
+          {
+            x=msrL[["clusteringResults"]][[motifNumber]]
+            main=paste(plottingNames[match(test,testingNames)],", ",lineageNames[[test]][iLin],", ",repeatName,", motifNumber = ",motifNumber,sep="")
+            # output MAIN so we can search
+            cat(paste(main,"
+",sep=""))
+            pdfName=paste(masterDirHDD,clusterE,"/motifLoss.",test,".K",K,".",lineageNames[[test]][iLin],".",repeatName,".motifNumber.",motifNumber,".composite.pdf",sep="")
+            sum=x$sumN
+            n=length( x$whereN)
+            motifPValues=x$motifPValues 
+            wtp=whichToPlot=match(substr(test,1,4),c("loss","gain"))
+            atgc=x$atgc
+            correlationMatrices=x$correlationMatrices
+            compositePlot(sum=sum,n=n,atgc=atgc[[wtp]],main=main,outputPlot=FALSE,pdfName=NULL,width=diff(range(x$whereN)),totalP=totalP,motifPValues=x$motifPValues,test=test,correlationMatrix=correlationMatrices[[wtp]],xBig=0)
+par(new=FALSE)
+          } # end of loop on motif number
+        } # end of second check on error
+      } # end of loop on repeat to look at
+    } # end of check on error
+```
+  

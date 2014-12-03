@@ -508,6 +508,11 @@ All clustered AT to GC plots collapsed together for the loss lineage test
 
 ## Compare p-values between methods
 
+
+```
+## Warning: calling par(new=TRUE) with no plot
+```
+
 ![plot of chunk pvaluesBetweenMethods](figure/pvaluesBetweenMethods1.png) ![plot of chunk pvaluesBetweenMethods](figure/pvaluesBetweenMethods2.png) ![plot of chunk pvaluesBetweenMethods](figure/pvaluesBetweenMethods3.png) 
 ---
 
