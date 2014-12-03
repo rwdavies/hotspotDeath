@@ -469,6 +469,19 @@ All clustered AT to GC plots collapsed together for the loss lineage test
 [Test link to fam](https://github.com/rwdavies/hotspotDeath/tree/master/mice/document_F_2014_11_07/motifPvalues/losslin/FAM)
 
 
+```r
+# add link to file here
+
+cat("[Link](http://en.wikipedia.org/wiki/Sequence_logo)")
+```
+
+```
+## [Link](http://en.wikipedia.org/wiki/Sequence_logo)
+```
+
+```r
+# push the created code to it?
+```
 
 
 ---
