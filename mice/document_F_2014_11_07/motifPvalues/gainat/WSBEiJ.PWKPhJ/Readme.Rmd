@@ -20,7 +20,7 @@ test="gainat";iLin=9
             # output MAIN so we can search
             cat(paste(main,"
 ",sep=""))
-            pdfName=paste(masterDirHDD,clusterE,"/motifLoss.",test,".K",K,".",lineageNames[[test]][iLin],".",repeatName,".motifNumber.",motifNumber,".composite.pdf",sep="")
+            pdfName=paste(masterDirHDD,clusterE,"/motifLoss.",test,".K",K,".",lineageNames[[test]][iLin],".",repeatName,".motifNumber.",motifNumber,".composite.pdf",sep="") 
             sum=x$sumN
             n=length( x$whereN)
             motifPValues=x$motifPValues 

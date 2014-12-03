@@ -1,8 +1,6 @@
 
 
 ```
-## Gain Lineage, AM, nonRepeat, motifNumber = 1
+## Error: subscript out of bounds
 ```
-
-![plot of chunk motifPValues](figure/motifPValues.png) 
   

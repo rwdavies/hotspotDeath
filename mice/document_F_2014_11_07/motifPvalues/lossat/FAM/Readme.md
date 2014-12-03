@@ -28,5 +28,9 @@
 ## Loss AT to GC, FAM, nonRepeat, motifNumber = 5
 ```
 
+```
+## Error: subscript out of bounds
+```
+
 ![plot of chunk motifPValues](figure/motifPValues5.png) 
   

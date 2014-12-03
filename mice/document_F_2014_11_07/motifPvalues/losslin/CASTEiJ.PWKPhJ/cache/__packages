@@ -1,14 +1,7 @@
 base
-datasets
-graphics
-grDevices
-grid
 inline
 knitr
-methods
 multicore
 Rcpp
 RcppArmadillo
 seqLogo
-stats
-utils
