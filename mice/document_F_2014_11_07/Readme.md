@@ -30,7 +30,7 @@ Date refers to first version with changes. If there is a plus after, then all su
 
 |Parameter             |Value                                                 |Description                                                              |
 |:---------------------|:-----------------------------------------------------|:------------------------------------------------------------------------|
-|mouseFilter           |NA                                                    |What folder used for mice                                                |
+|mouseFilter           |ArrayNotFilteredAnnot295.0                            |What folder used for mice                                                |
 |mrle                  |10                                                    |Maximum run length less than or equal to                                 |
 |ndge                  |0                                                     |Nuclotide diversity greater than or equal to                             |
 |pwmMinimum            |0.1                                                   |When a PWM has 0 entry, what to reset the 0 values to                    |
