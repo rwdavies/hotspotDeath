@@ -488,7 +488,7 @@ All clustered AT to GC plots collapsed together for the loss lineage test
 
 This plot shows correlation of some pre-selected top motifs on different lineages and backgrounds with each other and with 3 linkage-disequilibrium based maps, at fine and broad scales.
 
-
+![plot of chunk corrTopMotifs](figure/corrTopMotifs.png) 
 
 
 
