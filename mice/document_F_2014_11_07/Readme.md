@@ -186,49 +186,86 @@ Branch length compared to ancestral as percent of alignable genome
 
 Note that the following numbers are only for motifs that have been clustered
 
-
-```
-## Error: $ operator is invalid for atomic vectors
-```
-
 Number of motifs (clusters) per test and lineage
 
-```
-## Error: the table must have a header (column names)
-```
 
+|        |FAM     |AMS     |Spretus  |AM      |PWKPhJ |CASTEiJ |WSBEiJ |WSBEiJ.CASTEiJ |
+|:-------|:-------|:-------|:--------|:-------|:------|:-------|:------|:--------------|
+|gainat  |44 (11) |0 (0)   |47 (9)   |11 (7)  |5 (4)  |1 (1)   |1 (1)  |0 (0)          |
+|gainlin |45 (11) |46 (14) |30 (7)   |11 (3)  |1 (1)  |0 (0)   |0 (0)  |0 (0)          |
+|lossat  |120 (7) |8 (5)   |443 (12) |106 (8) |0 (0)  |2 (2)   |13 (5) |0 (0)          |
+|losslin |32 (7)  |83 (14) |368 (17) |383 (9) |2 (2)  |6 (3)   |9 (2)  |1 (1)          |
 FAM
 
 
-|        |ID_B1 |Lx8   |nonRepeat |RSINE1 |
-|:-------|:-----|:-----|:---------|:------|
-|losslin |1 (1) |3 (1) |24 (4)    |4 (1)  |
+|        |nonRepeat |B1_Mus1 |RSINE1 |B2_Mm2 |ID_B1 |Lx8   |B1_Mm |(CA)n |RMER6A |(TG)n |
+|:-------|:---------|:-------|:------|:------|:-----|:-----|:-----|:-----|:------|:-----|
+|gainat  |27 (7)    |9 (1)   |0 (0)  |5 (2)  |3 (1) |0 (0) |0 (0) |0 (0) |0 (0)  |0 (0) |
+|gainlin |28 (5)    |3 (1)   |6 (1)  |0 (0)  |0 (0) |1 (1) |3 (1) |2 (1) |0 (0)  |2 (1) |
+|lossat  |118 (5)   |0 (0)   |0 (0)  |0 (0)  |0 (0) |0 (0) |0 (0) |0 (0) |2 (2)  |0 (0) |
+|losslin |24 (4)    |0 (0)   |4 (1)  |0 (0)  |1 (1) |3 (1) |0 (0) |0 (0) |0 (0)  |0 (0) |
 AMS
-No significant results
 
+
+|        |nonRepeat |B2_Mm2 |RSINE1 |B1_Mus1 |B3    |MTC   |B4A   |ORR1C2 |RLTR23 |(TC)n |B1_Mus2 |B4    |Lx5   |(TAGA)n |
+|:-------|:---------|:------|:------|:-------|:-----|:-----|:-----|:------|:------|:-----|:-------|:-----|:-----|:-------|
+|gainlin |0 (0)     |29 (4) |6 (1)  |6 (5)   |0 (0) |0 (0) |0 (0) |0 (0)  |0 (0)  |2 (1) |1 (1)   |0 (0) |1 (1) |1 (1)   |
+|lossat  |4 (3)     |0 (0)  |1 (1)  |0 (0)   |0 (0) |0 (0) |3 (1) |0 (0)  |0 (0)  |0 (0) |0 (0)   |0 (0) |0 (0) |0 (0)   |
+|losslin |51 (7)    |0 (0)  |17 (1) |1 (1)   |4 (1) |4 (1) |0 (0) |3 (1)  |2 (1)  |0 (0) |0 (0)   |1 (1) |0 (0) |0 (0)   |
 Spretus
-No significant results
 
+
+|        |nonRepeat |B3A    |B4A    |Lx3C   |RMER17C |B2_Mm2 |B3    |Lx9   |RSINE1 |B1_Mus1 |(CA)n |(TAGA)n |(TCTA)n |(TG)n |B1_Mus2 |ID_B1 |Lx2B  |URR1A |URR1B |
+|:-------|:---------|:------|:------|:------|:-------|:------|:-----|:-----|:------|:-------|:-----|:-------|:-------|:-----|:-------|:-----|:-----|:-----|:-----|
+|gainat  |43 (5)    |0 (0)  |0 (0)  |0 (0)  |0 (0)   |1 (1)  |2 (2) |0 (0) |0 (0)  |0 (0)   |0 (0) |0 (0)   |0 (0)   |0 (0) |1 (1)   |0 (0) |0 (0) |0 (0) |0 (0) |
+|gainlin |19 (3)    |0 (0)  |0 (0)  |0 (0)  |0 (0)   |4 (1)  |1 (1) |0 (0) |0 (0)  |4 (1)   |0 (0) |0 (0)   |2 (1)   |0 (0) |0 (0)   |0 (0) |0 (0) |0 (0) |0 (0) |
+|lossat  |401 (4)   |19 (1) |12 (1) |0 (0)  |0 (0)   |0 (0)  |2 (1) |4 (1) |1 (1)  |0 (0)   |0 (0) |2 (1)   |0 (0)   |0 (0) |0 (0)   |1 (1) |0 (0) |0 (0) |1 (1) |
+|losslin |328 (6)   |10 (1) |2 (2)  |11 (1) |6 (1)   |0 (0)  |0 (0) |1 (1) |4 (1)  |0 (0)   |2 (1) |0 (0)   |0 (0)   |2 (1) |0 (0)   |0 (0) |1 (1) |1 (1) |0 (0) |
 AM
-No significant results
 
+
+|        |nonRepeat |B3    |ID_B1 |RSINE1 |B1_Mus2 |B4A   |ID4   |
+|:-------|:---------|:-----|:-----|:------|:-------|:-----|:-----|
+|gainat  |10 (6)    |0 (0) |0 (0) |0 (0)  |1 (1)   |0 (0) |0 (0) |
+|gainlin |5 (1)     |3 (1) |3 (1) |0 (0)  |0 (0)   |0 (0) |0 (0) |
+|lossat  |101 (6)   |4 (1) |0 (0) |0 (0)  |0 (0)   |0 (0) |1 (1) |
+|losslin |363 (4)   |5 (1) |7 (2) |7 (1)  |0 (0)   |1 (1) |0 (0) |
 PWKPhJ
-No significant results
 
+
+|        |nonRepeat |B1_Mur4 |
+|:-------|:---------|:-------|
+|gainat  |3 (3)     |2 (1)   |
+|gainlin |1 (1)     |0 (0)   |
+|losslin |2 (2)     |0 (0)   |
 CASTEiJ
-No significant results
 
+
+|        |nonRepeat |MTD   |
+|:-------|:---------|:-----|
+|gainat  |1 (1)     |0 (0) |
+|lossat  |2 (2)     |0 (0) |
+|losslin |5 (2)     |1 (1) |
 CASTEiJ.PWKPhJ
 No significant results
 
 WSBEiJ
-No significant results
 
+
+|        |nonRepeat |
+|:-------|:---------|
+|gainat  |1 (1)     |
+|lossat  |13 (5)    |
+|losslin |9 (2)     |
 WSBEiJ.PWKPhJ
 No significant results
 
 WSBEiJ.CASTEiJ
-No significant results
+
+
+|        |RSINE1 |
+|:-------|:------|
+|losslin |1 (1)  |
 
 ---
 
