@@ -1,10 +1,8 @@
 
 
 ```
-## Loss Lineage, WSBEiJ.CASTEiJ, nonRepeat, motifNumber = 1
+## Loss Lineage, WSBEiJ.CASTEiJ, RSINE1, motifNumber = 1
 ```
 
-```
-## Error: dim(X) must have a positive length
-```
+![plot of chunk motifPValues](figure/motifPValues.png) 
   

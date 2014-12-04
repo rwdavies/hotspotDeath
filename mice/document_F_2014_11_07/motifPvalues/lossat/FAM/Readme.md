@@ -29,4 +29,16 @@
 ```
 
 ![plot of chunk motifPValues](figure/motifPValues5.png) 
+
+```
+## Loss AT to GC, FAM, RMER6A, motifNumber = 1
+```
+
+![plot of chunk motifPValues](figure/motifPValues6.png) 
+
+```
+## Loss AT to GC, FAM, RMER6A, motifNumber = 2
+```
+
+![plot of chunk motifPValues](figure/motifPValues7.png) 
   
