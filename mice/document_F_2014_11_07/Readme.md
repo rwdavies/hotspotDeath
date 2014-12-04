@@ -479,6 +479,19 @@ Test: gainat
 All clustered AT to GC plots collapsed together for the loss lineage test
 
 ![plot of chunk atToGCAll](figure/atToGCAll.png) 
+
+
+
+---
+
+## Correlation between some top motifs
+
+This plot shows correlation of some pre-selected top motifs on different lineages and backgrounds with each other and with 3 linkage-disequilibrium based maps, at fine and broad scales.
+
+
+
+
+
 ---
 
 ## Links to pages of significant motifs
