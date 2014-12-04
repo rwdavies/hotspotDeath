@@ -490,6 +490,8 @@ This plot shows correlation of some pre-selected top motifs on different lineage
 
 ![plot of chunk corrTopMotifs](figure/corrTopMotifs1.png) ![plot of chunk corrTopMotifs](figure/corrTopMotifs2.png) 
 
+![plot of chunk corrTopMotifs](figure/corrTopMotifs1.tall.png) ![plot of chunk corrTopMotifs](figure/corrTopMotifs2.png)
+
 
 
 ---
