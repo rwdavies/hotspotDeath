@@ -515,18 +515,10 @@ The following plot shows the breakdown chromosome wide
 
 
 ```
-## Error: object 'outPerChromosomeoutPerChromosome' not found
-```
-
-```
 ## Distribution of recombination along chromosomes
 ```
 
 ![plot of chunk perChromosomeRates](figure/perChromosomeRates.png) 
-
-```
-## Error: 'x' and 'y' lengths differ
-```
 
 
 ---
