@@ -489,27 +489,20 @@ All clustered AT to GC plots collapsed together for the loss lineage test
 This plot shows correlation of some pre-selected top motifs on different lineages and backgrounds with each other and with 3 linkage-disequilibrium based maps, at fine and broad scales.
 
 
+Correlation at 5 megabase scale between LD rate maps and hotspot death estimates
 
-```
-## Correlation at 5 megabase scale between LD rate maps and hotspot death estimates
-```
 
-```
-## 
-## 
-## |         |   dom|  cast| indian|  FAM1|  AMS2| Spretus1| Spretus2| Spretus4|    AM1|
-## |:--------|-----:|-----:|------:|-----:|-----:|--------:|--------:|--------:|------:|
-## |dom      | 0.000| 0.670|  0.835| 0.319| 0.249|    0.108|    0.463|   -0.064|  0.580|
-## |cast     | 0.000| 0.000|  0.645| 0.248| 0.208|    0.097|    0.344|   -0.013|  0.392|
-## |indian   | 0.000| 0.000|  0.000| 0.360| 0.229|    0.087|    0.544|   -0.091|  0.691|
-## |FAM1     | 0.000| 0.000|  0.000| 0.000| 0.419|    0.476|    0.207|    0.237|  0.322|
-## |AMS2     | 0.000| 0.000|  0.000| 0.000| 0.000|    0.395|    0.073|    0.256|  0.144|
-## |Spretus1 | 0.000| 0.000|  0.000| 0.000| 0.000|    0.000|    0.020|    0.479|  0.028|
-## |Spretus2 | 0.000| 0.000|  0.000| 0.000| 0.000|    0.000|    0.000|   -0.198|  0.681|
-## |Spretus4 | 0.000| 0.000|  0.000| 0.000| 0.000|    0.000|    0.000|    0.000| -0.215|
-## |AM1      | 0.000| 0.000|  0.000| 0.000| 0.000|    0.000|    0.000|    0.000|  0.000|
-```
-
+|         |   dom|  cast| indian|  FAM1|  AMS2| Spretus1| Spretus2| Spretus4|    AM1|
+|:--------|-----:|-----:|------:|-----:|-----:|--------:|--------:|--------:|------:|
+|dom      | 0.000| 0.670|  0.835| 0.319| 0.249|    0.108|    0.463|   -0.064|  0.580|
+|cast     | 0.000| 0.000|  0.645| 0.248| 0.208|    0.097|    0.344|   -0.013|  0.392|
+|indian   | 0.000| 0.000|  0.000| 0.360| 0.229|    0.087|    0.544|   -0.091|  0.691|
+|FAM1     | 0.000| 0.000|  0.000| 0.000| 0.419|    0.476|    0.207|    0.237|  0.322|
+|AMS2     | 0.000| 0.000|  0.000| 0.000| 0.000|    0.395|    0.073|    0.256|  0.144|
+|Spretus1 | 0.000| 0.000|  0.000| 0.000| 0.000|    0.000|    0.020|    0.479|  0.028|
+|Spretus2 | 0.000| 0.000|  0.000| 0.000| 0.000|    0.000|    0.000|   -0.198|  0.681|
+|Spretus4 | 0.000| 0.000|  0.000| 0.000| 0.000|    0.000|    0.000|    0.000| -0.215|
+|AM1      | 0.000| 0.000|  0.000| 0.000| 0.000|    0.000|    0.000|    0.000|  0.000|
 ![plot of chunk corrTopMotifs](figure/corrTopMotifs.png) 
 
 The following plot shows the breakdown chromosome wide
