@@ -513,11 +513,7 @@ The following plot shows the breakdown chromosome wide
 
 
 
-
-```
-## Distribution of recombination along chromosomes
-```
-
+Distribution of recombination along chromosomes 
 ![plot of chunk perChromosomeRates](figure/perChromosomeRates.png) 
 
 
