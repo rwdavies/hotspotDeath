@@ -507,6 +507,11 @@ Correlation at 5 megabase scale between LD rate maps and hotspot death estimates
 
 The following plot shows the breakdown chromosome wide
 
+
+```
+## Error: invalid color name 'fuschia'
+```
+
 ![plot of chunk corrTopMotifsGenomeWide](figure/corrTopMotifsGenomeWide.png) 
 
 
