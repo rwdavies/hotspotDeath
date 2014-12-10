@@ -399,9 +399,104 @@ Other studies have found that M. m. musculus has a PRDM9 allele similar to the C
 
 Test: losslin
 
-```
-## Error: number of items to replace is not a multiple of replacement length
-```
+
+|           |p_WSBEiJ |or_WSBEiJ |p_PWKPhJ |or_PWKPhJ |p_CASTEiJ |or_CASTEiJ |p_WSBEiJ.PWKPhJ |or_WSBEiJ.PWKPhJ |p_CASTEiJ.PWKPhJ |or_CASTEiJ.PWKPhJ |p_WSBEiJ.CASTEiJ |or_WSBEiJ.CASTEiJ |
+|:----------|:--------|:---------|:--------|:---------|:---------|:----------|:---------------|:----------------|:----------------|:-----------------|:----------------|:-----------------|
+|CCAAGTCTGC |0.63     |1.06      |0.28     |0.86      |4.6e-06   |1.62       |0.61            |1.09             |1                |0.97              |0.68             |1.08              |
+|CAGACTTGGC |0.14     |1.2       |0.53     |0.91      |1.3e-05   |1.63       |0.03            |0.54             |0.47             |1.15              |0.66             |1.09              |
+|AGACTTGGAT |0.57     |1.07      |0.21     |1.15      |4e-08     |1.8        |0.83            |0.92             |0.84             |1.04              |0.46             |0.81              |
+|AGACTTGGCT |0.048    |1.23      |0.038    |0.77      |8.6e-07   |1.63       |0.85            |1.02             |0.37             |0.82              |0.34             |1.17              |
+|AGACTTTGCT |0.78     |1.03      |0.91     |1.01      |3.2e-10   |1.82       |0.64            |1.09             |0.074            |1.34              |0.93             |0.96              |
+|AATCCAAGTC |0.68     |0.93      |0.89     |0.97      |2.4e-15   |2.38       |0.64            |0.86             |0.51             |1.15              |0.24             |1.28              |
+|AAGCCAAGTC |0.038    |1.25      |0.73     |0.95      |4.6e-11   |1.89       |0.12            |0.7              |0.71             |1.06              |0.011            |1.54              |
+|AATCCCAGTC |0.78     |1.03      |0.18     |0.81      |5.5e-08   |1.87       |0.11            |0.62             |0.32             |1.22              |0.25             |1.26              |
+|AAGCAAAGTC |0.38     |1.1       |0.51     |0.92      |1.1e-11   |1.87       |0.52            |0.86             |0.099            |1.3               |0.41             |1.15              |
+|AAGCCCAGTC |0.13     |1.2       |1        |1         |1.9e-08   |1.83       |0.91            |0.94             |0.61             |0.87              |0.00028          |1.89              |
+|AAATCCAAGT |0.66     |0.94      |0.3      |1.11      |2.6e-05   |1.51       |0.26            |1.21             |0.93             |1                 |0.93             |0.96              |
+|ACTTGGATTC |0.78     |0.95      |0.49     |0.89      |3.9e-05   |1.65       |0.48            |0.81             |0.44             |0.81              |0.1              |1.39              |
+|GTCCAAGTCA |0.94     |1.01      |0.87     |1.01      |0.47      |1.11       |1               |1                |0.37             |1.22              |0.34             |0.71              |
+|GGCCAAGTCA |0.46     |1.1       |0.051    |1.29      |0.77      |1.04       |NA              |NA               |0.28             |0.71              |0.17             |1.36              |
+|GCCCAAGTCA |0.17     |1.19      |0.5      |1.09      |0.37      |1.12       |0.48            |1.16             |0.22             |1.27              |0.55             |1.14              |
+|GACCAAGTCA |0.65     |1.07      |0.37     |1.13      |0.022     |1.37       |0.7             |1.07             |NA               |NA                |0.53             |1.14              |
+|AGTCCAAGTC |0.24     |0.81      |0.88     |0.96      |0.27      |1.17       |0.51            |1.15             |0.21             |0.66              |0.79             |0.88              |
+|AGGCCAAGTC |0.37     |1.13      |0.45     |1.1       |0.57      |1.07       |0.81            |0.91             |0.43             |0.79              |0.91             |0.94              |
+|AGCCCAAGTC |0.061    |1.24      |0.39     |1.11      |0.016     |1.32       |0.53            |1.13             |0.54             |1.13              |0.39             |1.17              |
+|AGACCAAGTC |0.2      |1.19      |0.62     |1.07      |0.52      |1.09       |0.23            |1.3              |1                |0.96              |0.63             |0.84              |
+Test: lossat
+
+
+|           |p_WSBEiJ |or_WSBEiJ |p_PWKPhJ |or_PWKPhJ |p_CASTEiJ |or_CASTEiJ |p_WSBEiJ.PWKPhJ |or_WSBEiJ.PWKPhJ |p_CASTEiJ.PWKPhJ |or_CASTEiJ.PWKPhJ |p_WSBEiJ.CASTEiJ |or_WSBEiJ.CASTEiJ |
+|:----------|:--------|:---------|:--------|:---------|:---------|:----------|:---------------|:----------------|:----------------|:-----------------|:----------------|:-----------------|
+|CCAAGTCTGC |0.24     |1.29      |NA       |NA        |0.013     |1.57       |NA              |NA               |NA               |NA                |NA               |NA                |
+|CAGACTTGGC |0.11     |1.43      |0.89     |1         |0.26      |1.26       |NA              |NA               |NA               |NA                |NA               |NA                |
+|AGACTTGGAT |0.8      |0.9       |0.33     |1.22      |0.1       |1.34       |NA              |NA               |NA               |NA                |NA               |NA                |
+|AGACTTGGCT |0.021    |1.54      |0.89     |0.93      |6.3e-05   |1.86       |NA              |NA               |NA               |NA                |NA               |NA                |
+|AGACTTTGCT |1        |0.99      |1        |0.97      |9e-08     |2.1        |NA              |NA               |NA               |NA                |NA               |NA                |
+|AATCCAAGTC |0.00093  |2.17      |0.89     |0.91      |0.0041    |1.62       |NA              |NA               |NA               |NA                |NA               |NA                |
+|AAGCCAAGTC |0.0028   |1.72      |1        |1         |1.9e-09   |2.29       |NA              |NA               |0.11             |1.67              |NA               |NA                |
+|AATCCCAGTC |0.015    |1.75      |0.34     |1.28      |1e-04     |1.96       |NA              |NA               |NA               |NA                |NA               |NA                |
+|AAGCAAAGTC |0.085    |1.38      |0.16     |0.65      |3.9e-07   |1.97       |NA              |NA               |NA               |NA                |NA               |NA                |
+|AAGCCCAGTC |0.8      |1.06      |1        |0.96      |0.019     |1.53       |NA              |NA               |NA               |NA                |0.36             |1.33              |
+|AAATCCAAGT |0.00077  |1.85      |0.062    |1.4       |0.58      |0.88       |NA              |NA               |NA               |NA                |NA               |NA                |
+|ACTTGGATTC |0.05     |1.61      |0.46     |1.23      |0.068     |1.44       |NA              |NA               |NA               |NA                |NA               |NA                |
+|GTCCAAGTCA |0.042    |1.71      |0.23     |1.4       |0.1       |1.58       |NA              |NA               |NA               |NA                |NA               |NA                |
+|GGCCAAGTCA |1        |0.92      |0.89     |1.04      |NA        |NA         |NA              |NA               |NA               |NA                |NA               |NA                |
+|GCCCAAGTCA |1        |0.99      |0.89     |0.91      |0.66      |1.09       |NA              |NA               |NA               |NA                |0.0016           |2.98              |
+|GACCAAGTCA |0.00031  |2.26      |NA       |NA        |0.41      |1.21       |NA              |NA               |NA               |NA                |NA               |NA                |
+|AGTCCAAGTC |NA       |NA        |0.4      |1.25      |0.44      |1.21       |NA              |NA               |NA               |NA                |NA               |NA                |
+|AGGCCAAGTC |5.7e-05  |2.35      |NA       |NA        |1         |0.97       |NA              |NA               |NA               |NA                |NA               |NA                |
+|AGCCCAAGTC |0.9      |0.93      |0.51     |1.17      |NA        |NA         |0.0037          |2.53             |NA               |NA                |0.0044           |2.47              |
+|AGACCAAGTC |0.013    |1.72      |NA       |NA        |0.24      |1.34       |NA              |NA               |NA               |NA                |NA               |NA                |
+Test: gainlin
+
+
+|           |p_WSBEiJ |or_WSBEiJ |p_PWKPhJ |or_PWKPhJ |p_CASTEiJ |or_CASTEiJ |p_WSBEiJ.PWKPhJ |or_WSBEiJ.PWKPhJ |p_CASTEiJ.PWKPhJ |or_CASTEiJ.PWKPhJ |p_WSBEiJ.CASTEiJ |or_WSBEiJ.CASTEiJ |
+|:----------|:--------|:---------|:--------|:---------|:---------|:----------|:---------------|:----------------|:----------------|:-----------------|:----------------|:-----------------|
+|CCAAGTCTGC |0.55     |0.91      |0.39     |1.12      |1         |0.99       |0.66            |0.86             |0.83             |0.92              |0.74             |0.88              |
+|CAGACTTGGC |0.67     |1.06      |0.83     |0.96      |0.57      |0.91       |0.16            |0.64             |0.5              |1.13              |0.48             |1.16              |
+|AGACTTGGAT |0.48     |1.09      |0.15     |0.81      |0.65      |0.93       |0.91            |1.02             |0.3              |1.22              |0.38             |0.79              |
+|AGACTTGGCT |0.81     |0.96      |0.38     |0.89      |0.12      |1.19       |0.48            |1.13             |0.44             |1.14              |0.84             |1.03              |
+|AGACTTTGCT |0.79     |1.02      |0.43     |0.91      |0.79      |1.03       |0.37            |0.82             |0.73             |1.05              |0.13             |1.28              |
+|AATCCAAGTC |0.78     |1.03      |0.78     |0.95      |0.12      |0.77       |0.34            |1.24             |1                |0.95              |0.19             |0.67              |
+|AAGCCAAGTC |0.56     |0.92      |0.11     |1.21      |0.52      |0.91       |0.45            |0.81             |0.68             |1.07              |0.19             |1.29              |
+|AATCCCAGTC |0.77     |0.94      |0.037    |1.32      |0.66      |0.92       |1               |0.98             |0.13             |0.63              |0.39             |0.76              |
+|AAGCAAAGTC |0.83     |1.02      |0.83     |1.02      |0.29      |0.88       |0.35            |0.81             |0.66             |0.91              |0.71             |0.91              |
+|AAGCCCAGTC |0.94     |0.97      |0.78     |0.95      |0.086     |0.76       |0.91            |0.92             |0.82             |1.04              |0.63             |1.11              |
+|AAATCCAAGT |0.96     |1         |0.34     |0.89      |0.58      |0.94       |0.35            |0.81             |0.54             |1.1               |0.19             |1.24              |
+|ACTTGGATTC |0.11     |1.22      |0.73     |1.04      |0.58      |0.91       |0.48            |0.8              |1                |0.97              |1                |0.97              |
+|GTCCAAGTCA |0.11     |0.74      |0.75     |1.04      |0.69      |1.07       |0.43            |0.76             |1                |0.95              |0.28             |1.28              |
+|GGCCAAGTCA |0.57     |1.09      |0.42     |0.85      |0.36      |1.15       |0.79            |0.86             |NA               |NA                |0.17             |1.4               |
+|GCCCAAGTCA |0.18     |1.22      |0.27     |0.82      |0.34      |1.15       |1               |0.94             |0.32             |1.23              |NA               |NA                |
+|GACCAAGTCA |0.16     |0.78      |0.65     |1.06      |0.35      |0.85       |0.6             |1.13             |NA               |NA                |0.51             |1.15              |
+|AGTCCAAGTC |0.35     |1.14      |0.09     |0.74      |1         |1          |0.36            |0.73             |0.8              |1.03              |NA               |NA                |
+|AGGCCAAGTC |0.5      |1.1       |0.88     |0.96      |0.6       |0.9        |0.9             |1.02             |0.55             |0.82              |0.53             |1.16              |
+|AGCCCAAGTC |0.61     |0.91      |0.24     |0.82      |0.88      |1.02       |0.71            |0.86             |0.047            |1.49              |0.71             |0.88              |
+|AGACCAAGTC |0.28     |0.83      |0.12     |0.77      |0.21      |0.81       |0.54            |1.15             |0.3              |0.73              |0.14             |1.35              |
+Test: gainat
+
+
+|           |p_WSBEiJ |or_WSBEiJ |p_PWKPhJ |or_PWKPhJ |p_CASTEiJ |or_CASTEiJ |p_WSBEiJ.PWKPhJ |or_WSBEiJ.PWKPhJ |p_CASTEiJ.PWKPhJ |or_CASTEiJ.PWKPhJ |p_WSBEiJ.CASTEiJ |or_WSBEiJ.CASTEiJ |
+|:----------|:--------|:---------|:--------|:---------|:---------|:----------|:---------------|:----------------|:----------------|:-----------------|:----------------|:-----------------|
+|CCAAGTCTGC |0.53     |1.16      |NA       |NA        |0.57      |1.15       |NA              |NA               |NA               |NA                |NA               |NA                |
+|CAGACTTGGC |0.88     |1.03      |0.75     |1.1       |0.2       |1.4        |NA              |NA               |NA               |NA                |NA               |NA                |
+|AGACTTGGAT |0.9      |1.03      |0.46     |1.22      |0.89      |1.04       |NA              |NA               |NA               |NA                |NA               |NA                |
+|AGACTTGGCT |0.086    |1.46      |1        |0.93      |0.079     |1.41       |NA              |NA               |NA               |NA                |NA               |NA                |
+|AGACTTTGCT |0.91     |0.94      |0.91     |1.01      |1         |0.96       |NA              |NA               |NA               |NA                |0.23             |1.39              |
+|AATCCAAGTC |NA       |NA        |0.17     |1.42      |0.39      |1.26       |NA              |NA               |NA               |NA                |NA               |NA                |
+|AAGCCAAGTC |0.19     |1.39      |NA       |NA        |0.25      |1.31       |NA              |NA               |NA               |NA                |NA               |NA                |
+|AATCCCAGTC |NA       |NA        |1        |0.94      |NA        |NA         |NA              |NA               |NA               |NA                |NA               |NA                |
+|AAGCAAAGTC |0.42     |0.78      |1        |1         |0.45      |1.18       |NA              |NA               |NA               |NA                |NA               |NA                |
+|AAGCCCAGTC |0.019    |1.8       |NA       |NA        |NA        |NA         |NA              |NA               |NA               |NA                |NA               |NA                |
+|AAATCCAAGT |0.42     |0.78      |0.72     |0.87      |0.1       |1.4        |NA              |NA               |0.29             |1.34              |0.052            |1.71              |
+|ACTTGGATTC |NA       |NA        |0.67     |1.11      |NA        |NA         |NA              |NA               |NA               |NA                |NA               |NA                |
+|GTCCAAGTCA |0.016    |2.04      |0.13     |1.51      |NA        |NA         |NA              |NA               |NA               |NA                |NA               |NA                |
+|GGCCAAGTCA |NA       |NA        |NA       |NA        |0.74      |1.07       |NA              |NA               |NA               |NA                |NA               |NA                |
+|GCCCAAGTCA |NA       |NA        |NA       |NA        |1         |0.97       |NA              |NA               |NA               |NA                |NA               |NA                |
+|GACCAAGTCA |NA       |NA        |0.87     |1.01      |NA        |NA         |NA              |NA               |NA               |NA                |NA               |NA                |
+|AGTCCAAGTC |0.11     |1.53      |NA       |NA        |0.18      |1.42       |NA              |NA               |NA               |NA                |NA               |NA                |
+|AGGCCAAGTC |NA       |NA        |0.87     |1.02      |0.13      |1.53       |NA              |NA               |NA               |NA                |NA               |NA                |
+|AGCCCAAGTC |0.74     |1.08      |NA       |NA        |0.75      |1.09       |NA              |NA               |NA               |NA                |NA               |NA                |
+|AGACCAAGTC |NA       |NA        |0.033    |1.82      |0.23      |1.38       |NA              |NA               |NA               |NA                |NA               |NA                |
 ---
 
 
