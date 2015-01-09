@@ -1,6 +1,26 @@
 
 
 ```
-## Error: object 'x' not found
+## Loss AT to GC, WSBEiJ, nonRepeat, motifNumber = 1
 ```
+
+![plot of chunk motifPValues](figure/motifPValues1.png) 
+
+```
+## Loss AT to GC, WSBEiJ, nonRepeat, motifNumber = 2
+```
+
+![plot of chunk motifPValues](figure/motifPValues2.png) 
+
+```
+## Loss AT to GC, WSBEiJ, nonRepeat, motifNumber = 3
+```
+
+![plot of chunk motifPValues](figure/motifPValues3.png) 
+
+```
+## Loss AT to GC, WSBEiJ, nonRepeat, motifNumber = 4
+```
+
+![plot of chunk motifPValues](figure/motifPValues4.png) 
   

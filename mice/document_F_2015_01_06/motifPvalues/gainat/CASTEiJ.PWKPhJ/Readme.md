@@ -1,6 +1,14 @@
 
 
 ```
-## Error: object 'x' not found
+## Gain AT to GC, CASTEiJ.PWKPhJ, nonRepeat, motifNumber = 1
 ```
+
+![plot of chunk motifPValues](figure/motifPValues1.png) 
+
+```
+## Gain AT to GC, CASTEiJ.PWKPhJ, nonRepeat, motifNumber = 2
+```
+
+![plot of chunk motifPValues](figure/motifPValues2.png) 
   
