@@ -527,56 +527,6 @@ All clustered AT to GC plots collapsed together for the loss lineage test
 This plot shows correlation of some pre-selected top motifs on different lineages and backgrounds with each other and with 3 linkage-disequilibrium based maps, at fine and broad scales.
 
 
-[1] "interrogate at window 1,Tue Jan 13 12:11:30 2015"
-[1] "2 - interrogate at window 1,Tue Jan 13 12:11:39 2015"
-[1] "3 - interrogate at window 1,Tue Jan 13 12:11:43 2015"
-[1] "4 - interrogate at window 1,Tue Jan 13 12:11:43 2015"
-[1] "5 - interrogate at window 1,Tue Jan 13 12:11:43 2015"
-[1] "interrogate at window 2,Tue Jan 13 12:11:43 2015"
-[1] "2 - interrogate at window 2,Tue Jan 13 12:11:49 2015"
-[1] "3 - interrogate at window 2,Tue Jan 13 12:11:51 2015"
-[1] "4 - interrogate at window 2,Tue Jan 13 12:11:51 2015"
-[1] "5 - interrogate at window 2,Tue Jan 13 12:11:51 2015"
-[1] "interrogate at window 3,Tue Jan 13 12:11:51 2015"
-[1] "2 - interrogate at window 3,Tue Jan 13 12:11:55 2015"
-[1] "3 - interrogate at window 3,Tue Jan 13 12:11:56 2015"
-[1] "4 - interrogate at window 3,Tue Jan 13 12:11:56 2015"
-[1] "5 - interrogate at window 3,Tue Jan 13 12:11:56 2015"
-[1] "interrogate at window 4,Tue Jan 13 12:11:56 2015"
-[1] "2 - interrogate at window 4,Tue Jan 13 12:12:00 2015"
-[1] "3 - interrogate at window 4,Tue Jan 13 12:12:01 2015"
-[1] "4 - interrogate at window 4,Tue Jan 13 12:12:01 2015"
-[1] "5 - interrogate at window 4,Tue Jan 13 12:12:01 2015"
-[1] "interrogate at window 5,Tue Jan 13 12:12:01 2015"
-[1] "2 - interrogate at window 5,Tue Jan 13 12:12:05 2015"
-[1] "3 - interrogate at window 5,Tue Jan 13 12:12:05 2015"
-[1] "4 - interrogate at window 5,Tue Jan 13 12:12:05 2015"
-[1] "5 - interrogate at window 5,Tue Jan 13 12:12:05 2015"
-[1] "interrogate at window 6,Tue Jan 13 12:12:05 2015"
-[1] "2 - interrogate at window 6,Tue Jan 13 12:12:09 2015"
-[1] "3 - interrogate at window 6,Tue Jan 13 12:12:10 2015"
-[1] "4 - interrogate at window 6,Tue Jan 13 12:12:10 2015"
-[1] "5 - interrogate at window 6,Tue Jan 13 12:12:10 2015"
-[1] "interrogate at window 7,Tue Jan 13 12:12:10 2015"
-[1] "2 - interrogate at window 7,Tue Jan 13 12:12:14 2015"
-[1] "3 - interrogate at window 7,Tue Jan 13 12:12:14 2015"
-[1] "4 - interrogate at window 7,Tue Jan 13 12:12:14 2015"
-[1] "5 - interrogate at window 7,Tue Jan 13 12:12:14 2015"
-[1] "interrogate at window 8,Tue Jan 13 12:12:14 2015"
-[1] "2 - interrogate at window 8,Tue Jan 13 12:12:17 2015"
-[1] "3 - interrogate at window 8,Tue Jan 13 12:12:17 2015"
-[1] "4 - interrogate at window 8,Tue Jan 13 12:12:17 2015"
-[1] "5 - interrogate at window 8,Tue Jan 13 12:12:17 2015"
-[1] "interrogate at window 9,Tue Jan 13 12:12:17 2015"
-[1] "2 - interrogate at window 9,Tue Jan 13 12:12:21 2015"
-[1] "3 - interrogate at window 9,Tue Jan 13 12:12:21 2015"
-[1] "4 - interrogate at window 9,Tue Jan 13 12:12:21 2015"
-[1] "5 - interrogate at window 9,Tue Jan 13 12:12:21 2015"
-[1] "interrogate at window 10,Tue Jan 13 12:12:21 2015"
-[1] "2 - interrogate at window 10,Tue Jan 13 12:12:25 2015"
-[1] "3 - interrogate at window 10,Tue Jan 13 12:12:25 2015"
-[1] "4 - interrogate at window 10,Tue Jan 13 12:12:25 2015"
-[1] "5 - interrogate at window 10,Tue Jan 13 12:12:25 2015"
 Correlation at 5 megabase scale between LD rate maps and hotspot death estimates
 
 
@@ -595,14 +545,7 @@ Correlation at 5 megabase scale between LD rate maps and hotspot death estimates
 
 The following plot shows the breakdown chromosome wide
 
-
-```
-## Warning: all scheduled cores encountered errors in user code
-```
-
-```
-## Error: $ operator is invalid for atomic vectors
-```
+![plot of chunk corrTopMotifsGenomeWide](figure/corrTopMotifsGenomeWide.png) 
 
 
 
