@@ -527,24 +527,71 @@ All clustered AT to GC plots collapsed together for the loss lineage test
 This plot shows correlation of some pre-selected top motifs on different lineages and backgrounds with each other and with 3 linkage-disequilibrium based maps, at fine and broad scales.
 
 
-
-```
-## Warning: all scheduled cores encountered errors in user code
-```
-
-```
-## Error: $ operator is invalid for atomic vectors
-```
-
-```
-## Error: object 'corrMat' not found
-```
-
+[1] "interrogate at window 1,Tue Jan 13 12:11:30 2015"
+[1] "2 - interrogate at window 1,Tue Jan 13 12:11:39 2015"
+[1] "3 - interrogate at window 1,Tue Jan 13 12:11:43 2015"
+[1] "4 - interrogate at window 1,Tue Jan 13 12:11:43 2015"
+[1] "5 - interrogate at window 1,Tue Jan 13 12:11:43 2015"
+[1] "interrogate at window 2,Tue Jan 13 12:11:43 2015"
+[1] "2 - interrogate at window 2,Tue Jan 13 12:11:49 2015"
+[1] "3 - interrogate at window 2,Tue Jan 13 12:11:51 2015"
+[1] "4 - interrogate at window 2,Tue Jan 13 12:11:51 2015"
+[1] "5 - interrogate at window 2,Tue Jan 13 12:11:51 2015"
+[1] "interrogate at window 3,Tue Jan 13 12:11:51 2015"
+[1] "2 - interrogate at window 3,Tue Jan 13 12:11:55 2015"
+[1] "3 - interrogate at window 3,Tue Jan 13 12:11:56 2015"
+[1] "4 - interrogate at window 3,Tue Jan 13 12:11:56 2015"
+[1] "5 - interrogate at window 3,Tue Jan 13 12:11:56 2015"
+[1] "interrogate at window 4,Tue Jan 13 12:11:56 2015"
+[1] "2 - interrogate at window 4,Tue Jan 13 12:12:00 2015"
+[1] "3 - interrogate at window 4,Tue Jan 13 12:12:01 2015"
+[1] "4 - interrogate at window 4,Tue Jan 13 12:12:01 2015"
+[1] "5 - interrogate at window 4,Tue Jan 13 12:12:01 2015"
+[1] "interrogate at window 5,Tue Jan 13 12:12:01 2015"
+[1] "2 - interrogate at window 5,Tue Jan 13 12:12:05 2015"
+[1] "3 - interrogate at window 5,Tue Jan 13 12:12:05 2015"
+[1] "4 - interrogate at window 5,Tue Jan 13 12:12:05 2015"
+[1] "5 - interrogate at window 5,Tue Jan 13 12:12:05 2015"
+[1] "interrogate at window 6,Tue Jan 13 12:12:05 2015"
+[1] "2 - interrogate at window 6,Tue Jan 13 12:12:09 2015"
+[1] "3 - interrogate at window 6,Tue Jan 13 12:12:10 2015"
+[1] "4 - interrogate at window 6,Tue Jan 13 12:12:10 2015"
+[1] "5 - interrogate at window 6,Tue Jan 13 12:12:10 2015"
+[1] "interrogate at window 7,Tue Jan 13 12:12:10 2015"
+[1] "2 - interrogate at window 7,Tue Jan 13 12:12:14 2015"
+[1] "3 - interrogate at window 7,Tue Jan 13 12:12:14 2015"
+[1] "4 - interrogate at window 7,Tue Jan 13 12:12:14 2015"
+[1] "5 - interrogate at window 7,Tue Jan 13 12:12:14 2015"
+[1] "interrogate at window 8,Tue Jan 13 12:12:14 2015"
+[1] "2 - interrogate at window 8,Tue Jan 13 12:12:17 2015"
+[1] "3 - interrogate at window 8,Tue Jan 13 12:12:17 2015"
+[1] "4 - interrogate at window 8,Tue Jan 13 12:12:17 2015"
+[1] "5 - interrogate at window 8,Tue Jan 13 12:12:17 2015"
+[1] "interrogate at window 9,Tue Jan 13 12:12:17 2015"
+[1] "2 - interrogate at window 9,Tue Jan 13 12:12:21 2015"
+[1] "3 - interrogate at window 9,Tue Jan 13 12:12:21 2015"
+[1] "4 - interrogate at window 9,Tue Jan 13 12:12:21 2015"
+[1] "5 - interrogate at window 9,Tue Jan 13 12:12:21 2015"
+[1] "interrogate at window 10,Tue Jan 13 12:12:21 2015"
+[1] "2 - interrogate at window 10,Tue Jan 13 12:12:25 2015"
+[1] "3 - interrogate at window 10,Tue Jan 13 12:12:25 2015"
+[1] "4 - interrogate at window 10,Tue Jan 13 12:12:25 2015"
+[1] "5 - interrogate at window 10,Tue Jan 13 12:12:25 2015"
 Correlation at 5 megabase scale between LD rate maps and hotspot death estimates
 
-```
-## Error: object 'corrMat' not found
-```
+
+|         |   dom|  cast| indian|  FAM1|  AMS3| Spretus1| Spretus2|   AM1|   AM3|
+|:--------|-----:|-----:|------:|-----:|-----:|--------:|--------:|-----:|-----:|
+|dom      | 0.000| 0.670|  0.835| 0.459| 0.347|    0.363|    0.612| 0.706| 0.590|
+|cast     | 0.000| 0.000|  0.645| 0.396| 0.287|    0.358|    0.512| 0.579| 0.503|
+|indian   | 0.000| 0.000|  0.000| 0.474| 0.312|    0.348|    0.667| 0.759| 0.617|
+|FAM1     | 0.000| 0.000|  0.000| 0.000| 0.668|    0.834|    0.584| 0.676| 0.578|
+|AMS3     | 0.000| 0.000|  0.000| 0.000| 0.000|    0.715|    0.419| 0.544| 0.497|
+|Spretus1 | 0.000| 0.000|  0.000| 0.000| 0.000|    0.000|    0.522| 0.617| 0.531|
+|Spretus2 | 0.000| 0.000|  0.000| 0.000| 0.000|    0.000|    0.000| 0.725| 0.585|
+|AM1      | 0.000| 0.000|  0.000| 0.000| 0.000|    0.000|    0.000| 0.000| 0.782|
+|AM3      | 0.000| 0.000|  0.000| 0.000| 0.000|    0.000|    0.000| 0.000| 0.000|
+![plot of chunk corrTopMotifs](figure/corrTopMotifs.png) 
 
 The following plot shows the breakdown chromosome wide
 
