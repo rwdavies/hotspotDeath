@@ -4,9 +4,161 @@
 ## Loss Lineage, MACAQUE, AluJo, motifNumber = 1
 ```
 
+![plot of chunk motifPValues](figure/motifPValues1.png) 
+
 ```
-## Error: error in evaluating the argument 'x' in selecting a method for function 'plot': Error: object 'totalP' not found
+## Loss Lineage, MACAQUE, AluJr, motifNumber = 1
 ```
 
-![plot of chunk motifPValues](figure/motifPValues.png) 
+![plot of chunk motifPValues](figure/motifPValues2.png) 
+
+```
+## Loss Lineage, MACAQUE, AluSg, motifNumber = 1
+```
+
+![plot of chunk motifPValues](figure/motifPValues3.png) 
+
+```
+## Loss Lineage, MACAQUE, AluSp, motifNumber = 1
+```
+
+![plot of chunk motifPValues](figure/motifPValues4.png) 
+
+```
+## Loss Lineage, MACAQUE, AluSq2, motifNumber = 1
+```
+
+![plot of chunk motifPValues](figure/motifPValues5.png) 
+
+```
+## Loss Lineage, MACAQUE, AluSx, motifNumber = 1
+```
+
+![plot of chunk motifPValues](figure/motifPValues6.png) 
+
+```
+## Loss Lineage, MACAQUE, AluSx, motifNumber = 2
+```
+
+![plot of chunk motifPValues](figure/motifPValues7.png) 
+
+```
+## Loss Lineage, MACAQUE, AluSx, motifNumber = 3
+```
+
+![plot of chunk motifPValues](figure/motifPValues8.png) 
+
+```
+## Loss Lineage, MACAQUE, AluSx, motifNumber = 4
+```
+
+![plot of chunk motifPValues](figure/motifPValues9.png) 
+
+```
+## Loss Lineage, MACAQUE, AluSx1, motifNumber = 1
+```
+
+![plot of chunk motifPValues](figure/motifPValues10.png) 
+
+```
+## Loss Lineage, MACAQUE, AluSx1, motifNumber = 2
+```
+
+![plot of chunk motifPValues](figure/motifPValues11.png) 
+
+```
+## Loss Lineage, MACAQUE, AluSx1, motifNumber = 3
+```
+
+![plot of chunk motifPValues](figure/motifPValues12.png) 
+
+```
+## Loss Lineage, MACAQUE, AluSx1, motifNumber = 4
+```
+
+![plot of chunk motifPValues](figure/motifPValues13.png) 
+
+```
+## Loss Lineage, MACAQUE, AluSx1, motifNumber = 5
+```
+
+![plot of chunk motifPValues](figure/motifPValues14.png) 
+
+```
+## Loss Lineage, MACAQUE, AluSx1, motifNumber = 6
+```
+
+![plot of chunk motifPValues](figure/motifPValues15.png) 
+
+```
+## Loss Lineage, MACAQUE, AluSx1, motifNumber = 7
+```
+
+![plot of chunk motifPValues](figure/motifPValues16.png) 
+
+```
+## Loss Lineage, MACAQUE, AluSz, motifNumber = 1
+```
+
+![plot of chunk motifPValues](figure/motifPValues17.png) 
+
+```
+## Loss Lineage, MACAQUE, AluSz6, motifNumber = 1
+```
+
+![plot of chunk motifPValues](figure/motifPValues18.png) 
+
+```
+## Loss Lineage, MACAQUE, AluSz6, motifNumber = 2
+```
+
+![plot of chunk motifPValues](figure/motifPValues19.png) 
+
+```
+## Loss Lineage, MACAQUE, AluY, motifNumber = 1
+```
+
+![plot of chunk motifPValues](figure/motifPValues20.png) 
+
+```
+## Loss Lineage, MACAQUE, L1MA2, motifNumber = 1
+```
+
+![plot of chunk motifPValues](figure/motifPValues21.png) 
+
+```
+## Loss Lineage, MACAQUE, nonRepeat, motifNumber = 1
+```
+
+![plot of chunk motifPValues](figure/motifPValues22.png) 
+
+```
+## Loss Lineage, MACAQUE, nonRepeat, motifNumber = 2
+```
+
+![plot of chunk motifPValues](figure/motifPValues23.png) 
+
+```
+## Loss Lineage, MACAQUE, nonRepeat, motifNumber = 3
+```
+
+![plot of chunk motifPValues](figure/motifPValues24.png) 
+
+```
+## Loss Lineage, MACAQUE, Tigger3a, motifNumber = 1
+```
+
+![plot of chunk motifPValues](figure/motifPValues25.png) 
+
+```
+## Loss Lineage, MACAQUE, Tigger3a, motifNumber = 2
+```
+
+![plot of chunk motifPValues](figure/motifPValues26.png) 
+
+```
+## Loss Lineage, MACAQUE, Tigger3b, motifNumber = 1
+```
+
+![plot of chunk motifPValues](figure/motifPValues27.png) 
   

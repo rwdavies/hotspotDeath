@@ -4,9 +4,11 @@
 ## Gain Lineage, GORILLA, AluSp, motifNumber = 1
 ```
 
+![plot of chunk motifPValues](figure/motifPValues1.png) 
+
 ```
-## Error: error in evaluating the argument 'x' in selecting a method for function 'plot': Error: object 'totalP' not found
+## Gain Lineage, GORILLA, AluSx1, motifNumber = 1
 ```
 
-![plot of chunk motifPValues](figure/motifPValues.png) 
+![plot of chunk motifPValues](figure/motifPValues2.png) 
   
