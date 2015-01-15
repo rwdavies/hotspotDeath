@@ -425,64 +425,9 @@ Nucleotide diversity
 
 ## PWK results at CAST top results
 
-Other studies have found that M. m. musculus has a PRDM9 allele similar to the CAST motif, but while we found a denovo CAST motif similar to published work, here we found no de novo PWK motifs. Here, we look at the p-values for the motifs in the top CAST cluster in the other strains
-
-Test: losslin
+Only for the mouse analysis
 
 
-|           |p_WSBEiJ |or_WSBEiJ |p_PWKPhJ |or_PWKPhJ |p_CASTEiJ |or_CASTEiJ |p_WSBEiJ.PWKPhJ |or_WSBEiJ.PWKPhJ |p_CASTEiJ.PWKPhJ |or_CASTEiJ.PWKPhJ |p_WSBEiJ.CASTEiJ |or_WSBEiJ.CASTEiJ |
-|:----------|:--------|:---------|:--------|:---------|:---------|:----------|:---------------|:----------------|:----------------|:-----------------|:----------------|:-----------------|
-|ATGATCAGCA |NA       |NA        |NA       |NA        |NA        |NA         |NA              |NA               |NA               |NA                |NA               |NA                |
-|NA         |NA       |NA        |NA       |NA        |NA        |NA         |NA              |NA               |NA               |NA                |NA               |NA                |
-|NA         |NA       |NA        |NA       |NA        |NA        |NA         |NA              |NA               |NA               |NA                |NA               |NA                |
-|NA         |NA       |NA        |NA       |NA        |NA        |NA         |NA              |NA               |NA               |NA                |NA               |NA                |
-|NA         |NA       |NA        |NA       |NA        |NA        |NA         |NA              |NA               |NA               |NA                |NA               |NA                |
-|NA         |NA       |NA        |NA       |NA        |NA        |NA         |NA              |NA               |NA               |NA                |NA               |NA                |
-|NA         |NA       |NA        |NA       |NA        |NA        |NA         |NA              |NA               |NA               |NA                |NA               |NA                |
-|NA         |NA       |NA        |NA       |NA        |NA        |NA         |NA              |NA               |NA               |NA                |NA               |NA                |
-|NA         |NA       |NA        |NA       |NA        |NA        |NA         |NA              |NA               |NA               |NA                |NA               |NA                |
-Test: lossat
-
-
-|           |p_WSBEiJ |or_WSBEiJ |p_PWKPhJ |or_PWKPhJ |p_CASTEiJ |or_CASTEiJ |p_WSBEiJ.PWKPhJ |or_WSBEiJ.PWKPhJ |p_CASTEiJ.PWKPhJ |or_CASTEiJ.PWKPhJ |p_WSBEiJ.CASTEiJ |or_WSBEiJ.CASTEiJ |
-|:----------|:--------|:---------|:--------|:---------|:---------|:----------|:---------------|:----------------|:----------------|:-----------------|:----------------|:-----------------|
-|ATGATCAGCA |NA       |NA        |NA       |NA        |NA        |NA         |NA              |NA               |NA               |NA                |NA               |NA                |
-|GTCCAAGTCA |NA       |NA        |NA       |NA        |NA        |NA         |NA              |NA               |NA               |NA                |NA               |NA                |
-|GGCCAAGTCA |NA       |NA        |NA       |NA        |NA        |NA         |NA              |NA               |NA               |NA                |NA               |NA                |
-|GCCCAAGTCA |NA       |NA        |NA       |NA        |NA        |NA         |NA              |NA               |NA               |NA                |NA               |NA                |
-|GACCAAGTCA |NA       |NA        |NA       |NA        |NA        |NA         |NA              |NA               |NA               |NA                |NA               |NA                |
-|AGTCCAAGTC |NA       |NA        |NA       |NA        |NA        |NA         |NA              |NA               |NA               |NA                |NA               |NA                |
-|AGGCCAAGTC |NA       |NA        |NA       |NA        |NA        |NA         |NA              |NA               |NA               |NA                |NA               |NA                |
-|AGCCCAAGTC |NA       |NA        |NA       |NA        |NA        |NA         |NA              |NA               |NA               |NA                |NA               |NA                |
-|AGACCAAGTC |NA       |NA        |NA       |NA        |NA        |NA         |NA              |NA               |NA               |NA                |NA               |NA                |
-Test: gainlin
-
-
-|           |p_WSBEiJ |or_WSBEiJ |p_PWKPhJ |or_PWKPhJ |p_CASTEiJ |or_CASTEiJ |p_WSBEiJ.PWKPhJ |or_WSBEiJ.PWKPhJ |p_CASTEiJ.PWKPhJ |or_CASTEiJ.PWKPhJ |p_WSBEiJ.CASTEiJ |or_WSBEiJ.CASTEiJ |
-|:----------|:--------|:---------|:--------|:---------|:---------|:----------|:---------------|:----------------|:----------------|:-----------------|:----------------|:-----------------|
-|ATGATCAGCA |NA       |NA        |NA       |NA        |NA        |NA         |NA              |NA               |NA               |NA                |NA               |NA                |
-|NA         |NA       |NA        |NA       |NA        |NA        |NA         |NA              |NA               |NA               |NA                |NA               |NA                |
-|NA         |NA       |NA        |NA       |NA        |NA        |NA         |NA              |NA               |NA               |NA                |NA               |NA                |
-|NA         |NA       |NA        |NA       |NA        |NA        |NA         |NA              |NA               |NA               |NA                |NA               |NA                |
-|NA         |NA       |NA        |NA       |NA        |NA        |NA         |NA              |NA               |NA               |NA                |NA               |NA                |
-|NA         |NA       |NA        |NA       |NA        |NA        |NA         |NA              |NA               |NA               |NA                |NA               |NA                |
-|NA         |NA       |NA        |NA       |NA        |NA        |NA         |NA              |NA               |NA               |NA                |NA               |NA                |
-|NA         |NA       |NA        |NA       |NA        |NA        |NA         |NA              |NA               |NA               |NA                |NA               |NA                |
-|NA         |NA       |NA        |NA       |NA        |NA        |NA         |NA              |NA               |NA               |NA                |NA               |NA                |
-Test: gainat
-
-
-|           |p_WSBEiJ |or_WSBEiJ |p_PWKPhJ |or_PWKPhJ |p_CASTEiJ |or_CASTEiJ |p_WSBEiJ.PWKPhJ |or_WSBEiJ.PWKPhJ |p_CASTEiJ.PWKPhJ |or_CASTEiJ.PWKPhJ |p_WSBEiJ.CASTEiJ |or_WSBEiJ.CASTEiJ |
-|:----------|:--------|:---------|:--------|:---------|:---------|:----------|:---------------|:----------------|:----------------|:-----------------|:----------------|:-----------------|
-|ATGATCAGCA |NA       |NA        |NA       |NA        |NA        |NA         |NA              |NA               |NA               |NA                |NA               |NA                |
-|GTCCAAGTCA |NA       |NA        |NA       |NA        |NA        |NA         |NA              |NA               |NA               |NA                |NA               |NA                |
-|GGCCAAGTCA |NA       |NA        |NA       |NA        |NA        |NA         |NA              |NA               |NA               |NA                |NA               |NA                |
-|GCCCAAGTCA |NA       |NA        |NA       |NA        |NA        |NA         |NA              |NA               |NA               |NA                |NA               |NA                |
-|GACCAAGTCA |NA       |NA        |NA       |NA        |NA        |NA         |NA              |NA               |NA               |NA                |NA               |NA                |
-|AGTCCAAGTC |NA       |NA        |NA       |NA        |NA        |NA         |NA              |NA               |NA               |NA                |NA               |NA                |
-|AGGCCAAGTC |NA       |NA        |NA       |NA        |NA        |NA         |NA              |NA               |NA               |NA                |NA               |NA                |
-|AGCCCAAGTC |NA       |NA        |NA       |NA        |NA        |NA         |NA              |NA               |NA               |NA                |NA               |NA                |
-|AGACCAAGTC |NA       |NA        |NA       |NA        |NA        |NA         |NA              |NA               |NA               |NA                |NA               |NA                |
 ---
 
 
@@ -504,132 +449,22 @@ All clustered AT to GC plots collapsed together for the loss lineage test
 
 ## Correlation between some top motifs
 
-This plot shows correlation of some pre-selected top motifs on different lineages and backgrounds with each other and with 3 linkage-disequilibrium based maps, at fine and broad scales.
-
-
-
-```
-## Warning: all scheduled cores encountered errors in user code
-```
-
-```
-## Error: $ operator is invalid for atomic vectors
-```
-
-```
-## Error: object 'corrMat' not found
-```
-
-Correlation at 5 megabase scale between LD rate maps and hotspot death estimates
-
-```
-## Error: object 'corrMat' not found
-```
-
-The following plot shows the breakdown chromosome wide
-
-
-```
-## Warning: cannot open compressed file
-## '/Net/dense/data/itch/rwdavies/motifLoss/afihuman/cluster_E_2015_01_09/allCorrelations.RData',
-## probable reason 'No such file or directory'
-```
-
-```
-## Error: cannot open the connection
-```
+Currently only for mice
 
 
 
 
 
 
-```
-## Warning: cannot open compressed file
-## '/Net/dense/data/itch/rwdavies/motifLoss/afihuman/cluster_E_2015_01_09/allCorrelations.RData',
-## probable reason 'No such file or directory'
-```
-
-```
-## Error: cannot open the connection
-```
-
-```
-## Error: object 'nCores' not found
-```
-
-```
-## Error: object 'outPerChromosome' not found
-```
-
-```
-## Error: object 'outPerChromosome' not found
-```
-
-Distribution of recombination along chromosomes 
-![plot of chunk perChromosomeRates](figure/perChromosomeRates.png) 
-
-```
-## Error: object 'toPlot' not found
-```
-
-
----
-
-## Links to pages of significant motifs
-
-
-|            |losslin                                                                                                                       |lossat                                                                                                                       |gainlin                                                                                                                       |gainat                                                                                                                       |
-|:-----------|:-----------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------|
-|MACAQUE     |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/losslin/MACAQUE/)     |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/lossat/MACAQUE/)     |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/gainlin/MACAQUE/)     |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/gainat/MACAQUE/)     |
-|AHCGO       |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/losslin/AHCGO/)       |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/lossat/AHCGO/)       |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/gainlin/AHCGO/)       |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/gainat/AHCGO/)       |
-|ORANGUTAN   |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/losslin/ORANGUTAN/)   |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/lossat/ORANGUTAN/)   |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/gainlin/ORANGUTAN/)   |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/gainat/ORANGUTAN/)   |
-|AHCG        |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/losslin/AHCG/)        |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/lossat/AHCG/)        |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/gainlin/AHCG/)        |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/gainat/AHCG/)        |
-|GORILLA     |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/losslin/GORILLA/)     |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/lossat/GORILLA/)     |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/gainlin/GORILLA/)     |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/gainat/GORILLA/)     |
-|AHC         |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/losslin/AHC/)         |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/lossat/AHC/)         |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/gainlin/AHC/)         |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/gainat/AHC/)         |
-|CHIMP       |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/losslin/CHIMP/)       |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/lossat/CHIMP/)       |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/gainlin/CHIMP/)       |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/gainat/CHIMP/)       |
-|AHN         |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/losslin/AHN/)         |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/lossat/AHN/)         |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/gainlin/AHN/)         |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/gainat/AHN/)         |
-|AHD         |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/losslin/AHD/)         |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/lossat/AHD/)         |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/gainlin/AHD/)         |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/gainat/AHD/)         |
-|HUMAN(NEAN) |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/losslin/HUMAN_NEAN_/) |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/lossat/HUMAN_NEAN_/) |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/gainlin/HUMAN_NEAN_/) |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/gainat/HUMAN_NEAN_/) |
-|HUMAN(DENI) |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/losslin/HUMAN_DENI_/) |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/lossat/HUMAN_DENI_/) |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/gainlin/HUMAN_DENI_/) |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/gainat/HUMAN_DENI_/) |
-|NEAN        |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/losslin/NEAN/)        |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/lossat/NEAN/)        |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/gainlin/NEAN/)        |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/gainat/NEAN/)        |
-|DENI        |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/losslin/DENI/)        |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/lossat/DENI/)        |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/gainlin/DENI/)        |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_09/motifPvalues/gainat/DENI/)        |
-
-
----
-
-
-<!--
-
-## All significant motifs
-
-
-
-
----
-
-
-## QQ plots - seperate
-
-![plot of chunk pValuesQQPlots](figure/pValuesQQPlots1.png) ![plot of chunk pValuesQQPlots](figure/pValuesQQPlots2.png) ![plot of chunk pValuesQQPlots](figure/pValuesQQPlots3.png) ![plot of chunk pValuesQQPlots](figure/pValuesQQPlots4.png) ![plot of chunk pValuesQQPlots](figure/pValuesQQPlots5.png) ![plot of chunk pValuesQQPlots](figure/pValuesQQPlots6.png) ![plot of chunk pValuesQQPlots](figure/pValuesQQPlots7.png) ![plot of chunk pValuesQQPlots](figure/pValuesQQPlots8.png) 
----
-
-
-
-
-## Compare p-values between methods
-
-![plot of chunk pvaluesBetweenMethods](figure/pvaluesBetweenMethods1.png) ![plot of chunk pvaluesBetweenMethods](figure/pvaluesBetweenMethods2.png) ![plot of chunk pvaluesBetweenMethods](figure/pvaluesBetweenMethods3.png) 
----
-
-
-## Compare p-values between lineages within a method
-
-![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage1.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage2.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage3.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage4.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage5.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage6.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage7.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage8.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage9.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage10.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage11.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage12.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage13.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage14.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage15.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage16.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage17.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage18.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage19.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage20.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage21.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage22.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage23.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage24.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage25.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage26.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage27.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage28.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage29.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage30.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage31.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage32.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage33.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage34.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage35.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage36.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage37.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage38.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage39.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage40.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage41.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage42.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage43.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage44.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage45.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage46.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage47.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage48.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage49.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage50.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage51.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage52.png) 
----
 
 
 
 
 
--->
+
+
+
+
+
+
+
