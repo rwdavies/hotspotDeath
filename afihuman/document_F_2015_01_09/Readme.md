@@ -150,38 +150,34 @@ These plots also feature a PWM for the forward and reverse forms of the motif, a
 
 Aligned Genome (Gbp)
 
-```
-## Error: 'names' attribute [4] must be the same length as the vector [3]
-```
 
-```
-## Error: the table must have a header (column names)
-```
-
+|  Total| Pass QC| Fail QC| Pass QC Non Repeat|
+|------:|-------:|-------:|------------------:|
+| 2.8810|  1.1077|  1.7733|             0.6828|
 Number of Derived Mutations down a specific lineage
 
 
-|MACAQUE |AHCGO |ORANGUTAN |AHCG |GORILLA |AHC |CHIMP |AHN |AHD |HUMAN(NEAN) |HUMAN(DENI) |NEAN |DENI |
-|:-------|:-----|:---------|:----|:-------|:---|:-----|:---|:---|:-----------|:-----------|:----|:----|
-|0       |0     |0         |0    |0       |0   |0     |0   |0   |0           |0           |0    |0    |
+|MACAQUE    |AHCGO      |ORANGUTAN  |AHCG       |GORILLA    |AHC        |CHIMP      |AHN        |AHD        |HUMAN(NEAN) |HUMAN(DENI) |NEAN       |DENI       |
+|:----------|:----------|:----------|:----------|:----------|:----------|:----------|:----------|:----------|:-----------|:-----------|:----------|:----------|
+|26,621,100 | 9,748,431 |12,008,463 | 5,789,106 | 5,754,222 | 1,306,032 | 4,297,254 | 3,620,908 | 3,610,379 |   520,460  |   531,019  |   725,802 |   785,327 |
 Branch length as percent of alignable genome
 
 
-| MACAQUE| AHCGO| ORANGUTAN| AHCG| GORILLA| AHC| CHIMP| AHN| AHD| HUMAN(NEAN)| HUMAN(DENI)| NEAN| DENI|
-|-------:|-----:|---------:|----:|-------:|---:|-----:|---:|---:|-----------:|-----------:|----:|----:|
-|     NaN|   NaN|       NaN|  NaN|     NaN| NaN|   NaN| NaN| NaN|         NaN|         NaN|  NaN|  NaN|
+| MACAQUE| AHCGO| ORANGUTAN|  AHCG| GORILLA|   AHC| CHIMP|   AHN|   AHD| HUMAN(NEAN)| HUMAN(DENI)|  NEAN|  DENI|
+|-------:|-----:|---------:|-----:|-------:|-----:|-----:|-----:|-----:|-----------:|-----------:|-----:|-----:|
+|   2.403| 0.880|     1.084| 0.523|   0.519| 0.118| 0.388| 0.327| 0.326|       0.047|       0.048| 0.066| 0.071|
 Branch length compared to ancestral of all lineages in SNPs
 
 
-|DENI |NEAN |HUMAN(DENI) |HUMAN(NEAN) |CHIMP |GORILLA |ORANGUTAN |MACAQUE |
-|:----|:----|:-----------|:-----------|:-----|:-------|:---------|:-------|
-|0    |0    |0           |0           |0     |0       |0         |0       |
+|DENI       |NEAN       |HUMAN(DENI) |HUMAN(NEAN) |CHIMP      |GORILLA    |ORANGUTAN  |MACAQUE    |
+|:----------|:----------|:-----------|:-----------|:----------|:----------|:----------|:----------|
+|24,860,183 |24,800,658 |24,605,875  |24,595,316  |21,140,823 |21,291,759 |21,756,894 |26,621,100 |
 Branch length compared to ancestral as percent of alignable genome
 
 
-| DENI| NEAN| HUMAN(DENI)| HUMAN(NEAN)| CHIMP| GORILLA| ORANGUTAN| MACAQUE|
-|----:|----:|-----------:|-----------:|-----:|-------:|---------:|-------:|
-|  NaN|  NaN|         NaN|         NaN|   NaN|     NaN|       NaN|     NaN|
+|  DENI|  NEAN| HUMAN(DENI)| HUMAN(NEAN)| CHIMP| GORILLA| ORANGUTAN| MACAQUE|
+|-----:|-----:|-----------:|-----------:|-----:|-------:|---------:|-------:|
+| 2.244| 2.239|       2.221|       2.220| 1.908|   1.922|     1.964|   2.403|
 
 
 ---
