@@ -4,9 +4,17 @@
 ## Gain AT to GC, AHCG, AluY, motifNumber = 1
 ```
 
+![plot of chunk motifPValues](figure/motifPValues1.png) 
+
 ```
-## Error: error in evaluating the argument 'x' in selecting a method for function 'plot': Error: object 'totalP' not found
+## Gain AT to GC, AHCG, AluY, motifNumber = 2
 ```
 
-![plot of chunk motifPValues](figure/motifPValues.png) 
+![plot of chunk motifPValues](figure/motifPValues2.png) 
+
+```
+## Gain AT to GC, AHCG, nonRepeat, motifNumber = 1
+```
+
+![plot of chunk motifPValues](figure/motifPValues3.png) 
   

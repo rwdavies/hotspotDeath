@@ -4,9 +4,17 @@
 ## Gain Lineage, ORANGUTAN, MIR, motifNumber = 1
 ```
 
+![plot of chunk motifPValues](figure/motifPValues1.png) 
+
 ```
-## Error: error in evaluating the argument 'x' in selecting a method for function 'plot': Error: object 'totalP' not found
+## Gain Lineage, ORANGUTAN, MIRb, motifNumber = 1
 ```
 
-![plot of chunk motifPValues](figure/motifPValues.png) 
+![plot of chunk motifPValues](figure/motifPValues2.png) 
+
+```
+## Gain Lineage, ORANGUTAN, nonRepeat, motifNumber = 1
+```
+
+![plot of chunk motifPValues](figure/motifPValues3.png) 
   

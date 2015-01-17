@@ -4,9 +4,11 @@
 ## Loss AT to GC, MACAQUE, AluSx1, motifNumber = 1
 ```
 
+![plot of chunk motifPValues](figure/motifPValues1.png) 
+
 ```
-## Error: error in evaluating the argument 'x' in selecting a method for function 'plot': Error: object 'totalP' not found
+## Loss AT to GC, MACAQUE, nonRepeat, motifNumber = 1
 ```
 
-![plot of chunk motifPValues](figure/motifPValues.png) 
+![plot of chunk motifPValues](figure/motifPValues2.png) 
   
