@@ -221,13 +221,13 @@ Note that the following numbers are only for motifs that have been clustered
 Number of motifs (clusters) per test and lineage
 
 
-|        |FAM      |AMS        |Spretus  |AM     |PWKPhJ  |CASTEiJ.PWKPhJ |WSBEiJ  |WSBEiJ.PWKPhJ |
-|:-------|:--------|:----------|:--------|:------|:-------|:--------------|:-------|:-------------|
-|gainat  |46 (14)  |0 (0)      |0 (0)    |5 (3)  |53 (21) |197 (101)      |10 (9)  |8 (7)         |
-|gainlin |326 (42) |2400 (141) |20 (3)   |0 (0)  |1 (1)   |80 (19)        |7 (2)   |3 (3)         |
-|lossat  |3 (2)    |3 (3)      |4 (3)    |15 (5) |4 (4)   |195 (115)      |60 (8)  |60 (9)        |
-|losslin |155 (45) |279 (43)   |140 (13) |65 (5) |7 (3)   |65 (16)        |108 (7) |104 (7)       |
-FAM
+|        |MACAQUE  |AHCGO      |ORANGUTAN |AHCG   |GORILLA |CHIMP     |AHN     |AHD     |HUMAN(DENI) |NEAN  |DENI    |
+|:-------|:--------|:----------|:---------|:------|:-------|:---------|:-------|:-------|:-----------|:-----|:-------|
+|gainat  |46 (14)  |0 (0)      |0 (0)     |5 (3)  |53 (21) |197 (101) |10 (9)  |8 (7)   |2 (2)       |1 (1) |1 (1)   |
+|gainlin |326 (42) |2400 (141) |20 (3)    |0 (0)  |1 (1)   |80 (19)   |7 (2)   |3 (3)   |1 (1)       |1 (1) |44 (13) |
+|lossat  |3 (2)    |3 (3)      |4 (3)     |15 (5) |4 (4)   |195 (115) |60 (8)  |60 (9)  |3 (3)       |0 (0) |0 (0)   |
+|losslin |155 (45) |279 (43)   |140 (13)  |65 (5) |7 (3)   |65 (16)   |108 (7) |104 (7) |0 (0)       |2 (1) |3 (3)   |
+MACAQUE
 
 
 |        |AluSx1 |AluSx  |AluJb  |nonRepeat |AluSq2 |AluSz6 |AluJr  |AluSz  |AluSg  |THE1B  |THE1D |AluJo |THE1A |AluSp |AluSc |AluY  |THE1C |Tigger3a |AluSq |THE1B-int |Tigger3b |
@@ -236,7 +236,7 @@ FAM
 |gainlin |69 (4) |64 (4) |49 (3) |6 (1)     |27 (5) |22 (4) |18 (4) |10 (2) |10 (2) |10 (1) |9 (1) |7 (3) |8 (1) |5 (2) |5 (1) |2 (1) |3 (1) |0 (0)    |1 (1) |1 (1)     |0 (0)    |
 |lossat  |1 (1)  |0 (0)  |0 (0)  |2 (1)     |0 (0)  |0 (0)  |0 (0)  |0 (0)  |0 (0)  |0 (0)  |0 (0) |0 (0) |0 (0) |0 (0) |0 (0) |0 (0) |0 (0) |0 (0)    |0 (0) |0 (0)     |0 (0)    |
 |losslin |33 (7) |33 (8) |31 (6) |30 (10)   |4 (4)  |9 (1)  |3 (1)  |4 (1)  |2 (1)  |0 (0)  |0 (0) |1 (1) |0 (0) |1 (1) |0 (0) |1 (1) |0 (0) |2 (2)    |0 (0) |0 (0)     |1 (1)    |
-AMS
+AHCGO
 
 
 |        |AluSx   |AluSx1  |AluJb   |AluSq2  |AluSz   |AluSz6  |AluJr   |AluJo   |AluSp    |THE1B  |AluSg   |AluSq   |AluY    |AluSc  |L1PA8  |nonRepeat |THE1D  |AluSx3 |FLAM_C |L1PA7  |MSTA   |THE1C |AluJr4 |AluSc8 |MSTB  |L1PA16 |MER1B |MLT1A0 |THE1A |
@@ -244,7 +244,7 @@ AMS
 |gainlin |379 (1) |368 (3) |308 (1) |232 (3) |162 (4) |151 (4) |142 (6) |115 (4) |105 (12) |81 (9) |73 (10) |68 (12) |34 (11) |44 (8) |33 (5) |5 (2)     |26 (8) |18 (7) |12 (7) |11 (5) |10 (3) |9 (6) |6 (3)  |2 (2)  |2 (1) |1 (1)  |1 (1) |1 (1)  |1 (1) |
 |lossat  |0 (0)   |2 (2)   |0 (0)   |0 (0)   |0 (0)   |0 (0)   |0 (0)   |0 (0)   |0 (0)    |0 (0)  |0 (0)   |0 (0)   |0 (0)   |0 (0)  |0 (0)  |1 (1)     |0 (0)  |0 (0)  |0 (0)  |0 (0)  |0 (0)  |0 (0) |0 (0)  |0 (0)  |0 (0) |0 (0)  |0 (0) |0 (0)  |0 (0) |
 |losslin |78 (5)  |84 (8)  |2 (1)   |31 (7)  |10 (1)  |10 (1)  |1 (1)   |1 (1)   |11 (2)   |5 (1)  |5 (3)   |0 (0)   |17 (7)  |1 (1)  |0 (0)  |23 (4)    |0 (0)  |0 (0)  |0 (0)  |0 (0)  |0 (0)  |0 (0) |0 (0)  |0 (0)  |0 (0) |0 (0)  |0 (0) |0 (0)  |0 (0) |
-Spretus
+ORANGUTAN
 
 
 |        |nonRepeat |MIR    |MIRb   |L1PA13 |MIRc  |MIR3  |AluJr |MLT1A0 |THE1D |
@@ -252,7 +252,7 @@ Spretus
 |gainlin |1 (1)     |15 (1) |4 (1)  |0 (0)  |0 (0) |0 (0) |0 (0) |0 (0)  |0 (0) |
 |lossat  |4 (3)     |0 (0)  |0 (0)  |0 (0)  |0 (0) |0 (0) |0 (0) |0 (0)  |0 (0) |
 |losslin |85 (5)    |15 (1) |12 (1) |8 (1)  |7 (1) |6 (1) |5 (1) |1 (1)  |1 (1) |
-AM
+AHCG
 
 
 |        |nonRepeat |AluY  |L2a   |
@@ -260,7 +260,7 @@ AM
 |gainat  |1 (1)     |4 (2) |0 (0) |
 |lossat  |12 (3)    |2 (1) |1 (1) |
 |losslin |65 (5)    |0 (0) |0 (0) |
-PWKPhJ
+GORILLA
 
 
 |        |AluSx  |AluSx1 |AluSz6 |nonRepeat |AluSz |AluSp |AluJo |AluSq2 |L1PA13 |L1PA14 |L1PA8A |
@@ -269,10 +269,10 @@ PWKPhJ
 |gainlin |0 (0)  |1 (1)  |0 (0)  |0 (0)     |0 (0) |0 (0) |0 (0) |0 (0)  |0 (0)  |0 (0)  |0 (0)  |
 |lossat  |0 (0)  |0 (0)  |0 (0)  |2 (2)     |0 (0) |0 (0) |0 (0) |0 (0)  |0 (0)  |1 (1)  |1 (1)  |
 |losslin |3 (1)  |0 (0)  |0 (0)  |3 (1)     |0 (0) |0 (0) |0 (0) |0 (0)  |1 (1)  |0 (0)  |0 (0)  |
-CASTEiJ
+AHC
 No significant results
 
-CASTEiJ.PWKPhJ
+CHIMP
 
 
 |        |nonRepeat |L2c     |AluSx1 |L1MEc  |MLT1C  |AluSx |AluJb |AluJo |L1PA13 |MIR   |MIRb  |AluJr |AluSz6 |L1MB3 |L1PA17 |AluSq |AluSq2 |L1ME2 |L2a   |AluSz |L1PA15 |MLT1D |MLT2B1 |L1M1  |L1M5  |L1MA9 |L1MB7 |L1ME1 |L1PA14 |L2b   |MER41B |
@@ -281,7 +281,7 @@ CASTEiJ.PWKPhJ
 |gainlin |54 (5)    |0 (0)   |16 (7) |0 (0)  |1 (1)  |2 (2) |0 (0) |1 (1) |0 (0)  |0 (0) |0 (0) |2 (1) |1 (1)  |0 (0) |0 (0)  |0 (0) |3 (1)  |0 (0) |0 (0) |0 (0) |0 (0)  |0 (0) |0 (0)  |0 (0) |0 (0) |0 (0) |0 (0) |0 (0) |0 (0)  |0 (0) |0 (0)  |
 |lossat  |105 (56)  |27 (15) |0 (0)  |12 (7) |1 (1)  |2 (1) |5 (3) |0 (0) |5 (2)  |6 (5) |3 (2) |0 (0) |0 (0)  |4 (3) |4 (2)  |0 (0) |0 (0)  |3 (1) |3 (3) |1 (1) |2 (1)  |2 (2) |2 (2)  |1 (1) |1 (1) |1 (1) |1 (1) |1 (1) |1 (1)  |1 (1) |1 (1)  |
 |losslin |44 (8)    |0 (0)   |0 (0)  |0 (0)  |11 (1) |2 (2) |0 (0) |2 (1) |2 (1)  |0 (0) |0 (0) |2 (1) |0 (0)  |0 (0) |0 (0)  |1 (1) |0 (0)  |0 (0) |0 (0) |1 (1) |0 (0)  |0 (0) |0 (0)  |0 (0) |0 (0) |0 (0) |0 (0) |0 (0) |0 (0)  |0 (0) |0 (0)  |
-WSBEiJ
+AHN
 
 
 |        |nonRepeat |MSTA   |MSTB  |MER20  |AluSx |MER5A |AluSx1 |LTR8  |
@@ -290,7 +290,7 @@ WSBEiJ
 |gainlin |0 (0)     |6 (1)  |0 (0) |0 (0)  |0 (0) |0 (0) |1 (1)  |0 (0) |
 |lossat  |42 (6)    |11 (1) |7 (1) |0 (0)  |0 (0) |0 (0) |0 (0)  |0 (0) |
 |losslin |65 (1)    |16 (1) |8 (1) |14 (1) |2 (1) |2 (1) |0 (0)  |1 (1) |
-WSBEiJ.PWKPhJ
+AHD
 
 
 |        |nonRepeat |MSTA   |MER20  |MSTB  |AluSx |AluY  |MER5A |AluSx1 |
@@ -299,8 +299,33 @@ WSBEiJ.PWKPhJ
 |gainlin |0 (0)     |2 (2)  |0 (0)  |0 (0) |0 (0) |0 (0) |0 (0) |1 (1)  |
 |lossat  |41 (6)    |12 (1) |0 (0)  |6 (1) |0 (0) |1 (1) |0 (0) |0 (0)  |
 |losslin |63 (2)    |15 (1) |14 (1) |8 (1) |2 (1) |0 (0) |2 (1) |0 (0)  |
-WSBEiJ.CASTEiJ
+HUMAN(NEAN)
 No significant results
+
+HUMAN(DENI)
+
+
+|        |nonRepeat |AluY  |
+|:-------|:---------|:-----|
+|gainat  |2 (2)     |0 (0) |
+|gainlin |0 (0)     |1 (1) |
+|lossat  |3 (3)     |0 (0) |
+NEAN
+
+
+|        |nonRepeat |AluSq2 |
+|:-------|:---------|:------|
+|gainat  |1 (1)     |0 (0)  |
+|gainlin |0 (0)     |1 (1)  |
+|losslin |2 (1)     |0 (0)  |
+DENI
+
+
+|        |AluSx1 |AluY   |AluSx  |nonRepeat |AluSg |AluJb |AluSq2 |
+|:-------|:------|:------|:------|:---------|:-----|:-----|:------|
+|gainat  |0 (0)  |0 (0)  |0 (0)  |1 (1)     |0 (0) |0 (0) |0 (0)  |
+|gainlin |15 (3) |14 (3) |10 (3) |1 (1)     |2 (1) |1 (1) |1 (1)  |
+|losslin |1 (1)  |1 (1)  |0 (0)  |1 (1)     |0 (0) |0 (0) |0 (0)  |
 
 ---
 
@@ -474,18 +499,21 @@ Currently only for mice
 ## Links to pages of significant motifs
 
 
-|               |losslin                                                                                                                          |lossat                                                                                                                          |gainlin                                                                                                                          |gainat                                                                                                                          |
-|:--------------|:--------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------|
-|FAM            |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/losslin/FAM/)            |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/lossat/FAM/)            |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainlin/FAM/)            |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainat/FAM/)            |
-|AMS            |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/losslin/AMS/)            |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/lossat/AMS/)            |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainlin/AMS/)            |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainat/AMS/)            |
-|Spretus        |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/losslin/Spretus/)        |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/lossat/Spretus/)        |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainlin/Spretus/)        |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainat/Spretus/)        |
-|AM             |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/losslin/AM/)             |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/lossat/AM/)             |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainlin/AM/)             |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainat/AM/)             |
-|PWKPhJ         |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/losslin/PWKPhJ/)         |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/lossat/PWKPhJ/)         |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainlin/PWKPhJ/)         |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainat/PWKPhJ/)         |
-|CASTEiJ        |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/losslin/CASTEiJ/)        |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/lossat/CASTEiJ/)        |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainlin/CASTEiJ/)        |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainat/CASTEiJ/)        |
-|CASTEiJ.PWKPhJ |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/losslin/CASTEiJ.PWKPhJ/) |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/lossat/CASTEiJ.PWKPhJ/) |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainlin/CASTEiJ.PWKPhJ/) |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainat/CASTEiJ.PWKPhJ/) |
-|WSBEiJ         |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/losslin/WSBEiJ/)         |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/lossat/WSBEiJ/)         |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainlin/WSBEiJ/)         |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainat/WSBEiJ/)         |
-|WSBEiJ.PWKPhJ  |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/losslin/WSBEiJ.PWKPhJ/)  |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/lossat/WSBEiJ.PWKPhJ/)  |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainlin/WSBEiJ.PWKPhJ/)  |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainat/WSBEiJ.PWKPhJ/)  |
-|WSBEiJ.CASTEiJ |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/losslin/WSBEiJ.CASTEiJ/) |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/lossat/WSBEiJ.CASTEiJ/) |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainlin/WSBEiJ.CASTEiJ/) |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainat/WSBEiJ.CASTEiJ/) |
+|            |losslin                                                                                                                       |lossat                                                                                                                       |gainlin                                                                                                                       |gainat                                                                                                                       |
+|:-----------|:-----------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------|
+|MACAQUE     |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/losslin/MACAQUE/)     |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/lossat/MACAQUE/)     |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainlin/MACAQUE/)     |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainat/MACAQUE/)     |
+|AHCGO       |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/losslin/AHCGO/)       |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/lossat/AHCGO/)       |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainlin/AHCGO/)       |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainat/AHCGO/)       |
+|ORANGUTAN   |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/losslin/ORANGUTAN/)   |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/lossat/ORANGUTAN/)   |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainlin/ORANGUTAN/)   |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainat/ORANGUTAN/)   |
+|AHCG        |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/losslin/AHCG/)        |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/lossat/AHCG/)        |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainlin/AHCG/)        |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainat/AHCG/)        |
+|GORILLA     |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/losslin/GORILLA/)     |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/lossat/GORILLA/)     |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainlin/GORILLA/)     |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainat/GORILLA/)     |
+|AHC         |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/losslin/AHC/)         |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/lossat/AHC/)         |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainlin/AHC/)         |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainat/AHC/)         |
+|CHIMP       |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/losslin/CHIMP/)       |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/lossat/CHIMP/)       |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainlin/CHIMP/)       |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainat/CHIMP/)       |
+|AHN         |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/losslin/AHN/)         |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/lossat/AHN/)         |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainlin/AHN/)         |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainat/AHN/)         |
+|AHD         |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/losslin/AHD/)         |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/lossat/AHD/)         |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainlin/AHD/)         |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainat/AHD/)         |
+|HUMAN(NEAN) |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/losslin/HUMAN_NEAN_/) |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/lossat/HUMAN_NEAN_/) |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainlin/HUMAN_NEAN_/) |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainat/HUMAN_NEAN_/) |
+|HUMAN(DENI) |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/losslin/HUMAN_DENI_/) |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/lossat/HUMAN_DENI_/) |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainlin/HUMAN_DENI_/) |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainat/HUMAN_DENI_/) |
+|NEAN        |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/losslin/NEAN/)        |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/lossat/NEAN/)        |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainlin/NEAN/)        |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainat/NEAN/)        |
+|DENI        |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/losslin/DENI/)        |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/lossat/DENI/)        |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainlin/DENI/)        |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainat/DENI/)        |
 
 
 ---

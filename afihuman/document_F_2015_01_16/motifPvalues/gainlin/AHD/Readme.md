@@ -4,17 +4,9 @@
 ## Gain Lineage, AHD, AluSx1, motifNumber = 1
 ```
 
-![plot of chunk motifPValues](figure/motifPValues1.png) 
-
 ```
-## Gain Lineage, AHD, MSTA, motifNumber = 1
+## Error: error in evaluating the argument 'x' in selecting a method for function 'plot': Error: object 'totalP' not found
 ```
 
-![plot of chunk motifPValues](figure/motifPValues2.png) 
-
-```
-## Gain Lineage, AHD, MSTA, motifNumber = 2
-```
-
-![plot of chunk motifPValues](figure/motifPValues3.png) 
+![plot of chunk motifPValues](figure/motifPValues.png) 
   
