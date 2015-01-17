@@ -150,66 +150,41 @@ These plots also feature a PWM for the forward and reverse forms of the motif, a
 
 ## Some summary numbers
 
-
-```
-## Warning: argument is not numeric or logical: returning NA
-## Warning: argument is not numeric or logical: returning NA
-```
-
 Aligned Genome (Gbp)
 
 
-| Total| Pass QC| Fail QC| Pass QC Non Repeat|
-|-----:|-------:|-------:|------------------:|
-|    NA|      NA|      NA|                 NA|
+|  Total| Pass QC| Fail QC| Pass QC Non Repeat|
+|------:|-------:|-------:|------------------:|
+| 2.8810|  1.1077|  1.7733|             0.6828|
 
 ```
-## Error: 'x' must be numeric
-```
-
-```
-## Error: object 'y' not found
+## Error: 'names' attribute [13] must be the same length as the vector [10]
 ```
 
 Number of Derived Mutations down a specific lineage
 
-```
-## Error: object 'y' not found
-```
 
-```
-## Error: 'x' must be numeric
-```
-
+|der        |der        |der        |der        |der        |der        |der        |der        |der        |der        |
+|:----------|:----------|:----------|:----------|:----------|:----------|:----------|:----------|:----------|:----------|
+|26,621,100 | 9,748,431 |12,008,463 | 5,789,106 | 5,754,222 | 1,306,032 | 4,297,254 | 3,620,908 | 3,610,379 |   520,460 |
 Branch length as percent of alignable genome
 
-```
-## Error: object 'y' not found
-```
 
-```
-## Error: object 'y' not found
-```
-
-```
-## Error: object 'y2' not found
-```
-
-```
-## Error: object 'y2' not found
-```
-
+|   der|   der|   der|   der|   der|   der|   der|   der|   der|   der|
+|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|
+| 2.403| 0.880| 1.084| 0.523| 0.519| 0.118| 0.388| 0.327| 0.326| 0.047|
 Branch length compared to ancestral of all lineages in SNPs
 
-```
-## Error: object 'y3' not found
-```
 
+|der        |der        |der        |der        |der        |der        |der        |der        |der        |der        |
+|:----------|:----------|:----------|:----------|:----------|:----------|:----------|:----------|:----------|:----------|
+|   520,460 | 3,610,379 | 3,620,908 | 4,297,254 | 1,306,032 | 5,754,222 | 5,789,106 |12,008,463 | 9,748,431 |26,621,100 |
 Branch length compared to ancestral as percent of alignable genome
 
-```
-## Error: object 'y3' not found
-```
+
+|   der|   der|   der|   der|   der|   der|   der|   der|   der|   der|
+|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|
+| 0.047| 0.326| 0.327| 0.388| 0.118| 0.519| 0.523| 1.084| 0.880| 2.403|
 
 
 ---
