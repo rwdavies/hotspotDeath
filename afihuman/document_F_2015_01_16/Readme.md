@@ -154,17 +154,27 @@ List level 1 is by lineage name. So motifSuperResults[[1]] are the results for t
 Within lineage, results are sorted by repeat background. For example, there is usually results available for the non-repeat background under motifSuperResults[[1]]$nonRepeat.
 
 Within lineage and within repeat there are the following variables
-|Variable name|Description of Variable|
-|---|---|
-|hashSigR | Matrix with rows equal to each Bonferonni significant motif and K columns. 0=A, 1=C, 2=G, 3=T  |
-|pSigR | Exponent of the p-value for the test in that lineage | 
-|pSigOR | Original p-value for the test in each lineage | 
-|orSigR | Odds ratio for the motifs  | 
-|motifClusters | For each Bonferonni significant motif, what cluster was it eventually included in | 
-|clusteredResults | Deprecated | 
-|clusteringResults | List of length equal to the number of significant clusters | 
- 
 
+
+|Variable name     |Description of Variable                                                                       |
+|:-----------------|:---------------------------------------------------------------------------------------------|
+|hashSigR          |Matrix with rows equal to each Bonferonni significant motif and K columns. 0=A, 1=C, 2=G, 3=T |
+|pSigR             |Exponent of the p-value for the test in that lineage                                          |
+|pSigOR            |Original p-value for the test in each lineage                                                 |
+|orSigR            |Odds ratio for the motifs                                                                     |
+|motifClusters     |For each Bonferonni significant motif, what cluster was it eventually included in             |
+|clusteredResults  |Deprecated                                                                                    |
+|clusteringResults |List of length equal to the number of significant clusters                                    |
+
+ 
+So for example, length(motifSuperResults[[1]]$nonRepeat) gives you the number of clusters found for that test 
+
+Within clusteringResults
+
+|Variable name |Description of Variable |
+|:-------------|:-----------------------|
+|X             |Y                       |
+|Z             |W                       |
 
 
 ---
