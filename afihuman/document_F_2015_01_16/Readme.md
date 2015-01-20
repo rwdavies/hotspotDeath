@@ -166,15 +166,26 @@ Within lineage and within repeat there are the following variables
 |clusteredResults  |Deprecated                                                                                    |
 |clusteringResults |List of length equal to the number of significant clusters                                    |
 
- 
-So for example, length(motifSuperResults[[1]]$nonRepeat) gives you the number of clusters found for that test 
+So for example, length(motifSuperResults[[1]]$nonRepeat) gives you the number of clusters found for that lineage for the repeat background for that test. Entries for the first result are given in motifSuperResults[[1]]$nonRepeat$clusteringResults[[1]] and contain the following categories
 
-Within clusteringResults
 
-|Variable name |Description of Variable |
-|:-------------|:-----------------------|
-|X             |Y                       |
-|Z             |W                       |
+|Variable name       |Description of Variable                                                                                                                                                                  |
+|:-------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|matchesN            |For each motif (Bonferonni significant or not) in that cluster, the K length integer based motif (0=A, 1=C, 2=G, 3=T)                                                                    |
+|whereN              |In the alignment, for the left edge, where it aligns                                                                                                                                     |
+|namesN              |The hash of the 0-based integer motif. In R, if x is the K length integer motif, then this is sum(x*4^(0:(K-1)))                                                                         |
+|whereItMatchesToN   |Internal variable relating motifs to subsetted matrix                                                                                                                                    |
+|textOut             |Aligned textual representation of output                                                                                                                                                 |
+|sum                 |Take sumNum, make the minimum 0.1 in each 0 cell, then divide each column by the column sum                                                                                              |
+|sumNum              |Summed across each motif in the cluster the sum of its sequence multiplied by its OR minus 1                                                                                             |
+|fromWhereN          |At what level of the recursive addition procedure was this motif added in (0=first Bonferonni significant seed motif, 1=second layer, etc)                                               |
+|atgc                |Itself a list with two entries, loss or gain. Each one contains, for each of categories like A/T->A/T, the numerator and denominator with the number of changes over each available base |
+|motifListF          |Motif hashes sorted from most significant p-value to least significant p-value                                                                                                           |
+|motifLossPositions  |Itself a list with two entries, loss or gain. Each one contains, for either loss or gain, the positions on each of the 19 chromosomes of the loss or gain of that motif                  |
+|correlationMatrices |If defined, information on correlation between this cluster and broad scale rate maps                                                                                                    |
+|motifPValues        |P-values for the tests, ordered from most significant down this test, to least signicicant                                                                                               |
+
+
 
 
 ---
@@ -330,6 +341,7 @@ DENI
 |losslin |1 (1)  |1 (1)  |0 (0)  |1 (1)     |0 (0) |0 (0) |0 (0)  |
 
 ---
+
 
 ## Features of significant motifs
 
@@ -590,8 +602,33 @@ Currently only for mice
 |NEAN        |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/losslin/NEAN/)        |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/lossat/NEAN/)        |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainlin/NEAN/)        |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainat/NEAN/)        |
 |DENI        |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/losslin/DENI/)        |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/lossat/DENI/)        |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainlin/DENI/)        |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifPvalues/gainat/DENI/)        |
 
+---
+
+## Motif Cluster RData
+
+
+|losslin                                                                                                                                            |lossat                                                                                                                                            |gainlin                                                                                                                                            |gainat                                                                                                                                            |
+|:--------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------|
+|[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifSuperResults/losslin.K10.motifSuperResults.RData/) |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifSuperResults/lossat.K10.motifSuperResults.RData/) |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifSuperResults/gainlin.K10.motifSuperResults.RData/) |[Link](https://github.com/rwdavies/hotspotDeath/blob/master/afihuman/document_F_2015_01_16/motifSuperResults/gainat.K10.motifSuperResults.RData/) |
+
+
+
+
 
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <!--
