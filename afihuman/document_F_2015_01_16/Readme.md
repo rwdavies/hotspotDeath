@@ -145,6 +145,28 @@ Next, taking care to get both the correct strand as well as the position of the 
 
 These plots also feature a PWM for the forward and reverse forms of the motif, as well as a series of line plots which show the number of motifs and their p-values for the motifs in the cluster. The middle line is for the test under consideration, while p-values for the other two tests are highlighted above and below, with grey lines linking the same motif (motifs with undefiend p-values on the other two tests are omitted from the plots for those tests and are not linked). These are stratefied into those which are Bonferonni significant on their test to the right of the red line, those which are between the initial clustering p-value threshold and the Bonferonni thresold in the middle, and those which do not meet the initial clustering p-value threhsold on the left. Numbers of motifs falling into each category are given as well.
 
+
+### motifSuperResults description
+Results for clustering are contained in an RData object, one seperately for each test that has been performed. The files are a series of lists of lists, with the RData object being named motifSuperResults.
+
+List level 1 is by lineage name. So motifSuperResults[[1]] are the results for the first lineage.
+
+Within lineage, results are sorted by repeat background. For example, there is usually results available for the non-repeat background under motifSuperResults[[1]]$nonRepeat.
+
+Within lineage and within repeat there are the following variables
+|Variable name|Description of Variable|
+|---|---|
+|hashSigR | Matrix with rows equal to each Bonferonni significant motif and K columns. 0=A, 1=C, 2=G, 3=T  |
+|pSigR | Exponent of the p-value for the test in that lineage | 
+|pSigOR | Original p-value for the test in each lineage | 
+|orSigR | Odds ratio for the motifs  | 
+|motifClusters | For each Bonferonni significant motif, what cluster was it eventually included in | 
+|clusteredResults | Deprecated | 
+|clusteringResults | List of length equal to the number of significant clusters | 
+ 
+
+
+
 ---
 
 
@@ -433,6 +455,79 @@ Only for the mouse analysis
 
 
 
+## AT to GC changes along lineages
+
+For each lineage, what is the base composition, and how does this change between lineages
+
+
+```
+## [[1]]
+## NULL
+## 
+## [[2]]
+## NULL
+## 
+## [[3]]
+## NULL
+## 
+## [[4]]
+## NULL
+## 
+## [[5]]
+## NULL
+## 
+## [[6]]
+## NULL
+## 
+## [[7]]
+## NULL
+## 
+## [[8]]
+## NULL
+## 
+## [[9]]
+## NULL
+## 
+## [[10]]
+## NULL
+## 
+## [[11]]
+## NULL
+## 
+## [[12]]
+## NULL
+## 
+## [[13]]
+## NULL
+## 
+## [[14]]
+## NULL
+## 
+## [[15]]
+## NULL
+## 
+## [[16]]
+## NULL
+## 
+## [[17]]
+## NULL
+## 
+## [[18]]
+## NULL
+## 
+## [[19]]
+## NULL
+## 
+## [[20]]
+## NULL
+## 
+## [[21]]
+## NULL
+## 
+## [[22]]
+## NULL
+```
+---
 
 
 
