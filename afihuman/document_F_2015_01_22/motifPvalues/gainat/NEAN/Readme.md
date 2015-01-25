@@ -1,8 +1,6 @@
 
 
 ```
-## Gain AT to GC, NEAN, nonRepeat, motifNumber = 1
+## Error: object 'x' not found
 ```
-
-![plot of chunk motifPValues](figure/motifPValues.png) 
   
