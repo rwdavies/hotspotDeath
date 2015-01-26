@@ -12,7 +12,7 @@ test="gainat";iLin=10
       for(repeatName in sigBack)
       {
         msrL=msr[[repeatName]]
-        if(is.null(x)==FALSE) 
+        if(is.null(msrL)==FALSE) 
         { 
           for(motifNumber in 1:length(msrL[["clusteringResults"]]))
           {
