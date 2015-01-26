@@ -1,8 +1,6 @@
 
 
 ```
-## Gain Lineage, MACAQUE, nonRepeat, motifNumber = 1
+## Error: object 'x' not found
 ```
-
-![plot of chunk motifPValues](figure/motifPValues.png) 
   

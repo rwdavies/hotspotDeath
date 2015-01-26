@@ -5,7 +5,7 @@ test="losslin";iLin=11
     # top non-repeat cluster 
     repeatName="nonRepeat"
     msr=motifSuperResults[[iLin]]
-    if(class(x)!="try-error")
+    if(class(msr)!="try-error")
     {
       sigBack=names(motifSuperResults[[iLin]])
       #sigBack="nonRepeat"
