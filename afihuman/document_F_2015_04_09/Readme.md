@@ -437,62 +437,6 @@ Results from curve fitting bootstrapping procedure
 
 Comparison of various models for fitting
 
-
-```
-## Warning in rm(atgc, lma, lmd, a1, a2, k, r, info, motifSuperResults, msr,
-## : object 'atgc' not found
-```
-
-```
-## Warning in rm(atgc, lma, lmd, a1, a2, k, r, info, motifSuperResults, msr,
-## : object 'lma' not found
-```
-
-```
-## Warning in rm(atgc, lma, lmd, a1, a2, k, r, info, motifSuperResults, msr,
-## : object 'lmd' not found
-```
-
-```
-## Warning in rm(atgc, lma, lmd, a1, a2, k, r, info, motifSuperResults, msr,
-## : object 'a1' not found
-```
-
-```
-## Warning in rm(atgc, lma, lmd, a1, a2, k, r, info, motifSuperResults, msr,
-## : object 'a2' not found
-```
-
-```
-## Warning in rm(atgc, lma, lmd, a1, a2, k, r, info, motifSuperResults, msr,
-## : object 'k' not found
-```
-
-```
-## Warning in rm(atgc, lma, lmd, a1, a2, k, r, info, motifSuperResults, msr,
-## : object 'r' not found
-```
-
-```
-## Warning in rm(atgc, lma, lmd, a1, a2, k, r, info, motifSuperResults, msr,
-## : object 'info' not found
-```
-
-```
-## Warning in rm(atgc, lma, lmd, a1, a2, k, r, info, motifSuperResults, msr,
-## : object 'motifSuperResults' not found
-```
-
-```
-## Warning in rm(atgc, lma, lmd, a1, a2, k, r, info, motifSuperResults, msr,
-## : object 'msr' not found
-```
-
-```
-## Warning in rm(atgc, lma, lmd, a1, a2, k, r, info, motifSuperResults, msr,
-## : object 'msrL' not found
-```
-
 ![plot of chunk atToGCcomparison](figure/atToGCcomparison-1.png) 
 
 
