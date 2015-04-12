@@ -1,0 +1,12 @@
+base
+xtable
+knitr
+multicore
+inline
+Rcpp
+RcppArmadillo
+seqLogo
+rJava
+rjson
+rJython
+rSymPy
