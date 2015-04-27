@@ -61,8 +61,38 @@
 ![plot of chunk motifPValues](figure/motifPValues-10.png) 
 
 ```
-## Loss Lineage, AM, RSINE1, motifNumber = 1
+## Loss Lineage, AM, nonRepeat, motifNumber = 5
 ```
 
 ![plot of chunk motifPValues](figure/motifPValues-11.png) 
+
+```
+## Loss Lineage, AM, nonRepeat, motifNumber = 6
+```
+
+![plot of chunk motifPValues](figure/motifPValues-12.png) 
+
+```
+## Loss Lineage, AM, nonRepeat, motifNumber = 7
+```
+
+![plot of chunk motifPValues](figure/motifPValues-13.png) 
+
+```
+## Loss Lineage, AM, nonRepeat, motifNumber = 8
+```
+
+![plot of chunk motifPValues](figure/motifPValues-14.png) 
+
+```
+## Loss Lineage, AM, nonRepeat, motifNumber = 9
+```
+
+![plot of chunk motifPValues](figure/motifPValues-15.png) 
+
+```
+## Loss Lineage, AM, RSINE1, motifNumber = 1
+```
+
+![plot of chunk motifPValues](figure/motifPValues-16.png) 
   

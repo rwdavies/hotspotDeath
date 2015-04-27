@@ -139,26 +139,44 @@
 ![plot of chunk motifPValues](figure/motifPValues-23.png) 
 
 ```
-## Loss AT to GC, FAM, ORR1B1-int, motifNumber = 1
+## Loss AT to GC, FAM, nonRepeat, motifNumber = 20
 ```
 
 ![plot of chunk motifPValues](figure/motifPValues-24.png) 
 
 ```
-## Loss AT to GC, FAM, RLTR15, motifNumber = 1
+## Loss AT to GC, FAM, nonRepeat, motifNumber = 21
 ```
 
 ![plot of chunk motifPValues](figure/motifPValues-25.png) 
 
 ```
-## Loss AT to GC, FAM, RMER6C, motifNumber = 1
+## Loss AT to GC, FAM, nonRepeat, motifNumber = 22
 ```
 
 ![plot of chunk motifPValues](figure/motifPValues-26.png) 
 
 ```
-## Loss AT to GC, FAM, (TCTA)n, motifNumber = 1
+## Loss AT to GC, FAM, ORR1B1-int, motifNumber = 1
 ```
 
 ![plot of chunk motifPValues](figure/motifPValues-27.png) 
+
+```
+## Loss AT to GC, FAM, RLTR15, motifNumber = 1
+```
+
+![plot of chunk motifPValues](figure/motifPValues-28.png) 
+
+```
+## Loss AT to GC, FAM, RMER6C, motifNumber = 1
+```
+
+![plot of chunk motifPValues](figure/motifPValues-29.png) 
+
+```
+## Loss AT to GC, FAM, (TCTA)n, motifNumber = 1
+```
+
+![plot of chunk motifPValues](figure/motifPValues-30.png) 
   

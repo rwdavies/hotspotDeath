@@ -79,8 +79,14 @@
 ![plot of chunk motifPValues](figure/motifPValues-13.png) 
 
 ```
-## Loss Lineage, FAM, RSINE1, motifNumber = 1
+## Loss Lineage, FAM, nonRepeat, motifNumber = 11
 ```
 
 ![plot of chunk motifPValues](figure/motifPValues-14.png) 
+
+```
+## Loss Lineage, FAM, RSINE1, motifNumber = 1
+```
+
+![plot of chunk motifPValues](figure/motifPValues-15.png) 
   

@@ -91,20 +91,26 @@
 ![plot of chunk motifPValues](figure/motifPValues-15.png) 
 
 ```
-## Gain Lineage, AMS, MTC, motifNumber = 1
+## Gain Lineage, AMS, B2_Mm2, motifNumber = 10
 ```
 
 ![plot of chunk motifPValues](figure/motifPValues-16.png) 
 
 ```
-## Gain Lineage, AMS, RSINE1, motifNumber = 1
+## Gain Lineage, AMS, MTC, motifNumber = 1
 ```
 
 ![plot of chunk motifPValues](figure/motifPValues-17.png) 
 
 ```
-## Gain Lineage, AMS, (TAGA)n, motifNumber = 1
+## Gain Lineage, AMS, RSINE1, motifNumber = 1
 ```
 
 ![plot of chunk motifPValues](figure/motifPValues-18.png) 
+
+```
+## Gain Lineage, AMS, (TAGA)n, motifNumber = 1
+```
+
+![plot of chunk motifPValues](figure/motifPValues-19.png) 
   

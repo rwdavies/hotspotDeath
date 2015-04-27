@@ -17,4 +17,10 @@
 ```
 
 ![plot of chunk motifPValues](figure/motifPValues-3.png) 
+
+```
+## Gain AT to GC, AM, nonRepeat, motifNumber = 3
+```
+
+![plot of chunk motifPValues](figure/motifPValues-4.png) 
   

@@ -35,4 +35,22 @@
 ```
 
 ![plot of chunk motifPValues](figure/motifPValues-6.png) 
+
+```
+## Loss AT to GC, AM, nonRepeat, motifNumber = 6
+```
+
+![plot of chunk motifPValues](figure/motifPValues-7.png) 
+
+```
+## Loss AT to GC, AM, nonRepeat, motifNumber = 7
+```
+
+![plot of chunk motifPValues](figure/motifPValues-8.png) 
+
+```
+## Loss AT to GC, AM, nonRepeat, motifNumber = 8
+```
+
+![plot of chunk motifPValues](figure/motifPValues-9.png) 
   
