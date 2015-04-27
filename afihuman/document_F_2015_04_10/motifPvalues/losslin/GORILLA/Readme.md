@@ -4,9 +4,29 @@
 ## 8_1_NA, GORILLA, L1MB3, motifNumber = 1
 ```
 
+![plot of chunk motifPValues](figure/motifPValues-1.png) 
+
 ```
-## Error in seq.default(0.3 + pi/2, pi, length = 100): 'from' must be of length 1
+## 8_1_NA, GORILLA, L1PA13, motifNumber = 1
 ```
 
-![plot of chunk motifPValues](figure/motifPValues-1.png) 
+![plot of chunk motifPValues](figure/motifPValues-2.png) 
+
+```
+## 8_1_NA, GORILLA, nonRepeat, motifNumber = 1
+```
+
+![plot of chunk motifPValues](figure/motifPValues-3.png) 
+
+```
+## 8_1_NA, GORILLA, nonRepeat, motifNumber = 2
+```
+
+![plot of chunk motifPValues](figure/motifPValues-4.png) 
+
+```
+## 8_1_NA, GORILLA, nonRepeat, motifNumber = 3
+```
+
+![plot of chunk motifPValues](figure/motifPValues-5.png) 
   
