@@ -1,20 +1,12 @@
 
 
 ```
-## Gain Lineage, AHN, MER20, motifNumber = 1
+## 8_3_NA, AHN, MER20, motifNumber = 1
+```
+
+```
+## Error in seq.default(0.3 + pi/2, pi, length = 100): 'from' must be of length 1
 ```
 
 ![plot of chunk motifPValues](figure/motifPValues-1.png) 
-
-```
-## Gain Lineage, AHN, MER20, motifNumber = 2
-```
-
-![plot of chunk motifPValues](figure/motifPValues-2.png) 
-
-```
-## Gain Lineage, AHN, nonRepeat, motifNumber = 1
-```
-
-![plot of chunk motifPValues](figure/motifPValues-3.png) 
   

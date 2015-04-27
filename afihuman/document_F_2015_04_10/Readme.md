@@ -7,6 +7,7 @@
 
 ##Changelog
 Date refers to first version with changes. If there is a plus after, then all subsequent versions have the change
+* **2015_04_10** Bugfix - Get the OR right in the PWM summation
 * **2015_04_06** Bugfix - for the human results, fix issue where two SNPs are nearby when one was supposed to enter the immediate previous lineage
 * **2015_04_06** Re-work the way expectations are calcualted for ancestral rate maps
 * **2015_01_22** Bigfix - prevent motif where a motif and its converse could both enter motif cluster at the same time
@@ -48,6 +49,7 @@ Date refers to first version with changes. If there is a plus after, then all su
 |gcW1                  |100                                                   |Range to test for GC increase                                               |
 |gcW2                  |1000                                                  |Range to plot GC increases                                                  |
 |gcW3                  |10                                                    |Smoothing window for AT to GC plots                                         |
+|gcW4                  |10                                                    |Range to plot recombination around loss positions                           |
 |ctge                  |10                                                    |For a p-value to be generated, each cell must have at least this number     |
 |rgte                  |50                                                    |For a row to count, there must be this many entries                         |
 |testingNames          |losslin,lossat,gainlin,gainat                         |(Short) names of the tests we will perform                                  |
@@ -159,7 +161,19 @@ These plots also feature a PWM for the forward and reverse forms of the motif, a
 
 ###AT to GC plot - curve fitting
 We fitted a curve to estimate parameters relating to the increa
-se in AT to GC fixation near ancient hotspot death events.
+se in AT to GC fixation near ancient hotspot death events. More details are available in my thesis
+
+
+###Ancestral map construction
+
+First, we calculate the expectation for a cluster with no Prdm9 affinity. For rate of loss, this means we first calculate the rate of loss of all motifs in the cluster as the number of times these motifs were lost divided by their ancestral count. We then calculate the rate of loss for all motifs in a similar way. The expectation for the rate of loss for a given lineage is taken as the rate of loss over all motifs multiplied by the median of the rate of loss of these motifs divided by the rate of loss of all motifs, without including the current lineage. 
+
+
+, both for what proportion of motifs we'd expect to lose if motifs were lost at neutrality, and for what AT to GC rate we'd expect to see given neutrality. 
+
+
+
+Next, for a given window size, over all intervals in the genome, we count both the number of motif losses in a cluster and the number of ancestral motif counts. Both of these can be either filtered or unfiltered, ie distinct loss events must be a certain distance away; used here is the cluster width. 
 
 
 
@@ -245,6 +259,10 @@ Branch length compared to ancestral as percent of alignable genome
 |-----:|-----:|-----------:|-----------:|-----:|-------:|---------:|-------:|
 | 2.247| 2.241|       2.221|        2.22| 1.908|   1.922|     1.964|   2.403|
 
+```
+## Error in eval(expr, envir, enclos): could not find function "buildSummaryTree"
+```
+
 
 ---
 
@@ -252,15 +270,19 @@ Branch length compared to ancestral as percent of alignable genome
 
 Note that the following numbers are only for motifs that have been clustered
 
+
+```
+## Error in y$motifClusters: $ operator is invalid for atomic vectors
+```
+
 Number of motifs (clusters) per test and lineage
 
 
-|        |MACAQUE |AHCGO |ORANGUTAN |AHCG   |GORILLA |AHC   |CHIMP   |AHN      |AHD      |NEAN  |
-|:-------|:-------|:-----|:---------|:------|:-------|:-----|:-------|:--------|:--------|:-----|
-|gainat  |0 (0)   |0 (0) |1 (1)     |0 (0)  |0 (0)   |0 (0) |28 (22) |0 (0)    |0 (0)    |1 (1) |
-|gainlin |1 (1)   |7 (6) |5 (4)     |0 (0)  |0 (0)   |0 (0) |15 (5)  |8 (3)    |6 (2)    |0 (0) |
-|lossat  |21 (10) |2 (1) |10 (5)    |16 (3) |6 (4)   |0 (0) |43 (30) |66 (6)   |61 (5)   |0 (0) |
-|losslin |41 (20) |4 (1) |136 (23)  |56 (7) |7 (4)   |2 (1) |54 (10) |112 (10) |110 (10) |0 (0) |
+|        |MACAQUE |AHCGO |ORANGUTAN |AHCG   |GORILLA |AHC   |CHIMP   |AHN      |AHD      |
+|:-------|:-------|:-----|:---------|:------|:-------|:-----|:-------|:--------|:--------|
+|gainlin |1 (1)   |7 (6) |5 (4)     |0 (0)  |0 (0)   |0 (0) |15 (5)  |8 (3)    |6 (2)    |
+|lossat  |21 (10) |2 (1) |10 (5)    |16 (4) |6 (4)   |0 (0) |43 (30) |66 (7)   |61 (6)   |
+|losslin |41 (20) |4 (1) |136 (24)  |56 (8) |7 (5)   |2 (1) |54 (12) |112 (11) |110 (10) |
 
 MACAQUE
 AHCGO
@@ -278,6 +300,8 @@ HUMAN(DENI)
 No significant results
 
 NEAN
+No significant results
+
 DENI
 No significant results
 
@@ -429,13 +453,21 @@ Correlation at 5 megabase scale between LD rate maps and hotspot death estimates
 
 Results from curve fitting bootstrapping procedure
 
+Number of bootstrap repeats:  1000 
+
 
 |      |       Mean| CI Lower Bound| CI Upper Bound|
 |:-----|----------:|--------------:|--------------:|
-|Ratio |   5.461815|       4.352662|       6.769241|
-|Exp 1 |  64.101355|      60.064026|      67.132198|
-|Exp 2 | 618.429387|     465.811872|     937.036276|
-|Exp 3 |  64.101455|      60.064069|      67.132440|
+|Ratio |   5.472275|       4.088455|       7.011956|
+|Exp 1 |  64.774925|      60.318514|      69.346867|
+|Exp 2 | 606.974903|     442.464168|     989.645839|
+|Exp 3 |  64.774937|      60.318580|      69.347368|
+
+---
+
+
+
+
 
 Comparison of various models for fitting
 
@@ -475,37 +507,3 @@ Comparison of various models for fitting
 
 
 
-<!--
-
-## all significant motifs
-
-
-
-
----
-
-
-## QQ plots - seperate
-
-![plot of chunk pValuesQQPlots](figure/pValuesQQPlots-1.png) ![plot of chunk pValuesQQPlots](figure/pValuesQQPlots-2.png) ![plot of chunk pValuesQQPlots](figure/pValuesQQPlots-3.png) ![plot of chunk pValuesQQPlots](figure/pValuesQQPlots-4.png) ![plot of chunk pValuesQQPlots](figure/pValuesQQPlots-5.png) ![plot of chunk pValuesQQPlots](figure/pValuesQQPlots-6.png) ![plot of chunk pValuesQQPlots](figure/pValuesQQPlots-7.png) ![plot of chunk pValuesQQPlots](figure/pValuesQQPlots-8.png) 
----
-
-
-
-
-## Compare p-values between methods
-
-![plot of chunk pvaluesBetweenMethods](figure/pvaluesBetweenMethods-1.png) ![plot of chunk pvaluesBetweenMethods](figure/pvaluesBetweenMethods-2.png) ![plot of chunk pvaluesBetweenMethods](figure/pvaluesBetweenMethods-3.png) 
----
-
-
-## Compare p-values between lineages within a method
-
-![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-1.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-2.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-3.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-4.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-5.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-6.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-7.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-8.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-9.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-10.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-11.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-12.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-13.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-14.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-15.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-16.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-17.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-18.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-19.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-20.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-21.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-22.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-23.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-24.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-25.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-26.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-27.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-28.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-29.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-30.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-31.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-32.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-33.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-34.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-35.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-36.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-37.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-38.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-39.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-40.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-41.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-42.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-43.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-44.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-45.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-46.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-47.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-48.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-49.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-50.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-51.png) ![plot of chunk pValuesWithinMethodsBetweenLineage](figure/pValuesWithinMethodsBetweenLineage-52.png) 
----
-
-
-
-
-
--->
