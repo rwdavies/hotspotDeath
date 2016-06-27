@@ -1,0 +1,9 @@
+% latex table generated in R 3.3.0 by xtable 1.8-2 package
+% Mon Jun 27 20:07:43 2016
+\begin{tabular}{rrrrr}
+  \hline
+ & Total & Pass QC & Fail QC & Pass QC Non Repeat \\ 
+  \hline
+1 & 2.47 & 1.64 & 0.83 & 1.11 \\ 
+   \hline
+\end{tabular}

@@ -1,0 +1,18 @@
+% latex table generated in R 3.3.0 by xtable 1.8-2 package
+% Mon Jun 27 20:07:43 2016
+\begin{tabular}{rllll}
+  \hline
+ & N SNPs & \% genome & N SNPs vs anc & \% genome vs anc \\ 
+  \hline
+FAM & 17,913,173 & 1.089 & 17,913,173 & 1.089 \\ 
+  AMS & 8,758,108 & 0.532 &  &  \\ 
+  Spretus & 11,716,370 & 0.712 & 20,474,478 & 1.245 \\ 
+  AM & 4,692,855 & 0.285 &  &  \\ 
+  PWKPhJ & 3,710,202 & 0.226 & 19,771,430 & 1.202 \\ 
+  CASTEiJ & 3,560,700 & 0.216 & 19,620,275 & 1.193 \\ 
+  CASTEiJ.PWKPhJ & 1,381,827 & 0.084 &  &  \\ 
+  WSBEiJ & 3,604,469 & 0.219 & 19,510,655 & 1.186 \\ 
+  WSBEiJ.PWKPhJ & 1,228,438 & 0.075 &  &  \\ 
+  WSBEiJ.CASTEiJ & 1,226,785 & 0.075 &  &  \\ 
+   \hline
+\end{tabular}
