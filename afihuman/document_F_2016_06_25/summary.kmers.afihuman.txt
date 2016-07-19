@@ -1,0 +1,17 @@
+% latex table generated in R 3.3.0 by xtable 1.8-2 package
+% Tue Jul 19 20:20:49 2016
+\begin{tabular}{rrrrr}
+  \hline
+ & A & C & B & D \\ 
+  \hline
+MACAQUE &  40 &  19 &  21 &  10 \\ 
+  AHCGO &   4 &   1 &   1 &   1 \\ 
+  ORANGUTAN & 128 &  22 &  11 &   5 \\ 
+  AHCG &  52 &   7 &  13 &   4 \\ 
+  GORILLA &   7 &   4 &   7 &   3 \\ 
+  CHIMP &  54 &  13 &  47 &  34 \\ 
+  AHN & 108 &  11 &  59 &   9 \\ 
+  AHD & 110 &  10 &  56 &   7 \\ 
+  HUMAN(DENI) &   0 &   0 &   1 &   1 \\ 
+   \hline
+\end{tabular}

@@ -1,0 +1,10 @@
+base
+xtable
+knitr
+inline
+Rcpp
+RcppArmadillo
+rJava
+rjson
+rJython
+rSymPy
